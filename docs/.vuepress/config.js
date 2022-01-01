@@ -24,8 +24,11 @@ module.exports = config({
     ],
   ],
 
-  locales: require("../locale"),
-
+  locales: require("../_locale"),
+  plugins:  [
+    'fulltext-search',
+  ],
+  
   themeConfig: {
     logo: "/logo.png",
     hostname: "https://bloodmc.github.io/GriefDefenderDoc",
@@ -33,11 +36,11 @@ module.exports = config({
     repo: "https://github.com/bloodmc/GriefDefenderDoc",
     docsDir: "./docs",
 	
-    nav: require("../nav"),
+    nav: require("../_nav"),
 
-    sidebar: require("../sidebar"),
+    sidebar: require("../_sidebar"),
 
-    locales: require("../translate"),
+    locales: require("../_translation"),
 
     blog: false,
 
@@ -45,7 +48,7 @@ module.exports = config({
       display: true,
       content: "MIT Licensed | Copyright © 2019-present GriefDefender",
     },
-
+    
     comment: false,
 
     copyright: {

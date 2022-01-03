@@ -7,25 +7,22 @@
 **Here is the document of GD which is based on vuepress and hosted by github pages.**
 
 <!-- Shields -->
-[Commit]:https://img.shields.io/github/last-commit/bloodmc/GriefDefenderDoc?&style=flat-square
-[Contributor]:https://img.shields.io/github/contributors/bloodmc/griefdefenderdoc?label=Wiki%20Contributors&style=flat-square
 [Patreon]:https://img.shields.io/badge/-Support-F96854.svg?logo=patreon&style=for-the-badge&logoColor=white
 [Document]:https://img.shields.io/badge/-Document-blue.svg?logo=Wikipedia&style=for-the-badge&logoColor=black
-[GD]:https://img.shields.io/badge/-Main_Repo-blue.svg?logo=github&style=for-the-badge&logoColor=black
+[GD]:https://img.shields.io/badge/-Plugin-blue.svg?logo=github&style=for-the-badge&logoColor=black
 
 Icon here is clickable.
 <br>[![Patreon]](https://www.patreon.com/bloodmc)
 [![Document]](https://bloodmc.github.io/GriefDefenderDoc)
-
 [![GD]](https://github.com/bloodmc/griefdefender)
 
-<br>![Commit] ![Contributor]
+![Alt](https://repobeats.axiom.co/api/embed/c343fd07571f6727449099cd3e9374f715a11fcd.svg "Repobeats analytics image")
 </div>
 
 ## Table of Contents
 
 * [Introduction](#introduction)
-* [Edting Skill Index](#edting_skill)
+* [Edting Skill Index](#edting-skill)
 * [Contribution](#contribution)
 
 ## Introduction
@@ -38,7 +35,7 @@ GriefDefenderDoc is built with [VuePress](https://v1.vuepress.vuejs.org/) and [T
 
 ## Contribution
 - If you don't need to write a lot of thing
->In the bottom of each pages there will be a button redirect you to the source file of pages, then you can make a PR to WIKI.
+In the bottom of each pages there will be a button redirect you to the source file of pages, then you can make a PR to WIKI.
 
 - You want to make a big change to Wiki
 1. You should install [NodeJS](https://nodejs.org/)(>=11) and [Yarn](https://yarnpkg.com/) properly.

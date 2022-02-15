@@ -8,12 +8,12 @@
 
 <!-- Shields -->
 [Patreon]:https://img.shields.io/badge/-Support-F96854.svg?logo=patreon&style=for-the-badge&logoColor=white
-[Document]:https://img.shields.io/badge/-Document-blue.svg?logo=Wikipedia&style=for-the-badge&logoColor=black
+[Document]:https://img.shields.io/badge/-Documentation-blue.svg?logo=Wikipedia&style=for-the-badge&logoColor=black
 [GD]:https://img.shields.io/badge/-Plugin-blue.svg?logo=github&style=for-the-badge&logoColor=black
 
 Icon here is clickable.
 <br>[![Patreon]](https://www.patreon.com/bloodmc)
-[![Document]](https://bloodmc.github.io/GriefDefenderDoc)
+[![Documentation]](https://bloodmc.github.io/GriefDefenderDoc)
 [![GD]](https://github.com/bloodmc/griefdefender)
 
 ![Alt](https://repobeats.axiom.co/api/embed/c343fd07571f6727449099cd3e9374f715a11fcd.svg "Repobeats analytics image")

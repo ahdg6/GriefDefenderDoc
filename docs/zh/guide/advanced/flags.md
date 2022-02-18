@@ -1,135 +1,121 @@
 ---
-title: Flags
+title: 领地设定
 category: Flag
 icon: token
 ---
 
-# Flags
+## 标签机制
+### era基础标签(Flags)era
+GD 对一些事件进行了包装，这些事件往往常用于领地设定，成为 era预设标签era 的组成部分，我们称之为 era基础标签(Flags)era
+例子：`interact-block-primary` - (对方块左键) | `interact-inventory-click` - (背包内点击) | `entity-spawn` - (实体生成) 等等
+在上述例子中，部分 era基础标签era 出于性能考量是关闭的[例如 entity-spawn]，您可以在 `flags.conf` 中开启。
+### 预设标签(Flag-definitions)
+由 era基础标签era 组成，era情境era 限定，可根据权限分发到游戏中介面供玩家使用，以 era预设集era 作为显示单位， GD 在初始化时自动生成 era预设集era `./presets/minecraft.conf`。
+### 情境(Contexts)
+LuckPerms 中的情境系统，详见 [官方Wiki](https://luckperms.net/wiki/Context) ，GD 对 Luckperms 的 era情境 era 进行了延展，添加了部分又能使其和 era基础标签era 限定作用情境。
+例如：`source` - **标签触发的来源** | `target` - **标签作用的对象** | `boots` - **标签触发时装备的胸甲** | `gametime` - **游戏内所处时间**等等
+注意：部分 era情境era 只能限定相应的标签，您不可能将 `boots` 限定 `entity-spawn` 这个标签。
+### 判断阶段(抽象概念)
+你可能注意到了，标签的判断是分阶段的
+目前这个阶段可以分为 `默认(default)-->领地(claim)-->子领地(sub)-->覆写(override)`
+注：`默认` 对应情境 `default=types`，`覆写` 对应情境 `override=types`。
+检查优先级依次增高，`默认`指的是该标签在原封不动情况下的默认值，`领地`指的是后边更改的值，`子领地`指的是领地中子领地又整上的新值，`覆写`处于最高优先级，往往只有管理员能使用。
+这意味着当有两个标签冲突时，比如在领地设定中设置在 `领地` 内**PVP禁止**，但覆写标签中添加了**PVP开启**，那么领地行为遵照`PVP开启这个行径`。
+### 标签调试模式 (/cfdebug)
+常用于测试标签状态，当该模式开启时，GD 将会视你为**一般的过路人**，所有关于领地标签的设定都将**不再**以你原来的权限进行判断，这有助于你在调整完 flag 后进行测试。
 
-Flags allow for very specific control of actions by Players or Groups both inside and outside of claims.  
-Default Flags can be overridden or per claim specific Flags can be used.
 
-Using `/cf` Provides you a UI to edit the default flags for the claim you are in.
+## 命令
 
-Flags do not apply to the owner of a claim, this includes Admins in Wilderness or Admin claims.  
-Use overrides if you want to force flags on all users in a claim type.
+### 参数
 
-Note: Flag commands are just wrappers around LuckPerm's API. Everything set via GD flags, can be set directly using LP. See [Usage with LuckPerms](https://github.com/bloodmc/GriefDefender/wiki/Flags#usage-with-luckperms)
+`<必填项> [选填项]`
 
-## Index
+|   参数类型   |                                               描述                                               |
+| ------------ | ------------------------------------------------------------------------------------------------ |
+| `<标签>`     | 要进行操作的 era基础标签era 类型                                                                   |
+| `<作用对象>` | 该标签即将影响的对象，一个例子 `minecraft:dirt`。使用 `any` 或 `modid:any` 作通配符管理。             |
+| `<值>`       | 设置标签返回的值，`false(否)\|undefined(未定义)\|true(是)` 三种状态，其中 `undefined` 可以用 `0` 代替 |
+| `[键=值]`    | 可选项，尝用于 情境限定:<br>`override=type` 意味着会在指定的 领地类型(type) 中将该操作标签添加到 覆写   |
 
-* [Commands](https://github.com/bloodmc/GriefDefender/wiki/Flags#commands)
-  * [Arguments](https://github.com/bloodmc/GriefDefender/wiki/Flags#arguments)
-  * [Commandlist](https://github.com/bloodmc/GriefDefender/wiki/Flags#commandlist)
-* [Usage Examples](https://github.com/bloodmc/GriefDefender/wiki/Flags#usage-examples)
-* [Usage with LuckPerms](https://github.com/bloodmc/GriefDefender/wiki/Flags#usage-with-luckperms)
-* [Available Flags](https://github.com/bloodmc/GriefDefender/wiki/Flags#available-flags)
-
-
-## Contexts
-
-All flags require one or more contexts when applied as a permission in LuckPerms.  
-See https://github.com/bloodmc/GriefDefender/wiki/Contexts on what contexts you can use and how they work.  
-
-## Commands
-
-### Arguments
-
-`<mandatory> [optional]`
-
-| Arguments | Description |
-| --------- | ----------- |
-| `<flag>` | The action or event to manage [`flag`](#available-flags) |
-| `<target>` | What is to be affected by the action ie. `minecraft:dirt`. Use `any` or `modid:any` as wildcard.|
-| `<value>` | Whether to allow, deny or remove the flag `false\|undefined\|true` , instead of `undefined` you can use `0` |
-| `[key=value]`| Optional current contexts:<br>`override=type` will apply it to all claims of that type.<br>`default` will set as default for type you're standing in so all newly created claims will get that flag<br>`source` what triggers the flag ie. `minecraft:player`<br>`used_item` The used item of player<br>Ex. `/cf entity-damage pig false used_item=diamond_sword override=basic` This would deny damage to a pig only when a diamond sword is used in a basic claim|
-
-### Commandlist
+示例：/cf block-break minecraft:dirt false source=player override=admin 意味着在 `所有(override)` 类型为 `管理员领地(admin)` 中 `禁用(false)` 由 `玩家(source=player)` 发出，对 `泥土(minecraft:dirt)` 进行`方块破坏(block-break)`的行为。
+### 命令列表
 ___
 #### `/gd claim debug`
-**Aliases**: `cfd|claimflagdebug`
+**别称**: `cfd|claimflagdebug`
 
-Toggles claim flag debug mode. Used to test flags in claims as a user with no permissions.
-
-___
-#### `/gd flag claim [<flag> <target> <value> [contexts]`
-**Aliases**: `cf|claimflag`
-
-Edits flags, can apply to claim types or specific claims.
-
-Note: reason is only supported in Wilderness claim when using override context to ban usage in ALL claim types.
+切换 `领地标签调试`
 
 ___
-#### `/gd flag group <group> [<flag> <target> <value> [contexts]`
-**Aliases**: `cfg|claimflaggroup`
+#### `/gd flag claim [<标签> <作用对象> <值> [情境]`
+**别称**: `cf|claimflag`
 
-Edits flags that apply to a group.
+编辑 era基础标签era
+
 
 ___
-#### `/gd flag player <player> [<flag> <target> <value> [contexts]`
-**Aliases**: `cfp|claimflagplayer`
+#### `/gd flag group <权限组> [<标签> <作用对象> <值> [情境]`
+**别称**: `cfg|claimflaggroup`
 
-Edits flags that apply to a player.
+编辑 era基础标签era，但影响的对象是权限组。
+常用于限制某个权限组的行为，示例 /cfg default block-break minecraft:dirt false 就是让整个 default 权限组都不能破坏泥土。
+
+___
+#### `/gd flag player <player> [<标签> <作用对象> <值> [情境]`
+**别称**: `cfp|claimflagplayer`
+
+编辑 era基础标签era，但影响的对象是玩家。
+和上述类似
 
 ___
 #### `/gd flag reset`
-**Aliases**: `cfr|claimflagreset`
+**别称**: `cfr|claimflagreset`
 
-Resets a claim to flag defaults, the defaults can be edited in the configs.
+重置一个领地的标签设定为默认，默认值可以在配置文件中更改。
 
-## Usage Examples
+## 一些用例
+era基础标签era 可以应用到 `玩家|权限组`，各类型领地(基础，子领地，城镇，管理员) 上边。
 
-Flags can be applied to Players, Groups with or without a specific claim context. They can also be applied to all Basic|Wilderness|Admin Claims directly. More examples can be found in-game, just run `/cf` and hover over the different flags!
+### 用例 1
 
-### Example 1
-
-To prevent any source from breaking lime wool blocks, in the claim you are standing in.  
+防止 `灰色羊毛` 被破坏
 `/cf block-break minecraft:wool.5 false`
 
-Specifying no modid will always default to minecraft. The format for blocks is `modid:blockid.meta`, if meta sn't specified 0 is used.
+如果不指定 modid，默认 minecraft 开头， `modid:blockid.meta`，不指定 meta 默认返回 0。
 
 
-### Example 2
+### 用例 2
 
-To allow Pixelmon Pokeballs to interact with any blocks in all basic claims, has to be run while standing in a basic claim.
+允许 `宝可梦精灵球` 与 `所有(override)` 的 `基础类型(basic)` 领地发生交互。
 
 `/cf projectile-impact-block any true source=pixelmon:occupiedpokeball override=basic`
 
-### Example 3
+### 用例 3
 
-To prevent only players from using portals that are in the group "Jailed" in all admin claims. Has to execute while standing in an admin claim.
+防止在权限组 "Jailed" 中的 `玩家(source=minecraft:player)` 在 `所有(override)` 的 `管理员领地(admin)` 中无法使用 `任何(any)` 类型的传送门。
 
 `/cfg Jailed portal-use any false source=minecraft:player override=admin`
 
-### Example 4
+### 用例 4
 
-To prevent a player called "notch" from rightlicking any bed, in the claim you are standing in.
+防止叫 "notch" 的玩家在当前领地中无法右键床。
 
 `/cfp notch interact-block-secondary minecraft:bed false`
 
-### Example 5
-To prevent pixelmon's command '/shop select' from being run, in the claim you are standing in.
+### 用例 5
+防止运行宝可梦中 '/shop select' 命令运行。
 
 `/cf command-execute pixelmon:shop[select] false`
 
-### Example 6
-To prevent a specific item to be right-clicked on an entity.
+### 用例 6
+防止使用某物品右键某实体
 
 `/cf interact-entity-secondary item_id entity_id false`
 
-Note: Use `interact-entity-primary` for left-click
+## 通过 LuckPerms 添加
 
-### Example 7
-To prevent a specific item to be right-clicked on a block.
-
-`/cf interact-block-secondary item_id block_id false`
-
-Note: Use `interact-block-primary` for left-click
-
-## Usage with LuckPerms
-
-### Example 1
-Disable animal damage in all basic claim's for group `starters`
+### 用例 1
+关闭 `starters` 权限组中对动物的伤害
 
 GD:  
 ```
@@ -142,117 +128,5 @@ LP:
 ```
 
 
-## Available Flags
-All Info provided inside () will be one of the examples.
-
-**_The most current list will always be available [here](https://github.com/bloodmc/GriefDefenderAPI/blob/master/src/main/java/com/griefdefender/api/permission/flag/Flags.java)._**
-- **block-break** - Use to manage block breaking (Allowing to break a Dirt Block)
-- **block-grow** - Use to manage block growth
-- **block-modify** - Used to manage block modifications such as ice melting.
-- **block-place** - Use to manage block placing (Allowing to place a Dirt Block)
-- **block-spread** - Use to manage things spreading from one block to another(Fire spread, vine growth etc)
-- **command-execute** - Use to manage execution of commands (Doing /msg inside claim)
-- **enter-claim** - Use to manage entering claims (Not Allowing a Random Player to walk into the Claim)
-- **collide-block** - Use to manage collisions with blocks (Colliding with pressure plates)
-- **collide-entity** - Use to manage collisions with entities (Colliding with a Pixelmon)
-- **entity-damage**[<sup>1</sup>](#note1) - Use to manage damage taken by entities (A Zombie hurting Random Player)
-- **entity-riding**[<sup>1</sup>](#note1) - Use to manage riding of entities (Riding Horses,Pixelmon,Boats,etc)
-- **entity-spawn**[<sup>1</sup>](#note1) - Use to manage entity spawning (This includes any spawn into the world including chunk spawns.)
-- **entity-teleport-from**[<sup>1</sup>](#note1) - Use to manage entity teleporting from claim (An Enderman teleporting from inside the claim)
-- **entity-teleport-to**[<sup>1</sup>](#note1) - Use to manage entity teleporting inside claim (An Enderman teleporting to inside the claim)
-- **exit-claim** - Use to manage exiting claims (Not allowing Random Player to walk out of claim)
-- **explosion-block** - Use to manage explosions affecting blocks
-- **explosion-entity** - Use to manage explosions affecting entities
-- **interact-block-primary** - Use to manage left-click interaction with blocks (Hitting a Dragon Egg)
-- **interact-block-secondary** - Use to manage right-click interaction with blocks (Opening a Pixelmon PC)
-- **interact-entity-primary**[<sup>1</sup>](#note1) - Use to manage left-click interaction with entities (Hitting a Chicken to deal damage)
-- **interact-entity-secondary**[<sup>1</sup>](#note1) - Use to manage right-click interaction with entities (Feeding seeds to Chicken)
-- **interact-inventory** - Use to manage interaction with inventories (Being able to open Chest)
-- **interact-inventory-click** - Use to manage interaction when clicking slots in inventory. (Used to block crafting)
-- **interact-item-primary** - Use to manage left-click interaction with items ()
-- **interact-item-secondary** - Use to manage right-click interaction with items ()
-- **item-drop** - Use to manage Players dropping items (Random Player not being able to drop a dirt block)
-- **item-pickup** - Use to manage picking up dropped items (Random Player not being to pick up a dropped dirt block)
-- **item-spawn** - Use to manage spawning of items from blocks or items in the world (Like Pixelmon Gift Box)
-- **item-use** - Use to manage use of items (Random player using potions|Ender pearls|Exp all)
-- **liquid-flow** - Use to manage liquid flow (Control the flow of water or lava flow)
-- **portal-use** - Use to manage use portals (Control the use of Nether portals)
-- **projectile-impact-block** - Use to manage a projectile hitting a block (When an arrow hits a dirt block)
-- **projectile-impact-entity**[<sup>1</sup>](#note1) - Use to manage a projectile hitting a entity (When an arrow hits a Pixelmon|Mobs)
-
-## Custom GD context group types
-
-GD provides a few context group types that can be used to specify all of a type of something, for instance all monsters.  
-> **Note: Starting with MC versions 1.14+, GD integrates with vanilla's tag system. It is highly recommended to use the vanilla tag system. See https://minecraft.gamepedia.com/Tag for more information and https://minecraft.gamepedia.com/Tutorials/Creating_a_data_pack for more info.
-
-### Available Keys
-
-- #any
-- #ambient
-- #animal
-- #aquatic
-- #crops
-- #food
-- #hanging
-- #monster
-- #pet
-- #vehicle
-
-### Example 1
-
-To prevent all monsters from entering admin claims by default.  
-`/cf enter-claim #monster false default=admin`  
-or  
-`/cf enter-claim false default=admin target=#monster`
-
-### Notes
-<a name="note1"><sup>1</sup></a> Entity type (`modid:monster|aquatic|ambient|animal`) may also be used to target all entities of that type from a specific mod.
-
-
-## Flag Control  
-The flag control section lets you enable/disable flag functionality on a per-flag basis. By default, all flags are enabled. If you have no use for a specific flag, set the flag to false in this section.  
-
-```
-# Controls which flags are enabled.
-# Note: Disabling a flag will cause GD to bypass all functionality for it.
-# Note: If you want full protection, it is recommended to keep everything enabled.
-flag-control {
-    block-break=true
-    block-grow=true
-    block-modify=true
-    block-place=true
-    block-spread=true
-    collide-block=true
-    collide-entity=true
-    command-execute=true
-    command-execute-pvp=true
-    enter-claim=true
-    entity-chunk-spawn=true
-    entity-damage=true
-    entity-riding=true
-    entity-spawn=true
-    entity-teleport-from=true
-    entity-teleport-to=true
-    exit-claim=true
-    explosion-block=true
-    explosion-entity=true
-    interact-block-primary=true
-    interact-block-secondary=true
-    interact-entity-primary=true
-    interact-entity-secondary=true
-    interact-inventory=true
-    interact-inventory-click=true
-    interact-item-primary=true
-    interact-item-secondary=true
-    inventory-item-move=true
-    item-drop=true
-    item-pickup=true
-    item-spawn=true
-    item-use=true
-    leaf-decay=true
-    liquid-flow=true
-    portal-use=true
-    projectile-impact-block=true
-    projectile-impact-entity=true
-}
-```
+## 可用的标签
+请以 `flags.conf` 为准

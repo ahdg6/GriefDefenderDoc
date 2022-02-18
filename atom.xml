@@ -3,7 +3,7 @@
   <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/</id>
   <title>GriefDefender</title>
   <subtitle>A new way to secure your world.</subtitle>
-  <updated>2022-01-01T07:44:19.453Z</updated>
+  <updated>2022-02-18T17:19:58.291Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/atom.xml"/>
   <link rel="alternate" href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/"/>
@@ -30,7 +30,7 @@
     <title type="html">API</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/API/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/API/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="add-griefdefenderapi-to-your-project"> Add GriefDefenderAPI to your project</h2>
 <CodeGroup>
 <CodeGroupItem title="gradle">
@@ -76,16 +76,13 @@ Note: If you make use of any API methods that accepts a kyori component as param
 <p>See the official GD addon https://github.com/bloodmc/GDHooks to learn how to create a plugin for use with GD's API.</p>
 ]]></content>
     <category term="develop"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Contrubution</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/Contribution/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/Contribution/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="info"> Info</h2>
 <div><p>Info</p>
 <p>GriefDefenderDoc is built with <a href="https://v1.vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">VuePress</a> and <a href="https://vuepress-theme-hope.github.io/" target="_blank" rel="noopener noreferrer">Theme Hope</a> which means you can learn some editing skill from there.</p>
@@ -114,16 +111,13 @@ In the bottom of each pages there will be a button redirect you to the source fi
 </ol>
 ]]></content>
     <category term="Dev"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Contexts</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/contexts/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/contexts/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h1 id="contexts"> Contexts</h1>
 <p>Contexts are a fundamental part of how GriefDefender is able to apply protection to claims. In order to understand how it works, you must first understand what a Context is. See https://luckperms.net/wiki/Context</p>
 <p>Now that you have a basic understanding of what a context is and how they work with permissions, below is a list of contexts that GD uses with its flag and option command.</p>
@@ -347,16 +341,13 @@ See https://github.com/bloodmc/GriefDefender/wiki/Debugging for more info</li>
 </ol>
 ]]></content>
     <category term="Usage"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Debugging</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/debugging/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/debugging/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GriefDefender is powered by permissions. Every action done in a world is checked against a specific flag permission. If you are trying to figure out what is causing an action to be blocked or not to be blocked then /gddebug is what you will need to use.</p>
 <p>Syntax
 <code>/gddebug record [filter]</code>
@@ -904,244 +895,126 @@ Note: The filter can be any word you want.</p>
 <p>This column contains the result of the flag check, TRUE or FALSE. eg; If the result is TRUE, is has been allowed. FALSE and it has been blocked.</p>
 ]]></content>
     <category term="Usage"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
-    <title type="html">Flags</title>
+    <title type="html">领地设定</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/flags/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/flags/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="flags"> Flags</h1>
-<p>Flags allow for very specific control of actions by Players or Groups both inside and outside of claims.<br>
-Default Flags can be overridden or per claim specific Flags can be used.</p>
-<p>Using <code>/cf</code> Provides you a UI to edit the default flags for the claim you are in.</p>
-<p>Flags do not apply to the owner of a claim, this includes Admins in Wilderness or Admin claims.<br>
-Use overrides if you want to force flags on all users in a claim type.</p>
-<p>Note: Flag commands are just wrappers around LuckPerm's API. Everything set via GD flags, can be set directly using LP. See <a href="https://github.com/bloodmc/GriefDefender/wiki/Flags#usage-with-luckperms" target="_blank" rel="noopener noreferrer">Usage with LuckPerms</a></p>
-<h2 id="index"> Index</h2>
-<ul>
-<li><a href="https://github.com/bloodmc/GriefDefender/wiki/Flags#commands" target="_blank" rel="noopener noreferrer">Commands</a>
-<ul>
-<li><a href="https://github.com/bloodmc/GriefDefender/wiki/Flags#arguments" target="_blank" rel="noopener noreferrer">Arguments</a></li>
-<li><a href="https://github.com/bloodmc/GriefDefender/wiki/Flags#commandlist" target="_blank" rel="noopener noreferrer">Commandlist</a></li>
-</ul>
-</li>
-<li><a href="https://github.com/bloodmc/GriefDefender/wiki/Flags#usage-examples" target="_blank" rel="noopener noreferrer">Usage Examples</a></li>
-<li><a href="https://github.com/bloodmc/GriefDefender/wiki/Flags#usage-with-luckperms" target="_blank" rel="noopener noreferrer">Usage with LuckPerms</a></li>
-<li><a href="https://github.com/bloodmc/GriefDefender/wiki/Flags#available-flags" target="_blank" rel="noopener noreferrer">Available Flags</a></li>
-</ul>
-<h2 id="contexts"> Contexts</h2>
-<p>All flags require one or more contexts when applied as a permission in LuckPerms.<br>
-See https://github.com/bloodmc/GriefDefender/wiki/Contexts on what contexts you can use and how they work.</p>
-<h2 id="commands"> Commands</h2>
-<h3 id="arguments"> Arguments</h3>
-<p><code>&lt;mandatory&gt; [optional]</code></p>
+    <updated>2022-02-18T17:18:58.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="标签机制"> 标签机制</h2>
+<h3 id="era基础标签-flags-era"> era基础标签(Flags)era</h3>
+<p>GD 对一些事件进行了包装，这些事件往往常用于领地设定，成为 era预设标签era 的组成部分，我们称之为 era基础标签(Flags)era
+例子：<code>interact-block-primary</code> - (对方块左键) | <code>interact-inventory-click</code> - (背包内点击) | <code>entity-spawn</code> - (实体生成) 等等
+在上述例子中，部分 era基础标签era 出于性能考量是关闭的[例如 entity-spawn]，您可以在 <code>flags.conf</code> 中开启。</p>
+<h3 id="预设标签-flag-definitions"> 预设标签(Flag-definitions)</h3>
+<p>由 era基础标签era 组成，era情境era 限定，可根据权限分发到游戏中介面供玩家使用，以 era预设集era 作为显示单位， GD 在初始化时自动生成 era预设集era <code>./presets/minecraft.conf</code>。</p>
+<h3 id="情境-contexts"> 情境(Contexts)</h3>
+<p>LuckPerms 中的情境系统，详见 <a href="https://luckperms.net/wiki/Context" target="_blank" rel="noopener noreferrer">官方Wiki</a> ，GD 对 Luckperms 的 era情境 era 进行了延展，添加了部分又能使其和 era基础标签era 限定作用情境。
+例如：<code>source</code> - <strong>标签触发的来源</strong> | <code>target</code> - <strong>标签作用的对象</strong> | <code>boots</code> - <strong>标签触发时装备的胸甲</strong> | <code>gametime</code> - <strong>游戏内所处时间</strong>等等
+注意：部分 era情境era 只能限定相应的标签，您不可能将 <code>boots</code> 限定 <code>entity-spawn</code> 这个标签。</p>
+<h3 id="判断阶段-抽象概念"> 判断阶段(抽象概念)</h3>
+<p>你可能注意到了，标签的判断是分阶段的
+目前这个阶段可以分为 <code>默认(default)--&gt;领地(claim)--&gt;子领地(sub)--&gt;覆写(override)</code>
+注：<code>默认</code> 对应情境 <code>default=types</code>，<code>覆写</code> 对应情境 <code>override=types</code>。
+检查优先级依次增高，<code>默认</code>指的是该标签在原封不动情况下的默认值，<code>领地</code>指的是后边更改的值，<code>子领地</code>指的是领地中子领地又整上的新值，<code>覆写</code>处于最高优先级，往往只有管理员能使用。
+这意味着当有两个标签冲突时，比如在领地设定中设置在 <code>领地</code> 内<strong>PVP禁止</strong>，但覆写标签中添加了<strong>PVP开启</strong>，那么领地行为遵照<code>PVP开启这个行径</code>。</p>
+<h3 id="标签调试模式-cfdebug"> 标签调试模式 (/cfdebug)</h3>
+<p>常用于测试标签状态，当该模式开启时，GD 将会视你为<strong>一般的过路人</strong>，所有关于领地标签的设定都将<strong>不再</strong>以你原来的权限进行判断，这有助于你在调整完 flag 后进行测试。</p>
+<h2 id="命令"> 命令</h2>
+<h3 id="参数"> 参数</h3>
+<p><code>&lt;必填项&gt; [选填项]</code></p>
 <table>
 <thead>
 <tr>
-<th>Arguments</th>
-<th>Description</th>
+<th>参数类型</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>&lt;flag&gt;</code></td>
-<td>The action or event to manage </td>
+<td><code>&lt;标签&gt;</code></td>
+<td>要进行操作的 era基础标签era 类型</td>
 </tr>
 <tr>
-<td><code>&lt;target&gt;</code></td>
-<td>What is to be affected by the action ie. <code>minecraft:dirt</code>. Use <code>any</code> or <code>modid:any</code> as wildcard.</td>
+<td><code>&lt;作用对象&gt;</code></td>
+<td>该标签即将影响的对象，一个例子 <code>minecraft:dirt</code>。使用 <code>any</code> 或 <code>modid:any</code> 作通配符管理。</td>
 </tr>
 <tr>
-<td><code>&lt;value&gt;</code></td>
-<td>Whether to allow, deny or remove the flag <code>false\|undefined\|true</code> , instead of <code>undefined</code> you can use <code>0</code></td>
+<td><code>&lt;值&gt;</code></td>
+<td>设置标签返回的值，<code>false(否)\|undefined(未定义)\|true(是)</code> 三种状态，其中 <code>undefined</code> 可以用 <code>0</code> 代替</td>
 </tr>
 <tr>
-<td><code>[key=value]</code></td>
-<td>Optional current contexts:<br><code>override=type</code> will apply it to all claims of that type.<br><code>default</code> will set as default for type you're standing in so all newly created claims will get that flag<br><code>source</code> what triggers the flag ie. <code>minecraft:player</code><br><code>used_item</code> The used item of player<br>Ex. <code>/cf entity-damage pig false used_item=diamond_sword override=basic</code> This would deny damage to a pig only when a diamond sword is used in a basic claim</td>
+<td><code>[键=值]</code></td>
+<td>可选项，尝用于 情境限定:<br><code>override=type</code> 意味着会在指定的 领地类型(type) 中将该操作标签添加到 覆写</td>
 </tr>
 </tbody>
 </table>
-<h3 id="commandlist"> Commandlist</h3>
+<p>示例：/cf block-break minecraft:dirt false source=player override=admin 意味着在 <code>所有(override)</code> 类型为 <code>管理员领地(admin)</code> 中 <code>禁用(false)</code> 由 <code>玩家(source=player)</code> 发出，对 <code>泥土(minecraft:dirt)</code> 进行<code>方块破坏(block-break)</code>的行为。</p>
+<h3 id="命令列表"> 命令列表</h3>
 <hr>
 <h4 id="gd-claim-debug"> <code>/gd claim debug</code></h4>
-<p><strong>Aliases</strong>: <code>cfd|claimflagdebug</code></p>
-<p>Toggles claim flag debug mode. Used to test flags in claims as a user with no permissions.</p>
+<p><strong>别称</strong>: <code>cfd|claimflagdebug</code></p>
+<p>切换 <code>领地标签调试</code></p>
 <hr>
-<h4 id="gd-flag-claim-flag-target-value-contexts"> <code>/gd flag claim [&lt;flag&gt; &lt;target&gt; &lt;value&gt; [contexts]</code></h4>
-<p><strong>Aliases</strong>: <code>cf|claimflag</code></p>
-<p>Edits flags, can apply to claim types or specific claims.</p>
-<p>Note: reason is only supported in Wilderness claim when using override context to ban usage in ALL claim types.</p>
+<h4 id="gd-flag-claim-标签-作用对象-值-情境"> <code>/gd flag claim [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
+<p><strong>别称</strong>: <code>cf|claimflag</code></p>
+<p>编辑 era基础标签era</p>
 <hr>
-<h4 id="gd-flag-group-group-flag-target-value-contexts"> <code>/gd flag group &lt;group&gt; [&lt;flag&gt; &lt;target&gt; &lt;value&gt; [contexts]</code></h4>
-<p><strong>Aliases</strong>: <code>cfg|claimflaggroup</code></p>
-<p>Edits flags that apply to a group.</p>
+<h4 id="gd-flag-group-权限组-标签-作用对象-值-情境"> <code>/gd flag group &lt;权限组&gt; [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
+<p><strong>别称</strong>: <code>cfg|claimflaggroup</code></p>
+<p>编辑 era基础标签era，但影响的对象是权限组。
+常用于限制某个权限组的行为，示例 /cfg default block-break minecraft:dirt false 就是让整个 default 权限组都不能破坏泥土。</p>
 <hr>
-<h4 id="gd-flag-player-player-flag-target-value-contexts"> <code>/gd flag player &lt;player&gt; [&lt;flag&gt; &lt;target&gt; &lt;value&gt; [contexts]</code></h4>
-<p><strong>Aliases</strong>: <code>cfp|claimflagplayer</code></p>
-<p>Edits flags that apply to a player.</p>
+<h4 id="gd-flag-player-player-标签-作用对象-值-情境"> <code>/gd flag player &lt;player&gt; [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
+<p><strong>别称</strong>: <code>cfp|claimflagplayer</code></p>
+<p>编辑 era基础标签era，但影响的对象是玩家。
+和上述类似</p>
 <hr>
 <h4 id="gd-flag-reset"> <code>/gd flag reset</code></h4>
-<p><strong>Aliases</strong>: <code>cfr|claimflagreset</code></p>
-<p>Resets a claim to flag defaults, the defaults can be edited in the configs.</p>
-<h2 id="usage-examples"> Usage Examples</h2>
-<p>Flags can be applied to Players, Groups with or without a specific claim context. They can also be applied to all Basic|Wilderness|Admin Claims directly. More examples can be found in-game, just run <code>/cf</code> and hover over the different flags!</p>
-<h3 id="example-1"> Example 1</h3>
-<p>To prevent any source from breaking lime wool blocks, in the claim you are standing in.<br>
+<p><strong>别称</strong>: <code>cfr|claimflagreset</code></p>
+<p>重置一个领地的标签设定为默认，默认值可以在配置文件中更改。</p>
+<h2 id="一些用例"> 一些用例</h2>
+<p>era基础标签era 可以应用到 <code>玩家|权限组</code>，各类型领地(基础，子领地，城镇，管理员) 上边。</p>
+<h3 id="用例-1"> 用例 1</h3>
+<p>防止 <code>灰色羊毛</code> 被破坏
 <code>/cf block-break minecraft:wool.5 false</code></p>
-<p>Specifying no modid will always default to minecraft. The format for blocks is <code>modid:blockid.meta</code>, if meta sn't specified 0 is used.</p>
-<h3 id="example-2"> Example 2</h3>
-<p>To allow Pixelmon Pokeballs to interact with any blocks in all basic claims, has to be run while standing in a basic claim.</p>
+<p>如果不指定 modid，默认 minecraft 开头， <code>modid:blockid.meta</code>，不指定 meta 默认返回 0。</p>
+<h3 id="用例-2"> 用例 2</h3>
+<p>允许 <code>宝可梦精灵球</code> 与 <code>所有(override)</code> 的 <code>基础类型(basic)</code> 领地发生交互。</p>
 <p><code>/cf projectile-impact-block any true source=pixelmon:occupiedpokeball override=basic</code></p>
-<h3 id="example-3"> Example 3</h3>
-<p>To prevent only players from using portals that are in the group &quot;Jailed&quot; in all admin claims. Has to execute while standing in an admin claim.</p>
+<h3 id="用例-3"> 用例 3</h3>
+<p>防止在权限组 &quot;Jailed&quot; 中的 <code>玩家(source=minecraft:player)</code> 在 <code>所有(override)</code> 的 <code>管理员领地(admin)</code> 中无法使用 <code>任何(any)</code> 类型的传送门。</p>
 <p><code>/cfg Jailed portal-use any false source=minecraft:player override=admin</code></p>
-<h3 id="example-4"> Example 4</h3>
-<p>To prevent a player called &quot;notch&quot; from rightlicking any bed, in the claim you are standing in.</p>
+<h3 id="用例-4"> 用例 4</h3>
+<p>防止叫 &quot;notch&quot; 的玩家在当前领地中无法右键床。</p>
 <p><code>/cfp notch interact-block-secondary minecraft:bed false</code></p>
-<h3 id="example-5"> Example 5</h3>
-<p>To prevent pixelmon's command '/shop select' from being run, in the claim you are standing in.</p>
+<h3 id="用例-5"> 用例 5</h3>
+<p>防止运行宝可梦中 '/shop select' 命令运行。</p>
 <p><code>/cf command-execute pixelmon:shop[select] false</code></p>
-<h3 id="example-6"> Example 6</h3>
-<p>To prevent a specific item to be right-clicked on an entity.</p>
+<h3 id="用例-6"> 用例 6</h3>
+<p>防止使用某物品右键某实体</p>
 <p><code>/cf interact-entity-secondary item_id entity_id false</code></p>
-<p>Note: Use <code>interact-entity-primary</code> for left-click</p>
-<h3 id="example-7"> Example 7</h3>
-<p>To prevent a specific item to be right-clicked on a block.</p>
-<p><code>/cf interact-block-secondary item_id block_id false</code></p>
-<p>Note: Use <code>interact-block-primary</code> for left-click</p>
-<h2 id="usage-with-luckperms"> Usage with LuckPerms</h2>
-<h3 id="example-1-2"> Example 1</h3>
-<p>Disable animal damage in all basic claim's for group <code>starters</code></p>
+<h2 id="通过-luckperms-添加"> 通过 LuckPerms 添加</h2>
+<h3 id="用例-1-2"> 用例 1</h3>
+<p>关闭 <code>starters</code> 权限组中对动物的伤害</p>
 <p>GD:</p>
 <div><pre><code>/cfg starters entity-damage #animal false default=basic
 </code></pre>
 <div><span>1</span><br></div></div><p>LP:</p>
 <div><pre><code>/lp group starters permission set griefdefender.flag.entity-damage false gd_claim_default=basic target=#animal
 </code></pre>
-<div><span>1</span><br></div></div><h2 id="available-flags"> Available Flags</h2>
-<p>All Info provided inside () will be one of the examples.</p>
-<p><strong><em>The most current list will always be available <a href="https://github.com/bloodmc/GriefDefenderAPI/blob/master/src/main/java/com/griefdefender/api/permission/flag/Flags.java" target="_blank" rel="noopener noreferrer">here</a>.</em></strong></p>
-<ul>
-<li><strong>block-break</strong> - Use to manage block breaking (Allowing to break a Dirt Block)</li>
-<li><strong>block-grow</strong> - Use to manage block growth</li>
-<li><strong>block-modify</strong> - Used to manage block modifications such as ice melting.</li>
-<li><strong>block-place</strong> - Use to manage block placing (Allowing to place a Dirt Block)</li>
-<li><strong>block-spread</strong> - Use to manage things spreading from one block to another(Fire spread, vine growth etc)</li>
-<li><strong>command-execute</strong> - Use to manage execution of commands (Doing /msg inside claim)</li>
-<li><strong>enter-claim</strong> - Use to manage entering claims (Not Allowing a Random Player to walk into the Claim)</li>
-<li><strong>collide-block</strong> - Use to manage collisions with blocks (Colliding with pressure plates)</li>
-<li><strong>collide-entity</strong> - Use to manage collisions with entities (Colliding with a Pixelmon)</li>
-<li><strong>entity-damage</strong> - Use to manage damage taken by entities (A Zombie hurting Random Player)</li>
-<li><strong>entity-riding</strong> - Use to manage riding of entities (Riding Horses,Pixelmon,Boats,etc)</li>
-<li><strong>entity-spawn</strong> - Use to manage entity spawning (This includes any spawn into the world including chunk spawns.)</li>
-<li><strong>entity-teleport-from</strong> - Use to manage entity teleporting from claim (An Enderman teleporting from inside the claim)</li>
-<li><strong>entity-teleport-to</strong> - Use to manage entity teleporting inside claim (An Enderman teleporting to inside the claim)</li>
-<li><strong>exit-claim</strong> - Use to manage exiting claims (Not allowing Random Player to walk out of claim)</li>
-<li><strong>explosion-block</strong> - Use to manage explosions affecting blocks</li>
-<li><strong>explosion-entity</strong> - Use to manage explosions affecting entities</li>
-<li><strong>interact-block-primary</strong> - Use to manage left-click interaction with blocks (Hitting a Dragon Egg)</li>
-<li><strong>interact-block-secondary</strong> - Use to manage right-click interaction with blocks (Opening a Pixelmon PC)</li>
-<li><strong>interact-entity-primary</strong> - Use to manage left-click interaction with entities (Hitting a Chicken to deal damage)</li>
-<li><strong>interact-entity-secondary</strong> - Use to manage right-click interaction with entities (Feeding seeds to Chicken)</li>
-<li><strong>interact-inventory</strong> - Use to manage interaction with inventories (Being able to open Chest)</li>
-<li><strong>interact-inventory-click</strong> - Use to manage interaction when clicking slots in inventory. (Used to block crafting)</li>
-<li><strong>interact-item-primary</strong> - Use to manage left-click interaction with items ()</li>
-<li><strong>interact-item-secondary</strong> - Use to manage right-click interaction with items ()</li>
-<li><strong>item-drop</strong> - Use to manage Players dropping items (Random Player not being able to drop a dirt block)</li>
-<li><strong>item-pickup</strong> - Use to manage picking up dropped items (Random Player not being to pick up a dropped dirt block)</li>
-<li><strong>item-spawn</strong> - Use to manage spawning of items from blocks or items in the world (Like Pixelmon Gift Box)</li>
-<li><strong>item-use</strong> - Use to manage use of items (Random player using potions|Ender pearls|Exp all)</li>
-<li><strong>liquid-flow</strong> - Use to manage liquid flow (Control the flow of water or lava flow)</li>
-<li><strong>portal-use</strong> - Use to manage use portals (Control the use of Nether portals)</li>
-<li><strong>projectile-impact-block</strong> - Use to manage a projectile hitting a block (When an arrow hits a dirt block)</li>
-<li><strong>projectile-impact-entity</strong> - Use to manage a projectile hitting a entity (When an arrow hits a Pixelmon|Mobs)</li>
-</ul>
-<h2 id="custom-gd-context-group-types"> Custom GD context group types</h2>
-<p>GD provides a few context group types that can be used to specify all of a type of something, for instance all monsters.</p>
-<blockquote>
-<p>**Note: Starting with MC versions 1.14+, GD integrates with vanilla's tag system. It is highly recommended to use the vanilla tag system. See https://minecraft.gamepedia.com/Tag for more information and https://minecraft.gamepedia.com/Tutorials/Creating_a_data_pack for more info.</p>
-</blockquote>
-<h3 id="available-keys"> Available Keys</h3>
-<ul>
-<li>#any</li>
-<li>#ambient</li>
-<li>#animal</li>
-<li>#aquatic</li>
-<li>#crops</li>
-<li>#food</li>
-<li>#hanging</li>
-<li>#monster</li>
-<li>#pet</li>
-<li>#vehicle</li>
-</ul>
-<h3 id="example-1-3"> Example 1</h3>
-<p>To prevent all monsters from entering admin claims by default.<br>
-<code>/cf enter-claim #monster false default=admin</code><br>
-or<br>
-<code>/cf enter-claim false default=admin target=#monster</code></p>
-<h3 id="notes"> Notes</h3>
-<p><a name="note1"><sup>1</sup></a> Entity type (<code>modid:monster|aquatic|ambient|animal</code>) may also be used to target all entities of that type from a specific mod.</p>
-<h2 id="flag-control"> Flag Control</h2>
-<p>The flag control section lets you enable/disable flag functionality on a per-flag basis. By default, all flags are enabled. If you have no use for a specific flag, set the flag to false in this section.</p>
-<div><pre><code># Controls which flags are enabled.
-# Note: Disabling a flag will cause GD to bypass all functionality for it.
-# Note: If you want full protection, it is recommended to keep everything enabled.
-flag-control {
-    block-break=true
-    block-grow=true
-    block-modify=true
-    block-place=true
-    block-spread=true
-    collide-block=true
-    collide-entity=true
-    command-execute=true
-    command-execute-pvp=true
-    enter-claim=true
-    entity-chunk-spawn=true
-    entity-damage=true
-    entity-riding=true
-    entity-spawn=true
-    entity-teleport-from=true
-    entity-teleport-to=true
-    exit-claim=true
-    explosion-block=true
-    explosion-entity=true
-    interact-block-primary=true
-    interact-block-secondary=true
-    interact-entity-primary=true
-    interact-entity-secondary=true
-    interact-inventory=true
-    interact-inventory-click=true
-    interact-item-primary=true
-    interact-item-secondary=true
-    inventory-item-move=true
-    item-drop=true
-    item-pickup=true
-    item-spawn=true
-    item-use=true
-    leaf-decay=true
-    liquid-flow=true
-    portal-use=true
-    projectile-impact-block=true
-    projectile-impact-entity=true
-}
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br></div></div>]]></content>
+<div><span>1</span><br></div></div><h2 id="可用的标签"> 可用的标签</h2>
+<p>请以 <code>flags.conf</code> 为准</p>
+]]></content>
     <category term="Flag"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Global Config</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/global-config/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/global-config/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GriefDefender's default config offers extended customization for your server. Below is a breakdown of all default variables for your convenience.</p>
 <blockquote>
 <p>⚠️ Some options can cause irreparable changes to your data. Please ensure that you have read the sub-text found next to the variables in your generated <code>global.conf</code> file. <strong>All migration variables should ALWAYS be used AFTER a backup of your data is made.</strong> ⚠️</p>
@@ -1874,16 +1747,13 @@ For more info you can go to <a href="https://commons.apache.org/proper/commons-i
 </table>
 ]]></content>
     <category term="Configuration"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Claim Management</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/claim-management/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/claim-management/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GriefDefender is a plugin that provides self-service region protection functionality, giving you additional options to fine tune aspects such as door, chest, and build permissions for users or groups of users! Below some basic instructions for claim management for more fine tuned control over your claims check out the <a href="https://github.com/bloodmc/GriefDefender/wiki/Flags" target="_blank" rel="noopener noreferrer">Flags page</a>.</p>
 <p>All the examples are with the defaults at the time of writing this in mind.</p>
 <h2 id="claim-creation"> Claim Creation</h2>
@@ -2169,17 +2039,14 @@ griefdefender.admin.option.perk.fly.manager
 </ol>
 ]]></content>
     <category term="Claim"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Rent System</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/claim-rent-system/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/claim-rent-system/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="https://media.discordapp.net/attachments/709505646457913426/709992848963141632/2019-12-18_22.png" alt="Rent System" /></p>
+    <updated>2022-02-18T17:18:58.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="https://media.discordapp.net/attachments/709505646457913426/709992848963141632/2019-12-18_22.png" alt="Rent System" loading="lazy"></p>
 <p>This new system will allow you to set your claim up for rent and earn some money on the way.</p>
 <h1 id="how-to-enable-it"> How to enable it</h1>
 <p>Open your global.conf file and under economy section, you will find the following lines:</p>
@@ -2212,7 +2079,7 @@ griefdefender.admin.option.perk.fly.manager
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br></div></div><h1 id="in-game-use"> In Game Use</h1>
 <p>After you have properly modified the config and did <code>/gdreload</code> or (better) restarted the server, now you can establish your first claim to be rented.</p>
 <p>This system currently works fine for Basic, Town and Subdivided claims.</p>
-<p><img src="https://i.imgur.com/sPB7pMs.png" alt="Renting Sign" /></p>
+<p><img src="https://i.imgur.com/sPB7pMs.png" alt="Renting Sign" loading="lazy"></p>
 <p>In order to start renting your claim, you need to put a sign inside a specific owned claim, and fill it using the following format:</p>
 <div><pre><code>GD
 rent
@@ -2242,7 +2109,7 @@ rent
 <p><strong>Sidenote:</strong> The rent time availability of your claim will start ticking as soon as you set up the sign, which means that if you start a rental with a max of <strong>30 days</strong> and a person starts renting it on the 5th day, that user will only have the claim available for <strong>25 days</strong>.</p>
 <p>After you place the sign, you will receive a message in chat that you need to read carefully, and then, click on CONFIRM.</p>
 <p>If you did everything ok, your sign will be updated to something like this: (Layout may be different due to recent updates)</p>
-<p><img src="https://i.imgur.com/e194JUX.png" alt="Rent Claim Started" /></p>
+<p><img src="https://i.imgur.com/e194JUX.png" alt="Rent Claim Started" loading="lazy"></p>
 <p>If you want to cancel the claim rental, left-click the sign and click CONFIRM in chat.</p>
 <p>As a customer, in order to rent the claim, you can use:</p>
 <div><pre><code>Right Click the sign: You will rent it. 
@@ -2277,16 +2144,13 @@ Syntax is as follows<br>
 </ul>
 ]]></content>
     <category term="Economy"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Claim Types</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/claim-types/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/claim-types/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p><em>This is a work in progress page that will cover all claim types in GD - basic, subdivision, towns and admin claims.</em></p>
 <h2 id="claim-types"> Claim Types</h2>
 <p>There are four types of user claims : admin, town, basic and subdivisions, with each having a 2D and 3D mode. To switch between types use <code>/adminclaims</code>, <code>/townclaims</code> and <code>/basicclaims</code>. To switch to subdivision mode, use <code>/claimsubdivide</code>. All three main claim types support direct child claims (subdivisions) - Town, Admin and Basic.</p>
@@ -2334,16 +2198,13 @@ Note: This can be adjusted by changing <code>griefdefender.create-limit</code> t
 <p>The wilderness claim is an administrative claim. It is automatically created on first time world load and uses any space not claimed by a user. It functions just like any other claim where you can assign flags and options to it. By default, all actions are allowed in the wilderness.</p>
 ]]></content>
     <category term="Claim"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">User-Friendly Commands</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/custom-alias-creation/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/custom-alias-creation/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="user-friendly-commands"> User-Friendly Commands</h2>
 <p>One of the multiple uses that you can implement in your server is creating alias commands that will enhance the ability and improve the use of these advanced options, making them more accesible for everyone with shorter commands.</p>
 <p>For this, you may need to install an alias plugin like CustomCommands, or the commands.yml inside of the server folder.</p>
@@ -2360,16 +2221,13 @@ Note: This can be adjusted by changing <code>griefdefender.create-limit</code> t
 <p>test</p>
 ]]></content>
     <category term="Command"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Flag Definition</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/flag-definitions-gui/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/flag-definitions-gui/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="overview"> Overview</h2>
 <p>The flag definition system provides both users and admins the ability to manage their claim flags with ease.
 GriefDefender delivers a bundle of flag definitions by default to provide the best compatibility across servers.
@@ -3333,7 +3191,7 @@ As an example, lets assume you want to deny user access to the <code>damage-anim
 <p>As shown below, both admin/user flags start off as either <code>true</code> or <code>false</code> and will represent the current active value of claim you are in.</p>
 <h3 id="admin-2"> ADMIN</h3>
 <p>⚠️ Admin flags will ONLY affect the claim you are in.</p>
-<p><img src="https://i.imgur.com/tSVSC7q.png" alt="Admin GUI" /></p>
+<p><img src="https://i.imgur.com/tSVSC7q.png" alt="Admin GUI" loading="lazy"></p>
 <p>By default, admins have access to 2 modes <code>PRESET</code> and <code>ADVANCED</code>.
 The <code>PRESET</code> mode is directly linked to the minecraft flag definitions preset file. Each group is read into the GUI as a tab along with its definitions.
 There are 2 delivered groups that GD ships with, <code>USER</code> and <code>ADMIN</code>.</p>
@@ -3608,7 +3466,7 @@ There are 2 delivered groups that GD ships with, <code>USER</code> and <code>ADM
 <p>⚠️ User flags will ONLY affect the claim you are in.<br>
 ⚠️ If you want to modify <code>USER</code> flag definitions in a claim that you do not own, you must have ignoreclaims permissions and enter <code>/ignoreclaims</code> before executing <code>/cf</code> command.</p>
 <p>As a user, if you enter the <code>/cf</code> command, you will see the following</p>
-<p><img src="https://i.imgur.com/LTeNaaD.png" alt="User GUI" /></p>
+<p><img src="https://i.imgur.com/LTeNaaD.png" alt="User GUI" loading="lazy"></p>
 <table>
 <thead>
 <tr>
@@ -3752,16 +3610,13 @@ There are 2 delivered groups that GD ships with, <code>USER</code> and <code>ADM
 </table>
 ]]></content>
     <category term="Flag"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Options</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/options/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/options/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>Options, also known as Meta, are a way to configure plugins using player/group contexts through your permission system, this gives you the benefit of being able to set different settings for different players, groups, worlds etc.</p>
 <p>Default values can be changed in <code>options.conf</code>, for finer control continue reading below.</p>
 <h2 id="built-in-commands"> Built-in Commands</h2>
@@ -4106,16 +3961,13 @@ There are 4 subsections within this section.</p>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div>]]></content>
     <category term="Option"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">PVP</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/pvp/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/pvp/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GriefDefender has the ability to control PvP globally, per user/group, or per claim.</p>
 <p>Here are a few examples on how to configure PvP<br>
 Note: These examples assume a clean installation with no modified settings.</p>
@@ -4152,16 +4004,13 @@ Note: These examples assume a clean installation with no modified settings.</p>
 </ol>
 ]]></content>
     <category term="Conf"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Tags System</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/tags/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/tags/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>A <code>Tag</code> is a new system introduced in Minecraft 1.13 that allows users to group one or more item, block, entity identifiers under a single group known as a tag. GriefDefender integrates into the tag system and exposes all available tags as contexts that can applied with a flag or option.</p>
 <p>For example, lets say you wanted to allow interaction with the following standing signs</p>
 <ul>
@@ -4215,16 +4064,13 @@ Note: If your datapack is not enabled then your datapack structure shown in step
 <p>To verify tags are working with specific actions in GriefDefender, run the <code>/gddebug</code> command and check the context column which will display any tags if used.</p>
 ]]></content>
     <category term="Tag"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Trust System</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/trust-system/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/trust-system/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>There four different types of trust: Accessors, Builders, Containers, and Managers.</p>
 <h3 id="arguments"> Arguments</h3>
 <table>
@@ -4269,16 +4115,13 @@ Note: If your datapack is not enabled then your datapack structure shown in step
 <p>Lists currently trusted players and the trust type.</p>
 ]]></content>
     <category term="Claim"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Command Overview</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/commands/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/commands/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h1 id="command-overview"> Command Overview</h1>
 <p>Arguments Key: &lt;required&gt; [optional]</p>
 <h3 id="claim-identifier"> Claim Identifier</h3>
@@ -4717,16 +4560,13 @@ Note: Valid types are <code>entity</code>, <code>item</code>, <code>block</code>
 <p>Lists version information.</p>
 ]]></content>
     <category term="Command"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Install</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/install/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/install/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>⚠️ In this page, we will explain how to start using GriefDefender in your Bukkit/Sponge server step by step. ⚠️</p>
 <h2 id="getting-started"> Getting Started</h2>
 <h3 id="requirements"> Requirements</h3>
@@ -4800,16 +4640,13 @@ World configs override dimension and global configs.</p>
 <p>Once GD is installed and running, see https://github.com/bloodmc/GriefDefender/wiki/Claim-Management to learn how to create a protection claim and manage it.</p>
 ]]></content>
     <category term="configurabe"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">GriefPrevention</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/migration/griefprevention/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/migration/griefprevention/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>⚠️ Before using GriefPrevention migrator, backup your data (including LuckPerms).<br>
 It is recommended to test migration on a test server before applying to production to ensure everything works as expected.<br>
 ⚠️ All player data that contains accrued claim blocks and bonus claim blocks will be stored as meta in LuckPerms when migrator is finished.<br>
@@ -4918,16 +4755,13 @@ Migration output should appear in console as it is migrating.</li>
 </ol>
 ]]></content>
     <category term="Migration"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">WorldGuard</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/migration/worldguard/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/migration/worldguard/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>⚠️ Before using WorldGuard migrator, backup your data (including LuckPerms).  It is recommended to test migration on a test server before applying to production to ensure everything works as expected.</p>
 <h3 id="griefdefender-supports-a-migration-of-cuboid-regions-from-worldguard-to-migrate-to-griefdefender-perform-the-following-steps"> GriefDefender supports a migration of cuboid regions from WorldGuard. To migrate to GriefDefender, perform the following steps</h3>
 <h3 id="current-limitations"> Current Limitations</h3>
@@ -5018,16 +4852,13 @@ worldguard=false
 Migration output should appear in console as it is migrating.</p>
 ]]></content>
     <category term="Migration"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Permission</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/permissions/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/permissions/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>If you want to have a quickstart, apply <code>griefdefender.user.*</code> to your players and both <code>griefdefender.user.*</code> and <code>griefdefender.admin.*</code> to your staff/admins.</p>
 <p>It is recommended to use the base permission nodes above, and if you want a more fine control read all permissions below and deny accordingly.</p>
 <h3 id="important"> IMPORTANT</h3>
@@ -5686,16 +5517,13 @@ See https://luckperms.net/wiki/Default-Groups</li>
 </table>
 ]]></content>
     <category term="Info"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">GriefDefender</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<div><p>W.I.P</p>
 <p>This document is being greatly improved!
 If you encounter problems, please report to us</p>
@@ -5741,16 +5569,13 @@ It works out of the box and fully integrates with <a href="https://ci.lucko.me/j
 </ul>
 ]]></content>
     <category term="configurabe"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Dynmap</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/dynmap/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/dynmap/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>In order to use GriefDefender's Dynmap provider, you must have GDHooks installed.<br>
 See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 <p><strong>Bukkit</strong></p>
@@ -5807,16 +5632,13 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br></div></div></details>]]></content>
     <category term="Dev"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Placeholder</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/placeholder/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/placeholder/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<table>
 <thead>
 <tr>
@@ -5913,16 +5735,13 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 </table>
 ]]></content>
     <category term="Dev"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">GDHooks</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GDHooks is an official GriefDefender addon designed to extend its support for other plugins. Releases are available on discord or you can compile it on GitHub.</p>
 <p><a href="https://github.com/bloodmc/GDHooks" target="_blank" rel="noopener noreferrer"><strong>Source</strong></a><br>
 <a href="https://github.com/bloodmc/GDHooks/wiki" target="_blank" rel="noopener noreferrer"><strong>Wiki</strong></a></p>
@@ -5988,18 +5807,15 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 </ul>
 ]]></content>
     <category term="Dev"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">WECUI</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/wecui/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/wecui/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GriefDefender now supports WECUI!</p>
-<p><img src="http://i.imgur.com/96RHwkv.jpg" alt="WECUI Preview" /></p>
+<p><img src="http://i.imgur.com/96RHwkv.jpg" alt="WECUI Preview" loading="lazy"></p>
 <p>In order to use WECUI, the following is required to be installed</p>
 <p><strong>Client</strong></p>
 <p><em><strong>1.14+</strong></em></p>
@@ -6020,54 +5836,20 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 <p><strong>Disclaimer:</strong> It's a known issue that Shaders don't get along with this feature due to Optifine having its own rendering pipeline. Shaders are probably even more custom and just plain break certain things. Resource packs, on the other hand, will work fine. Therefore, use at your own risk.</p>
 ]]></content>
     <category term="Dev"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Custom Layout</title>
-    <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/layout/</id>
-    <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/layout/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
-    <content type="html"><![CDATA[<p>You can use slots with markdown and component support to custom page layout.</p>
-<div><p>Note</p>
-<p>This is just a demo, you should add styles according to your own needs.</p>
-
-
-</div>
-<template #page-top><p>Page top content</p>
-</template><template #page-bottom><p>Page bottom content</p>
-</template><template #content-top><p>Content top content</p>
-</template><template #content-bottom><p>Content bottom content</p>
-</template><template #navbar-start><p>Navbar start content</p>
-</template><template #navbar-center><p>Navbar center content</p>
-</template><template #navbar-end><p>Navbar end content</p>
-</template><template #sidebar-top><p>Sidebar top content</p>
-</template><template #sidebar-center><p>Sidebar center content</p>
-</template><template #sidebar-bottom><p>Sidebar bottom content</p>
-</template><p>For details, see <a href="https://vuepress-theme-hope.github.io/guide/layout/custom/" target="_blank" rel="noopener noreferrer">Custom layout</a>.</p>
-]]></content>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">GriefDefender</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <updated>2022-02-18T17:18:58.000Z</updated>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Pixelmon Preset</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/resources/Pixelmon/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/resources/Pixelmon/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<div><p>Info</p>
 <p>Unlike GP where you had to set multiple flag commands for pixelmon manually, it is now highly recommended to make use of the new Flag Definition system. A flag definition combines 1 or more flag permissions into a single group which allows you to toggle all at once via GUI. Any flag definition entered in your <code>pixelmon.conf</code> will be accessible via the Flag GUI config by using <code>/cf</code> command in game. The main thing to keep in mind is all flags toggled in game will apply to claim only. However, the flags you set in config that use <code>gd_claim_default</code> or <code>gd_claim_override</code> contexts will be applied on server startup with the <code>default-value</code> you specify.</p>
 </div>
@@ -6075,16 +5857,13 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 <hr>
 ]]></content>
     <category term="Preset"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Resources</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/resources/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/resources/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<div><p>Info</p>
 <p>You are always welcome to contribute your resource related to GD in following places:</p>
 <div>
@@ -6097,28 +5876,13 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 <li><a href="./Pixelmon.html">Pixelmon</a></li>
 </ul>
 ]]></content>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Slide page</title>
-    <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/slides/</id>
-    <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/slides/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
-    <content type="html"><![CDATA[
-<i>Not supported content</i>]]></content>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">API</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/API/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/API/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="add-griefdefenderapi-to-your-project"> Add GriefDefenderAPI to your project</h2>
 <CodeGroup>
 <CodeGroupItem title="gradle">
@@ -6164,16 +5928,13 @@ Note: If you make use of any API methods that accepts a kyori component as param
 <p>See the official GD addon https://github.com/bloodmc/GDHooks to learn how to create a plugin for use with GD's API.</p>
 ]]></content>
     <category term="develop"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Contrubution</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/Contribution/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/Contribution/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="info"> Info</h2>
 <div><p>Info</p>
 <p>GriefDefenderDoc is built with <a href="https://v1.vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">VuePress</a> and <a href="https://vuepress-theme-hope.github.io/" target="_blank" rel="noopener noreferrer">Theme Hope</a> which means you can learn some editing skill from there.</p>
@@ -6202,16 +5963,13 @@ In the bottom of each pages there will be a button redirect you to the source fi
 </ol>
 ]]></content>
     <category term="Dev"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Contexts</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/contexts/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/contexts/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h1 id="contexts"> Contexts</h1>
 <p>Contexts are a fundamental part of how GriefDefender is able to apply protection to claims. In order to understand how it works, you must first understand what a Context is. See https://luckperms.net/wiki/Context</p>
 <p>Now that you have a basic understanding of what a context is and how they work with permissions, below is a list of contexts that GD uses with its flag and option command.</p>
@@ -6435,16 +6193,13 @@ See https://github.com/bloodmc/GriefDefender/wiki/Debugging for more info</li>
 </ol>
 ]]></content>
     <category term="Usage"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Debugging</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/debugging/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/debugging/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GriefDefender is powered by permissions. Every action done in a world is checked against a specific flag permission. If you are trying to figure out what is causing an action to be blocked or not to be blocked then /gddebug is what you will need to use.</p>
 <p>Syntax
 <code>/gddebug record [filter]</code>
@@ -6992,16 +6747,13 @@ Note: The filter can be any word you want.</p>
 <p>This column contains the result of the flag check, TRUE or FALSE. eg; If the result is TRUE, is has been allowed. FALSE and it has been blocked.</p>
 ]]></content>
     <category term="Usage"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Flags</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/flags/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/flags/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h1 id="flags"> Flags</h1>
 <p>Flags allow for very specific control of actions by Players or Groups both inside and outside of claims.<br>
 Default Flags can be overridden or per claim specific Flags can be used.</p>
@@ -7220,16 +6972,13 @@ flag-control {
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br></div></div>]]></content>
     <category term="Flag"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Global Config</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/global-config/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/global-config/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GriefDefender's default config offers extended customization for your server. Below is a breakdown of all default variables for your convenience.</p>
 <blockquote>
 <p>⚠️ Some options can cause irreparable changes to your data. Please ensure that you have read the sub-text found next to the variables in your generated <code>global.conf</code> file. <strong>All migration variables should ALWAYS be used AFTER a backup of your data is made.</strong> ⚠️</p>
@@ -7962,16 +7711,13 @@ For more info you can go to <a href="https://commons.apache.org/proper/commons-i
 </table>
 ]]></content>
     <category term="Configuration"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Claim Management</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/claim-management/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/claim-management/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GriefDefender is a plugin that provides self-service region protection functionality, giving you additional options to fine tune aspects such as door, chest, and build permissions for users or groups of users! Below some basic instructions for claim management for more fine tuned control over your claims check out the <a href="https://github.com/bloodmc/GriefDefender/wiki/Flags" target="_blank" rel="noopener noreferrer">Flags page</a>.</p>
 <p>All the examples are with the defaults at the time of writing this in mind.</p>
 <h2 id="claim-creation"> Claim Creation</h2>
@@ -8257,17 +8003,14 @@ griefdefender.admin.option.perk.fly.manager
 </ol>
 ]]></content>
     <category term="Claim"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Rent System</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/claim-rent-system/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/claim-rent-system/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="https://media.discordapp.net/attachments/709505646457913426/709992848963141632/2019-12-18_22.png" alt="Rent System" /></p>
+    <updated>2022-02-18T17:18:58.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="https://media.discordapp.net/attachments/709505646457913426/709992848963141632/2019-12-18_22.png" alt="Rent System" loading="lazy"></p>
 <p>This new system will allow you to set your claim up for rent and earn some money on the way.</p>
 <h1 id="how-to-enable-it"> How to enable it</h1>
 <p>Open your global.conf file and under economy section, you will find the following lines:</p>
@@ -8300,7 +8043,7 @@ griefdefender.admin.option.perk.fly.manager
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br></div></div><h1 id="in-game-use"> In Game Use</h1>
 <p>After you have properly modified the config and did <code>/gdreload</code> or (better) restarted the server, now you can establish your first claim to be rented.</p>
 <p>This system currently works fine for Basic, Town and Subdivided claims.</p>
-<p><img src="https://i.imgur.com/sPB7pMs.png" alt="Renting Sign" /></p>
+<p><img src="https://i.imgur.com/sPB7pMs.png" alt="Renting Sign" loading="lazy"></p>
 <p>In order to start renting your claim, you need to put a sign inside a specific owned claim, and fill it using the following format:</p>
 <div><pre><code>GD
 rent
@@ -8330,7 +8073,7 @@ rent
 <p><strong>Sidenote:</strong> The rent time availability of your claim will start ticking as soon as you set up the sign, which means that if you start a rental with a max of <strong>30 days</strong> and a person starts renting it on the 5th day, that user will only have the claim available for <strong>25 days</strong>.</p>
 <p>After you place the sign, you will receive a message in chat that you need to read carefully, and then, click on CONFIRM.</p>
 <p>If you did everything ok, your sign will be updated to something like this: (Layout may be different due to recent updates)</p>
-<p><img src="https://i.imgur.com/e194JUX.png" alt="Rent Claim Started" /></p>
+<p><img src="https://i.imgur.com/e194JUX.png" alt="Rent Claim Started" loading="lazy"></p>
 <p>If you want to cancel the claim rental, left-click the sign and click CONFIRM in chat.</p>
 <p>As a customer, in order to rent the claim, you can use:</p>
 <div><pre><code>Right Click the sign: You will rent it. 
@@ -8365,16 +8108,13 @@ Syntax is as follows<br>
 </ul>
 ]]></content>
     <category term="Economy"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">领地类型</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/claim-types/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/claim-types/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p><em>这是一个正在施工中的页面，将涵盖 GD 的所有领地类型--基本领地、细分领地、城镇领地和管理员领地。.</em></p>
 <h2 id="领地类型"> 领地类型</h2>
 <p>有四种类型的用户领地：管理员、城镇、基本和细分，每一种都有一个 2D 和 3D 模式。要在不同类型之间切换，请使用 <code>/adminclaims</code> 、 <code>/townclaims</code> 和 <code>/basicclaims</code> 。要切换到细分模式，使用 <code>/claimsubdivide</code> 。所有三种主要领地类型都支持直接的子领地（细分）--城镇、管理员和基本。</p>
@@ -8422,16 +8162,13 @@ Syntax is as follows<br>
 <p>荒野是一种管理员领地。它在世界首次加载时自动创建，并使用任何未被用户拥有的空间。它的功能就像任何其他领地一样，你可以给它分配 Flags 和 Options.默认情况下，在荒野中允许所有的操作。</p>
 ]]></content>
     <category term="领地"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">预制标签</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/flag-definitions-gui/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/flag-definitions-gui/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="概览"> 概览</h2>
 <p>预制标签系统为用户及管理员提供了简便管理领地标签的可能。
 GriefDefender 默认提供了一些较为通用的预制标签，默认提供的标签数据只适用于纯净且可以于以下文件找到</p>
@@ -8511,883 +8248,6 @@ world  世界
 </ol>
 <p>要知晓 <code>used_item</code> 或任何其他情境，找到情境列，您将会在特定行看到该操作所支持的情境。</p>
 <p>另一个找到您想获取的情境的方法是查阅相关资料。</p>
-<h3 id="minecraft-预制标签预设"> Minecraft 预制标签预设</h3>
-<p>有关如何使用标志配置的更多信息，请参见下文</p>
-<details>
-  <summary>Minecraft 预设</summary>
-<div><pre><code># A collection of flag definitions designed for vanilla minecraft.
-# Each group defined will be displayed in the flag GUI for users.
-# Groups can have the following settings : 
-# enabled=&lt;true|false&gt;: Whether the group is enabled.
-# admin-group=&lt;true|false&gt;: Whether this group is considered for admin use only.
-# Note: GUI toggles in PRESETS will always apply to current claim only.
-# Note: If you assign users the permission &#39;griefdefender.admin.advanced-flags&#39;, they will be able to access admin presets within the claim tab.
-#      It is recommended not to assign this permission to users for best experience.
-# value=&lt;true|false&gt;: This is used to set a default value for the flag definition. It is only used in conjunction with &#39;override=&lt;type&gt;, default=&lt;type&gt; settings.
-# contexts=[&quot;key=value&quot;]: A list of definition contexts that will be applied to all permissions.
-# Note: This is primary used with &#39;default&#39; and &#39;override&#39; contexts. Ex. contexts=[&quot;default=global&quot;]
-# Note: You must specify one of the following contexts :&#39;gd_claim_default=&lt;type&gt;&#39; or &#39;gd_claim_override=&lt;type&gt;&#39;&#39;
-# Note: Context values support wildcards &#39;?&#39; and &#39;*&#39; by using Apache&#39;s wildcard matcher.
-# The wildcard &#39;?&#39; represents a single character.
-# The wildcard &#39;*&#39; represents zero or more characters.
-# Each group will have an associated permission in order to be viewable.
-# The user groups will use the permission : &#39;griefdefender.user.custom.flag.&lt;preset&gt;.&lt;group&gt;
-# The admin groups will use the permission : &#39;griefdefender.admin.custom.flag.&lt;preset&gt;.&lt;group&gt;
-# Within each group, you can define flag definitions.
-# Each flag definition must be defined in the following format:
-# enabled: Controls whether the definition is enabled. Accepts a value of &#39;true&#39; or &#39;false&#39;
-# default-value: The default value to assign flag definition.
-# description: The flag description to display on hover. Uses the legacy text format.
-# permissions: The list of permissions to link to definition. Permissions can accept various contexts such as :
-# flag=&lt;linked-flag&gt;: This context is used to link the permission to a GD specific flag. Ex. &#39;flag=block-break&#39; would link permission to GD&#39;s block-break flag
-# source=&lt;id&gt;: This context is used to specify a source id such as &#39;minecraft:creeper&#39;.
-# target=&lt;id&gt;: This context is used to specify a target id such as &#39;minecraft:chest&#39;.
-# state=&lt;properties&gt;: This context is used to specify a blockstate property such as &#39;state=lit:true&#39;.
-# Note: All flag definitions that contain a definition context of &#39;gd_claim_default&#39; or &#39;gd_claim_override&#39; will be applied to permissions during server startup.
-# Note: Required if no source or target context is specified, the permission will default to ALL.
-# Note: Commonly used contexts are : flag, source, target, state, used_item, item_name, world, server
-# These contexts may change, See https://github.com/bloodmc/GriefDefender/wiki/Contexts for latest information.
-
-minecraft {
-    groups {
-        admin {
-            # Set to true if this flag group is for admin use only.
-            # Note: If admin group, the permission is &#39;griefdefender.admin.custom.flag.&lt;groupname&gt;
-            # Note: If user group (admin set false), the permission is &#39;griefdefender.user.custom.flag.&lt;groupname&gt;
-            admin-group=true
-            definitions {
-                ambient-spawn {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-spawn, target=#ambient&quot;
-                    ]
-                }
-                animal-block-modify {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-modify, source=#animal&quot;
-                    ]
-                }
-                animal-spawn {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-spawn, target=#animal&quot;
-                    ]
-                }
-                aquatic-spawn {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-spawn, target=#aquatic&quot;
-                    ]
-                }
-                armorstand-use {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-item-secondary, target=minecraft:armor_stand, source=minecraft:player&quot;,
-                        &quot;flag=entity-damage, target=minecraft:armor_stand, source=minecraft:player&quot;,
-                        &quot;flag=interact-entity-secondary, target=minecraft:armor_stand, source=minecraft:player&quot;,
-                        &quot;flag=interact-inventory, target=minecraft:armor_stand, source=minecraft:player&quot;
-                    ]
-                }
-                block-trampling {
-                    contexts=[
-                        &quot;gd_claim_override=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=collide-block, target=minecraft:turtle_egg, target=minecraft:farmland&quot;
-                    ]
-                }
-                chorus-fruit-teleport {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=item-use, target=minecraft:chorus_fruit, source=minecraft:player&quot;
-                    ]
-                }
-                commandblock-block-break {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-break, source=minecraft:command_block, source=minecraft:chain_command_block, source=minecraft:repeating_command_block&quot;
-                    ]
-                }
-                commandblock-block-place {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-place, source=minecraft:command_block, source=minecraft:chain_command_block, source=minecraft:repeating_command_block&quot;
-                    ]
-                }
-                creeper-block-explosion {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=explosion-block, source=minecraft:creeper&quot;
-                    ]
-                }
-                creeper-entity-explosion {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=explosion-entity, source=minecraft:creeper&quot;
-                    ]
-                }
-                endcrystal-use {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=projectile-impact-entity, target=minecraft:end_crystal, source=minecraft:arrow, source=minecraft:player&quot;,
-                        &quot;flag=interact-item-secondary, target=minecraft:end_crystal, source=minecraft:arrow, source=minecraft:player&quot;,
-                        &quot;flag=entity-damage, target=minecraft:end_crystal, source=minecraft:arrow, source=minecraft:player&quot;,
-                        &quot;flag=interact-entity-secondary, target=minecraft:end_crystal, source=minecraft:arrow, source=minecraft:player&quot;
-                    ]
-                }
-                entity-armorstand-damage {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, target=minecraft:armor_stand, source=minecraft:player&quot;,
-                        &quot;flag=projectile-impact-entity, target=minecraft:armor_stand, source=minecraft:player&quot;
-                    ]
-                }
-                entity-itemframe-damage {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, target=minecraft:glow_item_frame, target=minecraft:item_frame&quot;,
-                        &quot;flag=projectile-impact-entity, target=minecraft:glow_item_frame, target=minecraft:item_frame&quot;
-                    ]
-                }
-                exp-drop {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-spawn, target=minecraft:xp_orb&quot;
-                    ]
-                }
-                fall-entity-damage {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, source=minecraft:fall&quot;
-                    ]
-                }
-                fall-player-damage {
-                    contexts=[
-                        &quot;gd_claim_override=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, target=minecraft:player, source=minecraft:fall&quot;
-                    ]
-                }
-                falling-block-break {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-break, source=minecraft:fall&quot;
-                    ]
-                }
-                fire-block-damage {
-                    contexts=[
-                        &quot;gd_claim_default=global&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-break, source=minecraft:fire&quot;
-                    ]
-                }
-                fire-entity-damage {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, source=minecraft:fire&quot;,
-                        &quot;flag=entity-damage, source=minecraft:fire_tick&quot;,
-                        &quot;flag=entity-damage, source=minecraft:magma_block&quot;,
-                        &quot;flag=entity-damage, source=minecraft:lava&quot;
-                    ]
-                }
-                lightning-damage {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, source=minecraft:lightning_bolt&quot;
-                    ]
-                }
-                monster-animal-damage {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, source=#monster, target=#animal&quot;,
-                        &quot;flag=entity-damage, source=#monster, target=#aquatic&quot;,
-                        &quot;flag=projectile-impact-entity, source=#monster, target=#aquatic&quot;
-                    ]
-                }
-                monster-player-damage {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, source=#monster, target=minecraft:player&quot;,
-                        &quot;flag=projectile-impact-entity, source=#monster, target=minecraft:player&quot;
-                    ]
-                }
-                monster-spawn {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-spawn, target=#monster&quot;
-                    ]
-                }
-                piston-item-spawn {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=item-spawn, source=minecraft:piston&quot;,
-                        &quot;flag=item-spawn, source=minecraft:sticky_piston&quot;
-                    ]
-                }
-                piston-use {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-break, source=minecraft:piston&quot;,
-                        &quot;flag=block-place, source=minecraft:piston&quot;,
-                        &quot;flag=block-break, source=minecraft:sticky_piston&quot;,
-                        &quot;flag=block-place, source=minecraft:sticky_piston&quot;
-                    ]
-                }
-                player-block-break {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-break, source=minecraft:player&quot;
-                    ]
-                }
-                player-block-interact {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-block-secondary, source=minecraft:player&quot;
-                    ]
-                }
-                player-block-place {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-place, source=minecraft:player&quot;
-                    ]
-                }
-                player-damage {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, target=minecraft:player&quot;,
-                        &quot;flag=projectile-impact-entity, target=minecraft:player&quot;
-                    ]
-                }
-                player-enderpearl-interact {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-item-secondary, source=minecraft:player, target=minecraft:ender_pearl&quot;
-                    ]
-                }
-                player-endportal-use {
-                    contexts=[
-                        &quot;gd_claim_default=global&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-teleport-from, source=minecraft:end_portal, target=minecraft:player&quot;
-                    ]
-                }
-                player-enter {
-                    contexts=[
-                        &quot;gd_claim=claim&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=enter-claim, source=minecraft:player&quot;
-                    ]
-                }
-                player-entity-interact {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-entity-secondary, source=minecraft:player&quot;
-                    ]
-                }
-                player-exit {
-                    contexts=[
-                        &quot;gd_claim=claim&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=exit-claim, source=minecraft:player&quot;
-                    ]
-                }
-                player-item-drop {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=item-drop, source=minecraft:player&quot;
-                    ]
-                }
-                player-item-pickup {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=item-pickup, source=minecraft:player&quot;
-                    ]
-                }
-                player-itemframe-interact {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-entity-secondary, target=minecraft:glow_item_frame, target=minecraft:item_frame, source=minecraft:player&quot;
-                    ]
-                }
-                player-itemhanging-place {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-item-secondary, target=#hanging, source=minecraft:player&quot;
-                    ]
-                }
-                player-netherportal-use {
-                    contexts=[
-                        &quot;gd_claim_default=global&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-teleport-from, source=minecraft:nether_portal, target=minecraft:player&quot;
-                    ]
-                }
-                player-teleport-from {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-teleport-from, target=minecraft:player&quot;
-                    ]
-                }
-                player-teleport-to {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-teleport-to, target=minecraft:player&quot;
-                    ]
-                }
-                player-villager-damage {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, target=minecraft:villager, source=minecraft:player&quot;,
-                        &quot;flag=projectile-impact-entity, target=minecraft:villager, source=minecraft:player&quot;
-                    ]
-                }
-                ravager-block-break {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-break, source=minecraft:ravager&quot;
-                    ]
-                }
-                silverfish-block-infest {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-modify, source=minecraft:silverfish&quot;
-                    ]
-                }
-                tnt-block-explosion {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=explosion-block, source=minecraft:tnt&quot;
-                    ]
-                }
-                tnt-entity-explosion {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=explosion-entity, source=minecraft:tnt&quot;
-                    ]
-                }
-                turtle-egg-hatch {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-break, source=minecraft:turtle_egg, target=minecraft:turtle_egg&quot;
-                    ]
-                }
-                villager-farm {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-break, source=minecraft:villager, target=#crops&quot;,
-                        &quot;flag=block-place, source=minecraft:villager, target=#crops&quot;
-                    ]
-                }
-                villager-trade {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-entity-secondary, target=minecraft:villager, source=minecraft:player&quot;
-                    ]
-                }
-                wither-block-break {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-break, source=minecraft:wither&quot;
-                    ]
-                }
-                wither-entity-damage {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, source=minecraft:wither&quot;
-                    ]
-                }
-            }
-            # Whether flag definition group is enabled.
-            enabled=true
-        }
-        user {
-            # Set to true if this flag group is for admin use only.
-            # Note: If admin group, the permission is &#39;griefdefender.admin.custom.flag.&lt;groupname&gt;
-            # Note: If user group (admin set false), the permission is &#39;griefdefender.user.custom.flag.&lt;groupname&gt;
-            admin-group=false
-            definitions {
-                block-fertilize {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-grow, used_item=minecraft:bone_meal, target=#crops, source=minecraft:player&quot;,
-                        &quot;flag=block-grow, used_item=minecraft:bone_meal, target=#plants, source=minecraft:player&quot;
-                    ]
-                }
-                chest-access {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-block-secondary, target=minecraft:chest, source=minecraft:player&quot;,
-                        &quot;flag=interact-inventory, target=minecraft:chest, source=minecraft:player&quot;
-                    ]
-                }
-                crop-growth {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-grow, target=#crops&quot;
-                    ]
-                }
-                damage-animals {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, target=#animal&quot;,
-                        &quot;flag=projectile-impact-entity, target=#animal&quot;
-                    ]
-                }
-                enderman-grief {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-break, source=minecraft:enderman&quot;,
-                        &quot;flag=block-place, source=minecraft:enderman&quot;
-                    ]
-                }
-                fire-spread {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-spread, source=minecraft:fire&quot;,
-                        &quot;flag=block-spread, source=minecraft:lava&quot;
-                    ]
-                }
-                grass-growth {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-grow, target=minecraft:grass&quot;
-                    ]
-                }
-                ice-form {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-modify, target=minecraft:ice&quot;
-                    ]
-                }
-                ice-melt {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-modify, target=minecraft:water, source=minecraft:ice&quot;
-                    ]
-                }
-                lava-flow {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=liquid-flow, source=minecraft:lava, target=minecraft:air&quot;
-                    ]
-                }
-                leaf-decay {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=leaf-decay&quot;
-                    ]
-                }
-                lighter {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-item-secondary, target=minecraft:flint_and_steel, source=minecraft:player&quot;
-                    ]
-                }
-                mushroom-growth {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-grow, target=#mushroom&quot;
-                    ]
-                }
-                mycelium-spread {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-spread, target=minecraft:mycelium&quot;
-                    ]
-                }
-                pvp {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-damage, target=minecraft:player, source=minecraft:player&quot;,
-                        &quot;flag=projectile-impact-entity, target=minecraft:player, source=minecraft:player&quot;
-                    ]
-                }
-                ride {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=entity-riding, target=#vehicle, source=minecraft:player&quot;,
-                        &quot;flag=interact-entity-secondary, target=#vehicle, source=minecraft:player&quot;
-                    ]
-                }
-                sign-use {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-block-primary, target=#signs, source=minecraft:player&quot;,
-                        &quot;flag=interact-block-secondary, target=#signs, source=minecraft:player&quot;
-                    ]
-                }
-                sleep {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-block-secondary, target=#beds, source=minecraft:player&quot;,
-                        &quot;flag=interact-item-secondary, target=#beds, source=minecraft:player&quot;
-                    ]
-                }
-                snow-fall {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-place, target=minecraft:snow, source=minecraft:air&quot;
-                    ]
-                }
-                snow-melt {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-break, source=minecraft:snow&quot;
-                    ]
-                }
-                snowman-trail {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-place, source=minecraft:snow_golem, target=minecraft:snow&quot;
-                    ]
-                }
-                soil-dry {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-modify, source=minecraft:farmland, state=moisture:0&quot;
-                    ]
-                }
-                vehicle-use {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-item-secondary, target=minecraft:minecart, target=#boats, source=minecraft:player&quot;,
-                        &quot;flag=entity-damage, target=minecraft:minecart, target=minecraft:boat, source=minecraft:player&quot;,
-                        &quot;flag=entity-riding, target=minecraft:minecart, target=minecraft:boat, source=minecraft:player&quot;,
-                        &quot;flag=interact-entity-secondary, target=minecraft:minecart, target=minecraft:boat, source=minecraft:player&quot;
-                    ]
-                }
-                villager-trade {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=interact-entity-secondary, target=minecraft:villager, source=minecraft:player&quot;
-                    ]
-                }
-                vine-growth {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=true
-                    enabled=true
-                    permissions=[
-                        &quot;flag=block-grow, target=minecraft:vine&quot;
-                    ]
-                }
-                water-flow {
-                    contexts=[
-                        &quot;gd_claim_default=user&quot;
-                    ]
-                    default-value=false
-                    enabled=true
-                    permissions=[
-                        &quot;flag=liquid-flow, source=minecraft:water, target=minecraft:air&quot;
-                    ]
-                }
-            }
-            # Whether flag definition group is enabled.
-            enabled=true
-        }
-    }
-    version=&quot;1.0&quot;
-}
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br><span>105</span><br><span>106</span><br><span>107</span><br><span>108</span><br><span>109</span><br><span>110</span><br><span>111</span><br><span>112</span><br><span>113</span><br><span>114</span><br><span>115</span><br><span>116</span><br><span>117</span><br><span>118</span><br><span>119</span><br><span>120</span><br><span>121</span><br><span>122</span><br><span>123</span><br><span>124</span><br><span>125</span><br><span>126</span><br><span>127</span><br><span>128</span><br><span>129</span><br><span>130</span><br><span>131</span><br><span>132</span><br><span>133</span><br><span>134</span><br><span>135</span><br><span>136</span><br><span>137</span><br><span>138</span><br><span>139</span><br><span>140</span><br><span>141</span><br><span>142</span><br><span>143</span><br><span>144</span><br><span>145</span><br><span>146</span><br><span>147</span><br><span>148</span><br><span>149</span><br><span>150</span><br><span>151</span><br><span>152</span><br><span>153</span><br><span>154</span><br><span>155</span><br><span>156</span><br><span>157</span><br><span>158</span><br><span>159</span><br><span>160</span><br><span>161</span><br><span>162</span><br><span>163</span><br><span>164</span><br><span>165</span><br><span>166</span><br><span>167</span><br><span>168</span><br><span>169</span><br><span>170</span><br><span>171</span><br><span>172</span><br><span>173</span><br><span>174</span><br><span>175</span><br><span>176</span><br><span>177</span><br><span>178</span><br><span>179</span><br><span>180</span><br><span>181</span><br><span>182</span><br><span>183</span><br><span>184</span><br><span>185</span><br><span>186</span><br><span>187</span><br><span>188</span><br><span>189</span><br><span>190</span><br><span>191</span><br><span>192</span><br><span>193</span><br><span>194</span><br><span>195</span><br><span>196</span><br><span>197</span><br><span>198</span><br><span>199</span><br><span>200</span><br><span>201</span><br><span>202</span><br><span>203</span><br><span>204</span><br><span>205</span><br><span>206</span><br><span>207</span><br><span>208</span><br><span>209</span><br><span>210</span><br><span>211</span><br><span>212</span><br><span>213</span><br><span>214</span><br><span>215</span><br><span>216</span><br><span>217</span><br><span>218</span><br><span>219</span><br><span>220</span><br><span>221</span><br><span>222</span><br><span>223</span><br><span>224</span><br><span>225</span><br><span>226</span><br><span>227</span><br><span>228</span><br><span>229</span><br><span>230</span><br><span>231</span><br><span>232</span><br><span>233</span><br><span>234</span><br><span>235</span><br><span>236</span><br><span>237</span><br><span>238</span><br><span>239</span><br><span>240</span><br><span>241</span><br><span>242</span><br><span>243</span><br><span>244</span><br><span>245</span><br><span>246</span><br><span>247</span><br><span>248</span><br><span>249</span><br><span>250</span><br><span>251</span><br><span>252</span><br><span>253</span><br><span>254</span><br><span>255</span><br><span>256</span><br><span>257</span><br><span>258</span><br><span>259</span><br><span>260</span><br><span>261</span><br><span>262</span><br><span>263</span><br><span>264</span><br><span>265</span><br><span>266</span><br><span>267</span><br><span>268</span><br><span>269</span><br><span>270</span><br><span>271</span><br><span>272</span><br><span>273</span><br><span>274</span><br><span>275</span><br><span>276</span><br><span>277</span><br><span>278</span><br><span>279</span><br><span>280</span><br><span>281</span><br><span>282</span><br><span>283</span><br><span>284</span><br><span>285</span><br><span>286</span><br><span>287</span><br><span>288</span><br><span>289</span><br><span>290</span><br><span>291</span><br><span>292</span><br><span>293</span><br><span>294</span><br><span>295</span><br><span>296</span><br><span>297</span><br><span>298</span><br><span>299</span><br><span>300</span><br><span>301</span><br><span>302</span><br><span>303</span><br><span>304</span><br><span>305</span><br><span>306</span><br><span>307</span><br><span>308</span><br><span>309</span><br><span>310</span><br><span>311</span><br><span>312</span><br><span>313</span><br><span>314</span><br><span>315</span><br><span>316</span><br><span>317</span><br><span>318</span><br><span>319</span><br><span>320</span><br><span>321</span><br><span>322</span><br><span>323</span><br><span>324</span><br><span>325</span><br><span>326</span><br><span>327</span><br><span>328</span><br><span>329</span><br><span>330</span><br><span>331</span><br><span>332</span><br><span>333</span><br><span>334</span><br><span>335</span><br><span>336</span><br><span>337</span><br><span>338</span><br><span>339</span><br><span>340</span><br><span>341</span><br><span>342</span><br><span>343</span><br><span>344</span><br><span>345</span><br><span>346</span><br><span>347</span><br><span>348</span><br><span>349</span><br><span>350</span><br><span>351</span><br><span>352</span><br><span>353</span><br><span>354</span><br><span>355</span><br><span>356</span><br><span>357</span><br><span>358</span><br><span>359</span><br><span>360</span><br><span>361</span><br><span>362</span><br><span>363</span><br><span>364</span><br><span>365</span><br><span>366</span><br><span>367</span><br><span>368</span><br><span>369</span><br><span>370</span><br><span>371</span><br><span>372</span><br><span>373</span><br><span>374</span><br><span>375</span><br><span>376</span><br><span>377</span><br><span>378</span><br><span>379</span><br><span>380</span><br><span>381</span><br><span>382</span><br><span>383</span><br><span>384</span><br><span>385</span><br><span>386</span><br><span>387</span><br><span>388</span><br><span>389</span><br><span>390</span><br><span>391</span><br><span>392</span><br><span>393</span><br><span>394</span><br><span>395</span><br><span>396</span><br><span>397</span><br><span>398</span><br><span>399</span><br><span>400</span><br><span>401</span><br><span>402</span><br><span>403</span><br><span>404</span><br><span>405</span><br><span>406</span><br><span>407</span><br><span>408</span><br><span>409</span><br><span>410</span><br><span>411</span><br><span>412</span><br><span>413</span><br><span>414</span><br><span>415</span><br><span>416</span><br><span>417</span><br><span>418</span><br><span>419</span><br><span>420</span><br><span>421</span><br><span>422</span><br><span>423</span><br><span>424</span><br><span>425</span><br><span>426</span><br><span>427</span><br><span>428</span><br><span>429</span><br><span>430</span><br><span>431</span><br><span>432</span><br><span>433</span><br><span>434</span><br><span>435</span><br><span>436</span><br><span>437</span><br><span>438</span><br><span>439</span><br><span>440</span><br><span>441</span><br><span>442</span><br><span>443</span><br><span>444</span><br><span>445</span><br><span>446</span><br><span>447</span><br><span>448</span><br><span>449</span><br><span>450</span><br><span>451</span><br><span>452</span><br><span>453</span><br><span>454</span><br><span>455</span><br><span>456</span><br><span>457</span><br><span>458</span><br><span>459</span><br><span>460</span><br><span>461</span><br><span>462</span><br><span>463</span><br><span>464</span><br><span>465</span><br><span>466</span><br><span>467</span><br><span>468</span><br><span>469</span><br><span>470</span><br><span>471</span><br><span>472</span><br><span>473</span><br><span>474</span><br><span>475</span><br><span>476</span><br><span>477</span><br><span>478</span><br><span>479</span><br><span>480</span><br><span>481</span><br><span>482</span><br><span>483</span><br><span>484</span><br><span>485</span><br><span>486</span><br><span>487</span><br><span>488</span><br><span>489</span><br><span>490</span><br><span>491</span><br><span>492</span><br><span>493</span><br><span>494</span><br><span>495</span><br><span>496</span><br><span>497</span><br><span>498</span><br><span>499</span><br><span>500</span><br><span>501</span><br><span>502</span><br><span>503</span><br><span>504</span><br><span>505</span><br><span>506</span><br><span>507</span><br><span>508</span><br><span>509</span><br><span>510</span><br><span>511</span><br><span>512</span><br><span>513</span><br><span>514</span><br><span>515</span><br><span>516</span><br><span>517</span><br><span>518</span><br><span>519</span><br><span>520</span><br><span>521</span><br><span>522</span><br><span>523</span><br><span>524</span><br><span>525</span><br><span>526</span><br><span>527</span><br><span>528</span><br><span>529</span><br><span>530</span><br><span>531</span><br><span>532</span><br><span>533</span><br><span>534</span><br><span>535</span><br><span>536</span><br><span>537</span><br><span>538</span><br><span>539</span><br><span>540</span><br><span>541</span><br><span>542</span><br><span>543</span><br><span>544</span><br><span>545</span><br><span>546</span><br><span>547</span><br><span>548</span><br><span>549</span><br><span>550</span><br><span>551</span><br><span>552</span><br><span>553</span><br><span>554</span><br><span>555</span><br><span>556</span><br><span>557</span><br><span>558</span><br><span>559</span><br><span>560</span><br><span>561</span><br><span>562</span><br><span>563</span><br><span>564</span><br><span>565</span><br><span>566</span><br><span>567</span><br><span>568</span><br><span>569</span><br><span>570</span><br><span>571</span><br><span>572</span><br><span>573</span><br><span>574</span><br><span>575</span><br><span>576</span><br><span>577</span><br><span>578</span><br><span>579</span><br><span>580</span><br><span>581</span><br><span>582</span><br><span>583</span><br><span>584</span><br><span>585</span><br><span>586</span><br><span>587</span><br><span>588</span><br><span>589</span><br><span>590</span><br><span>591</span><br><span>592</span><br><span>593</span><br><span>594</span><br><span>595</span><br><span>596</span><br><span>597</span><br><span>598</span><br><span>599</span><br><span>600</span><br><span>601</span><br><span>602</span><br><span>603</span><br><span>604</span><br><span>605</span><br><span>606</span><br><span>607</span><br><span>608</span><br><span>609</span><br><span>610</span><br><span>611</span><br><span>612</span><br><span>613</span><br><span>614</span><br><span>615</span><br><span>616</span><br><span>617</span><br><span>618</span><br><span>619</span><br><span>620</span><br><span>621</span><br><span>622</span><br><span>623</span><br><span>624</span><br><span>625</span><br><span>626</span><br><span>627</span><br><span>628</span><br><span>629</span><br><span>630</span><br><span>631</span><br><span>632</span><br><span>633</span><br><span>634</span><br><span>635</span><br><span>636</span><br><span>637</span><br><span>638</span><br><span>639</span><br><span>640</span><br><span>641</span><br><span>642</span><br><span>643</span><br><span>644</span><br><span>645</span><br><span>646</span><br><span>647</span><br><span>648</span><br><span>649</span><br><span>650</span><br><span>651</span><br><span>652</span><br><span>653</span><br><span>654</span><br><span>655</span><br><span>656</span><br><span>657</span><br><span>658</span><br><span>659</span><br><span>660</span><br><span>661</span><br><span>662</span><br><span>663</span><br><span>664</span><br><span>665</span><br><span>666</span><br><span>667</span><br><span>668</span><br><span>669</span><br><span>670</span><br><span>671</span><br><span>672</span><br><span>673</span><br><span>674</span><br><span>675</span><br><span>676</span><br><span>677</span><br><span>678</span><br><span>679</span><br><span>680</span><br><span>681</span><br><span>682</span><br><span>683</span><br><span>684</span><br><span>685</span><br><span>686</span><br><span>687</span><br><span>688</span><br><span>689</span><br><span>690</span><br><span>691</span><br><span>692</span><br><span>693</span><br><span>694</span><br><span>695</span><br><span>696</span><br><span>697</span><br><span>698</span><br><span>699</span><br><span>700</span><br><span>701</span><br><span>702</span><br><span>703</span><br><span>704</span><br><span>705</span><br><span>706</span><br><span>707</span><br><span>708</span><br><span>709</span><br><span>710</span><br><span>711</span><br><span>712</span><br><span>713</span><br><span>714</span><br><span>715</span><br><span>716</span><br><span>717</span><br><span>718</span><br><span>719</span><br><span>720</span><br><span>721</span><br><span>722</span><br><span>723</span><br><span>724</span><br><span>725</span><br><span>726</span><br><span>727</span><br><span>728</span><br><span>729</span><br><span>730</span><br><span>731</span><br><span>732</span><br><span>733</span><br><span>734</span><br><span>735</span><br><span>736</span><br><span>737</span><br><span>738</span><br><span>739</span><br><span>740</span><br><span>741</span><br><span>742</span><br><span>743</span><br><span>744</span><br><span>745</span><br><span>746</span><br><span>747</span><br><span>748</span><br><span>749</span><br><span>750</span><br><span>751</span><br><span>752</span><br><span>753</span><br><span>754</span><br><span>755</span><br><span>756</span><br><span>757</span><br><span>758</span><br><span>759</span><br><span>760</span><br><span>761</span><br><span>762</span><br><span>763</span><br><span>764</span><br><span>765</span><br><span>766</span><br><span>767</span><br><span>768</span><br><span>769</span><br><span>770</span><br><span>771</span><br><span>772</span><br><span>773</span><br><span>774</span><br><span>775</span><br><span>776</span><br><span>777</span><br><span>778</span><br><span>779</span><br><span>780</span><br><span>781</span><br><span>782</span><br><span>783</span><br><span>784</span><br><span>785</span><br><span>786</span><br><span>787</span><br><span>788</span><br><span>789</span><br><span>790</span><br><span>791</span><br><span>792</span><br><span>793</span><br><span>794</span><br><span>795</span><br><span>796</span><br><span>797</span><br><span>798</span><br><span>799</span><br><span>800</span><br><span>801</span><br><span>802</span><br><span>803</span><br><span>804</span><br><span>805</span><br><span>806</span><br><span>807</span><br><span>808</span><br><span>809</span><br><span>810</span><br><span>811</span><br><span>812</span><br><span>813</span><br><span>814</span><br><span>815</span><br><span>816</span><br><span>817</span><br><span>818</span><br><span>819</span><br><span>820</span><br><span>821</span><br><span>822</span><br><span>823</span><br><span>824</span><br><span>825</span><br><span>826</span><br><span>827</span><br><span>828</span><br><span>829</span><br><span>830</span><br><span>831</span><br><span>832</span><br><span>833</span><br><span>834</span><br><span>835</span><br><span>836</span><br><span>837</span><br><span>838</span><br><span>839</span><br><span>840</span><br><span>841</span><br><span>842</span><br><span>843</span><br><span>844</span><br><span>845</span><br><span>846</span><br><span>847</span><br><span>848</span><br><span>849</span><br><span>850</span><br><span>851</span><br><span>852</span><br><span>853</span><br><span>854</span><br><span>855</span><br><span>856</span><br><span>857</span><br><span>858</span><br><span>859</span><br><span>860</span><br><span>861</span><br><span>862</span><br><span>863</span><br><span>864</span><br><span>865</span><br><span>866</span><br><span>867</span><br><span>868</span><br><span>869</span><br><span>870</span><br><span>871</span><br></div></div></details>
 <h2 id="gui-组成及工作方式"> GUI 组成及工作方式</h2>
 <p>标签 GUI旨在允许用户和管理员轻松管理其领地标签。</p>
 <p>打开标签界面的指令是 <code>/cf</code> 或 <code>/gd flag claim</code></p>
@@ -9401,7 +8261,7 @@ minecraft {
 <p>如下所示，两个 管理/用户 预制标签都以 <code>true</code> 或 <code>false</code> 来显示您所处领地的标签影响。</p>
 <h3 id="管理员gui相关"> 管理员GUI相关</h3>
 <p>⚠️ 管理员标签组的标签只会影响您所在领地。</p>
-<p><img src="https://i.imgur.com/tSVSC7q.png" alt="Admin GUI" /></p>
+<p><img src="https://i.imgur.com/tSVSC7q.png" alt="Admin GUI" loading="lazy"></p>
 <p>默认情况下，管理员可以访问2种模式 <code>PRESET</code> 和 <code>ADVANCED</code>。
 <code>PRESET</code> 模式直接链接到 minecraft 预设标签定义预设文件。每个组都作为一个选项页并将该选项页定义的内容读入 GUI。
 GD 随附 2 个预制标签组，即 <code>USER</code> 和 <code>ADMIN</code>。</p>
@@ -9410,19 +8270,129 @@ GD 随附 2 个预制标签组，即 <code>USER</code> 和 <code>ADMIN</code>。
 <p>⚠️ 用户标签组的预制标签只会影响您所在的领地。
 ⚠️ 如果您想要更改 <code>USER</code> 于别人的领地中，那您必须有忽略领地的权限并输入 <code>/ignoreclaims</code>，之后就能使用 <code>/cf</code> 命令了。</p>
 <p>作为用户，如果您输入 <code>/cf</code> 命令，您将看到以下内容</p>
-<p><img src="https://i.imgur.com/LTeNaaD.png" alt="User GUI" /></p>
+<p><img src="https://i.imgur.com/LTeNaaD.png" alt="User GUI" loading="lazy"></p>
 ]]></content>
     <category term="标签"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">领地设定</title>
+    <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/flags/</id>
+    <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/flags/"/>
+    <updated>2022-02-18T17:18:58.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="标签机制"> 标签机制</h2>
+<h3 id="era基础标签-flags-era"> era基础标签(Flags)era</h3>
+<p>GD 对一些事件进行了包装，这些事件往往常用于领地设定，成为 era预设标签era 的组成部分，我们称之为 era基础标签(Flags)era
+例子：<code>interact-block-primary</code> - (对方块左键) | <code>interact-inventory-click</code> - (背包内点击) | <code>entity-spawn</code> - (实体生成) 等等
+在上述例子中，部分 era基础标签era 出于性能考量是关闭的[例如 entity-spawn]，您可以在 <code>flags.conf</code> 中开启。</p>
+<h3 id="预设标签-flag-definitions"> 预设标签(Flag-definitions)</h3>
+<p>由 era基础标签era 组成，era情境era 限定，可根据权限分发到游戏中介面供玩家使用，以 era预设集era 作为显示单位， GD 在初始化时自动生成 era预设集era <code>./presets/minecraft.conf</code>。</p>
+<h3 id="情境-contexts"> 情境(Contexts)</h3>
+<p>LuckPerms 中的情境系统，详见 <a href="https://luckperms.net/wiki/Context" target="_blank" rel="noopener noreferrer">官方Wiki</a> ，GD 对 Luckperms 的 era情境 era 进行了延展，添加了部分又能使其和 era基础标签era 限定作用情境。
+例如：<code>source</code> - <strong>标签触发的来源</strong> | <code>target</code> - <strong>标签作用的对象</strong> | <code>boots</code> - <strong>标签触发时装备的胸甲</strong> | <code>gametime</code> - <strong>游戏内所处时间</strong>等等
+注意：部分 era情境era 只能限定相应的标签，您不可能将 <code>boots</code> 限定 <code>entity-spawn</code> 这个标签。</p>
+<h3 id="判断阶段-抽象概念"> 判断阶段(抽象概念)</h3>
+<p>你可能注意到了，标签的判断是分阶段的
+目前这个阶段可以分为 <code>默认(default)--&gt;领地(claim)--&gt;子领地(sub)--&gt;覆写(override)</code>
+注：<code>默认</code> 对应情境 <code>default=types</code>，<code>覆写</code> 对应情境 <code>override=types</code>。
+检查优先级依次增高，<code>默认</code>指的是该标签在原封不动情况下的默认值，<code>领地</code>指的是后边更改的值，<code>子领地</code>指的是领地中子领地又整上的新值，<code>覆写</code>处于最高优先级，往往只有管理员能使用。
+这意味着当有两个标签冲突时，比如在领地设定中设置在 <code>领地</code> 内<strong>PVP禁止</strong>，但覆写标签中添加了<strong>PVP开启</strong>，那么领地行为遵照<code>PVP开启这个行径</code>。</p>
+<h3 id="标签调试模式-cfdebug"> 标签调试模式 (/cfdebug)</h3>
+<p>常用于测试标签状态，当该模式开启时，GD 将会视你为<strong>一般的过路人</strong>，所有关于领地标签的设定都将<strong>不再</strong>以你原来的权限进行判断，这有助于你在调整完 flag 后进行测试。</p>
+<h2 id="命令"> 命令</h2>
+<h3 id="参数"> 参数</h3>
+<p><code>&lt;必填项&gt; [选填项]</code></p>
+<table>
+<thead>
+<tr>
+<th>参数类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;标签&gt;</code></td>
+<td>要进行操作的 era基础标签era 类型</td>
+</tr>
+<tr>
+<td><code>&lt;作用对象&gt;</code></td>
+<td>该标签即将影响的对象，一个例子 <code>minecraft:dirt</code>。使用 <code>any</code> 或 <code>modid:any</code> 作通配符管理。</td>
+</tr>
+<tr>
+<td><code>&lt;值&gt;</code></td>
+<td>设置标签返回的值，<code>false(否)\|undefined(未定义)\|true(是)</code> 三种状态，其中 <code>undefined</code> 可以用 <code>0</code> 代替</td>
+</tr>
+<tr>
+<td><code>[键=值]</code></td>
+<td>可选项，尝用于 情境限定:<br><code>override=type</code> 意味着会在指定的 领地类型(type) 中将该操作标签添加到 覆写</td>
+</tr>
+</tbody>
+</table>
+<p>示例：/cf block-break minecraft:dirt false source=player override=admin 意味着在 <code>所有(override)</code> 类型为 <code>管理员领地(admin)</code> 中 <code>禁用(false)</code> 由 <code>玩家(source=player)</code> 发出，对 <code>泥土(minecraft:dirt)</code> 进行<code>方块破坏(block-break)</code>的行为。</p>
+<h3 id="命令列表"> 命令列表</h3>
+<hr>
+<h4 id="gd-claim-debug"> <code>/gd claim debug</code></h4>
+<p><strong>别称</strong>: <code>cfd|claimflagdebug</code></p>
+<p>切换 <code>领地标签调试</code></p>
+<hr>
+<h4 id="gd-flag-claim-标签-作用对象-值-情境"> <code>/gd flag claim [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
+<p><strong>别称</strong>: <code>cf|claimflag</code></p>
+<p>编辑 era基础标签era</p>
+<hr>
+<h4 id="gd-flag-group-权限组-标签-作用对象-值-情境"> <code>/gd flag group &lt;权限组&gt; [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
+<p><strong>别称</strong>: <code>cfg|claimflaggroup</code></p>
+<p>编辑 era基础标签era，但影响的对象是权限组。
+常用于限制某个权限组的行为，示例 /cfg default block-break minecraft:dirt false 就是让整个 default 权限组都不能破坏泥土。</p>
+<hr>
+<h4 id="gd-flag-player-player-标签-作用对象-值-情境"> <code>/gd flag player &lt;player&gt; [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
+<p><strong>别称</strong>: <code>cfp|claimflagplayer</code></p>
+<p>编辑 era基础标签era，但影响的对象是玩家。
+和上述类似</p>
+<hr>
+<h4 id="gd-flag-reset"> <code>/gd flag reset</code></h4>
+<p><strong>别称</strong>: <code>cfr|claimflagreset</code></p>
+<p>重置一个领地的标签设定为默认，默认值可以在配置文件中更改。</p>
+<h2 id="一些用例"> 一些用例</h2>
+<p>era基础标签era 可以应用到 <code>玩家|权限组</code>，各类型领地(基础，子领地，城镇，管理员) 上边。</p>
+<h3 id="用例-1"> 用例 1</h3>
+<p>防止 <code>灰色羊毛</code> 被破坏
+<code>/cf block-break minecraft:wool.5 false</code></p>
+<p>如果不指定 modid，默认 minecraft 开头， <code>modid:blockid.meta</code>，不指定 meta 默认返回 0。</p>
+<h3 id="用例-2"> 用例 2</h3>
+<p>允许 <code>宝可梦精灵球</code> 与 <code>所有(override)</code> 的 <code>基础类型(basic)</code> 领地发生交互。</p>
+<p><code>/cf projectile-impact-block any true source=pixelmon:occupiedpokeball override=basic</code></p>
+<h3 id="用例-3"> 用例 3</h3>
+<p>防止在权限组 &quot;Jailed&quot; 中的 <code>玩家(source=minecraft:player)</code> 在 <code>所有(override)</code> 的 <code>管理员领地(admin)</code> 中无法使用 <code>任何(any)</code> 类型的传送门。</p>
+<p><code>/cfg Jailed portal-use any false source=minecraft:player override=admin</code></p>
+<h3 id="用例-4"> 用例 4</h3>
+<p>防止叫 &quot;notch&quot; 的玩家在当前领地中无法右键床。</p>
+<p><code>/cfp notch interact-block-secondary minecraft:bed false</code></p>
+<h3 id="用例-5"> 用例 5</h3>
+<p>防止运行宝可梦中 '/shop select' 命令运行。</p>
+<p><code>/cf command-execute pixelmon:shop[select] false</code></p>
+<h3 id="用例-6"> 用例 6</h3>
+<p>防止使用某物品右键某实体</p>
+<p><code>/cf interact-entity-secondary item_id entity_id false</code></p>
+<h2 id="通过-luckperms-添加"> 通过 LuckPerms 添加</h2>
+<h3 id="用例-1-2"> 用例 1</h3>
+<p>关闭 <code>starters</code> 权限组中对动物的伤害</p>
+<p>GD:</p>
+<div><pre><code>/cfg starters entity-damage #animal false default=basic
+</code></pre>
+<div><span>1</span><br></div></div><p>LP:</p>
+<div><pre><code>/lp group starters permission set griefdefender.flag.entity-damage false gd_claim_default=basic target=#animal
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="可用的标签"> 可用的标签</h2>
+<p>请以 <code>flags.conf</code> 为准</p>
+]]></content>
+    <category term="Flag"/>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">选项</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/options/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/options/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<details><summary>名词辨析</summary>
 <p>Options - 选项
 Meta - 元数据
@@ -9774,16 +8744,13 @@ There are 4 subsections within this section.</p>
 }
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div>]]></content>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">PVP</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/pvp/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/pvp/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GriefDefender has the ability to control PvP globally, per user/group, or per claim.</p>
 <p>Here are a few examples on how to configure PvP<br>
 Note: These examples assume a clean installation with no modified settings.</p>
@@ -9820,16 +8787,13 @@ Note: These examples assume a clean installation with no modified settings.</p>
 </ol>
 ]]></content>
     <category term="Conf"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">标签组系统</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/tags/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/tags/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p><code>标签</code> 是一个于 Minecraft 1.13 引入的新系统，其允许用户将 物品，方块，实体 的标志符捆绑为一个标签组以方便分类。GriefDefender 将与标签系统集成并将其导出为情境用以 标签(Flag)/选项(Option)。</p>
 <p>例如，假设您希望允许与以下站立告示牌进行交互</p>
 <ul>
@@ -9882,16 +8846,13 @@ Note: These examples assume a clean installation with no modified settings.</p>
 <p>要验证 标签组 是否与 GriefDefender 中的特定操作一起工作，请运行 <code>/gddebug</code> 命令并检查 情境 列，该列将显示所有已被调用的 标签组。</p>
 ]]></content>
     <category term="Tag"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">信任系统</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/trust-system/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/trust-system/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>有四种不同类型的信任。访问者、建造师、容器和管理者.</p>
 <h3 id="选项"> 选项</h3>
 <table>
@@ -9936,16 +8897,13 @@ Note: These examples assume a clean installation with no modified settings.</p>
 <p>列出当前受信任的玩家和信任类型.</p>
 ]]></content>
     <category term="领地"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Command Overview</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/commands/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/commands/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<h1 id="command-overview"> Command Overview</h1>
 <p>Arguments Key: &lt;required&gt; [optional]</p>
 <h3 id="claim-identifier"> Claim Identifier</h3>
@@ -10384,46 +9342,40 @@ Note: Valid types are <code>entity</code>, <code>item</code>, <code>block</code>
 <p>Lists version information.</p>
 ]]></content>
     <category term="Command"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">安装</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/install/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/install/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
-    <content type="html"><![CDATA[<div><p>Info</p>
-<p>在本页面, 我们将手把手教你如何在你的 Bukkit/Sponge 服务器上开始使用 GriefDefender.</p>
-</div>
-<h2 id="入门"> 入门</h2>
-<h3 id="需求"> 需求</h3>
+    <updated>2022-02-18T17:18:58.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="装前预备"> 装前预备</h3>
+<h4 id="插件前置"> 插件前置</h4>
 <ul>
-<li><a href="https://luckperms.github.io/" target="_blank" rel="noopener noreferrer">LuckPerms</a> 权限插件.</li>
+<li><a href="https://luckperms.github.io/" target="_blank" rel="noopener noreferrer">LuckPerms</a> --- 一个权限插件，GD 高强度依赖。(仅支持 v5)
+<br>⚠️ GD 大量使用了 LP 的 <code>default</code> 权限组，请不要删除 <code>default</code> 中有关 GriefDefender 的父组，任何不恰当的更改都会导致 GD 无法正常使用。⚠️</li>
 </ul>
-<blockquote>
-<p><strong>提示: GD 只支持 LuckPerms v5.</strong></p>
-</blockquote>
-<p>⚠️ GD 大量使用了 LP 的 <code>default</code> 权限组. 请确保你的 LP 权限组均已继承 <code>default</code> 组，否则 GD 将无法正常工作. LP 也强烈建议不要禁用该权限组. 查阅 https://github.com/lucko/LuckPerms/wiki/Default-Groups#where-to-start ⚠️</p>
-<h5 id="sponge"> Sponge</h5>
+<h4 id="运行平台"> 运行平台</h4>
+<h5 id="sponge-api-7"> Sponge API 7</h5>
 <ul>
-<li>最新版本的 <a href="https://www.spongepowered.org/downloads" target="_blank" rel="noopener noreferrer">Sponge</a>.</li>
+<li>SpongeVanllia &amp; SpongeForge(1.12.2)</li>
+<li>API 8 在该页面书写时还在制作，但你看的时候可能已经有了。</li>
 </ul>
 <h5 id="bukkit"> Bukkit</h5>
 <ul>
-<li>最新版本的 <a href="https://papermc.io/downloads" target="_blank" rel="noopener noreferrer">Paper</a> 或 <a href="https://www.spigotmc.org/wiki/buildtools/" target="_blank" rel="noopener noreferrer">Spigot</a>.</li>
+<li>v1 支持 1.8-1.16.5</li>
+<li>v2 支持 1.12-GD目前支持的版本</li>
+<li>任何基于 Bukkit 的 fork 都行，例如 Paper, Purpur。</li>
 </ul>
 <h3 id="安装"> 安装</h3>
 <div><p>Note</p>
-<p>如果你在使用 <code>spark</code> 插件, 请在此链接下载并更新到最新版本 https://ci.lucko.me/job/spark/</p>
 <p>在 <code>server.properties</code> 中设置 <code>spawn-protection</code> 为 <code>0</code> 以允许 GD 接管出生保护. 如果此项设置错误, GD 将无法正常接管出生保护.</p>
 </div>
-<p>从 Spigot 的插件页面下载最新的 GriefDefender.请务必选择正确的 Minecraft 版本，并保持它为最新版本 下载后,将其放入你服务器的插件文件夹.</p>
+<p>从 <a href="https://www.spigotmc.org/resources/griefdefender.68900/" target="_blank" rel="noopener noreferrer">SpigotMC</a> 下载最新的 GriefDefender，而 Sponge 版通过 Discord 分发。</p>
 <p>现在启动你的服务器以生成所有的配置文件，检查 GriefDefender 是否成功加载，你可以检查控制台是否出现 <code>[GriefDefender] Loaded successfully</code>. 接下来关闭你的服务器并开始配置流程.</p>
 <h3 id="配置"> 配置</h3>
 <blockquote>
-<p><strong>提示: 还有一些选项必须使用你的权限系统来设置，你可以在 <a href="https://github.com/bloodmc/GriefDefender/wiki/Advanced-Options" target="_blank" rel="noopener noreferrer">选项 wiki 页面</a> 上阅读更多关于这些选项的信息.</strong></p>
+<p><strong>提示: 还有一些选项必须使用你的权限系统来设置，你可以在 <a href="./feature">选项页面</a> 上阅读更多关于这些选项的信息。</strong></p>
 </blockquote>
 <p>所有的配置文件都在你的 config 或 plugin 文件夹中名为 <code>GriefDefender</code> 的文件夹中找到.</p>
 <div><pre><code>config/
@@ -10469,16 +9421,13 @@ Note: Valid types are <code>entity</code>, <code>item</code>, <code>block</code>
 <p>当 GD 已安装并运行, 查阅 https://github.com/bloodmc/GriefDefender/wiki/Claim-Management 学习如何创建和管理领地.</p>
 ]]></content>
     <category term="配置"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">GriefPrevention</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/migration/griefprevention/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/migration/griefprevention/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>⚠️ Before using GriefPrevention migrator, backup your data (including LuckPerms).<br>
 It is recommended to test migration on a test server before applying to production to ensure everything works as expected.<br>
 ⚠️ All player data that contains accrued claim blocks and bonus claim blocks will be stored as meta in LuckPerms when migrator is finished.<br>
@@ -10587,16 +9536,13 @@ Migration output should appear in console as it is migrating.</li>
 </ol>
 ]]></content>
     <category term="Migration"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">WorldGuard</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/migration/worldguard/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/migration/worldguard/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>⚠️ Before using WorldGuard migrator, backup your data (including LuckPerms).  It is recommended to test migration on a test server before applying to production to ensure everything works as expected.</p>
 <h3 id="griefdefender-supports-a-migration-of-cuboid-regions-from-worldguard-to-migrate-to-griefdefender-perform-the-following-steps"> GriefDefender supports a migration of cuboid regions from WorldGuard. To migrate to GriefDefender, perform the following steps</h3>
 <h3 id="current-limitations"> Current Limitations</h3>
@@ -10687,16 +9633,13 @@ worldguard=false
 Migration output should appear in console as it is migrating.</p>
 ]]></content>
     <category term="Migration"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">权限</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/permissions/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/permissions/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>如果您想快速使用，将 <code>griefdefender.user.*</code> 授权至您的玩家，并给予 <code>griefdefender.user.*</code> 和 <code>griefdefender.admin.*</code> 给您的社区管理或服务器管理。</p>
 <p>在大多数情况下，建议使用上面的通用权限，如果您想要更精细的控制，请阅览下面的所有权限并相应地关掉一些不需要的权限。</p>
 <h3 id="重要信息"> 重要信息</h3>
@@ -11355,71 +10298,263 @@ Migration output should appear in console as it is migrating.</p>
 </table>
 ]]></content>
     <category term="信息"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">GriefDefender</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
-    <content type="html"><![CDATA[<div><p>施工中</p>
-<p>这个文档还不稳定，我们正尽力地积极改进它!
-如果您遇到了什么问题，请报告给我们</p>
+    <updated>2022-02-18T17:18:58.000Z</updated>
+    <content type="html"><![CDATA[<div><p>该文档由社区维护，独立于官方</p>
+<p>GriefDefender 是一个功能丰富的插件，直截了当的翻译并不能让您了解该插件的特性，本文档立足于实践，以服务器管理者的角度去教会您该插件的应用。如果您要贡献本文档，欢迎查看 <a href="./../Contribution.html">贡献指南</a></p>
 </div>
-<div><p>贡献</p>
-<p>帮助我们改善 GD 的文档</p>
-<div>
-<p><a href="./../Contribution.html">贡献指南</a></p>
-</div>
-</div>
-<h1 id="griefdefender-wiki"> GriefDefender Wiki</h1>
-<p><em>适用于 Bukkit/Sponge 服务器核心.</em></p>
+<h1 id="欢迎"> 欢迎</h1>
+<p>请注意，该文档由社区提供，不能保证其准确度及最新版本的匹配度，也不会保证可持续更新，仅供参考！
+想看准确的内容，请查看 <a href="https://github.com/bloodmc/GriefDefender/wiki" target="_blank" rel="noopener noreferrer">GriefDefender 仓库Wiki</a></p>
+<p>如果您执意要查看该文档，让我们从 <a href="./install">安装</a> 开始吧！</p>
+<h2 id="一些链接"> 一些链接</h2>
 <ul>
-<li><a href="https://discord.gg/jy4FQDz" target="_blank" rel="noopener noreferrer">Discord 服务器</a> - 获取支持, 或讨论与 GriefDefender 相关的内容.</li>
-</ul>
-<p>一个保护您的服务器免遭不友好玩家背刺的通用解决方案.<br>
-开箱即用，并与 <a href="https://ci.lucko.me/job/LuckPerms/" target="_blank" rel="noopener noreferrer">LuckPerms</a> 紧密配合.</p>
-<blockquote>
-<p>**提示: 由于 GriefDefender 在很大程度上依赖于情境权限, 所以它与 <a href="https://github.com/lucko/LuckPerms" target="_blank" rel="noopener noreferrer">LuckPerms</a> 有着硬性依赖. 查阅 <a href="https://github.com/lucko/LuckPerms/wiki/Migration" target="_blank" rel="noopener noreferrer">https://github.com/lucko/LuckPerms/wiki/Migration</a> 以了解如何从其他权限插件迁移至 LP.</p>
-</blockquote>
-<h2 id="特点"> 特点</h2>
-<ul>
-<li><strong>新功能!</strong> 租赁系统 - 您的玩家可以建造自己的酒店, 公寓, 庇护所等建筑进行出租! (开发中)</li>
-<li><strong>新功能!</strong> 使用生成限制可以避免同一个地方/区块拥有更多的实体 (可配置每个领地, 所有领地, 野外等) - 使用此功能以提升你的服务器性能!</li>
-<li><strong>新功能!</strong> 每个领地都有可自定义的选项, 例如传送延迟, pvp 处理, 玩家游戏模式, 玩家飞行状态以及其它的事件！</li>
-<li>高级权限选项 (meta 标签).</li>
-<li>指令系统基于 <a href="https://github.com/aikar/commands" target="_blank" rel="noopener noreferrer">ACF</a> 库开发.</li>
-<li>使用经济模式可以让玩家使用货币进行买卖领地.</li>
-<li>可扩展的 API.</li>
-<li>基于情境权限的 Flag 系统可以配置任何你想保护的事件组合.</li>
-<li>支持从 GriefPrevention (Bukkit) 迁移.</li>
-<li>使用 HOCON 配置系统可以覆盖任何同类配置.</li>
-<li>继承系统可以使父领地强制覆盖子领地的保护配置.</li>
-<li>可互动的聊天界面 UI 可以管理领地和 Flag.</li>
-<li>红石保护系统.</li>
-<li>可以将领地恢复为初始状态.</li>
-<li>管理员可以 备份/恢复 领地图纸. (对于举办活动用处很大)</li>
-<li>溯源系统以供更完全的保护.</li>
-<li>支持 WorldGuard</li>
-<li>支持 Vault</li>
-<li>支持 Dynmap</li>
-<li>支持 McMMO</li>
+<li>社区运营
+<br><a href="https://www.mcbbs.net/thread-1275237-1-1.html" target="_blank" rel="noopener noreferrer">MCBBS 搬运贴</a> --- 了解 GD 的好去处
+<br><a href="https://jq.qq.com/?_wv=1027&amp;k=thsjkzxK" target="_blank" rel="noopener noreferrer">GriefDefender 服主交流群</a> --- 向他人询问问题，或给予别人帮助
+<br><a href="https://github.com/bloodmc/GriefDefenderDoc" target="_blank" rel="noopener noreferrer">GriefDefender 文档源码</a></li>
+<li>官方链接
+<br><a href="https://github.com/bloodmc/GriefDefender" target="_blank" rel="noopener noreferrer">GitHub</a>
+<br><a href="https://www.spigotmc.org/resources/griefdefender.68900/" target="_blank" rel="noopener noreferrer">SpigotMC</a></li>
 </ul>
 ]]></content>
     <category term="配置"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">预制标签</title>
+    <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/%E9%A2%86%E5%9C%B0%E8%AE%BE%E5%AE%9A/flag-definitions-gui/</id>
+    <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/%E9%A2%86%E5%9C%B0%E8%AE%BE%E5%AE%9A/flag-definitions-gui/"/>
+    <updated>2022-02-18T17:18:58.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="概览"> 概览</h2>
+<p>预制标签系统为用户及管理员提供了简便管理领地标签的可能。
+GriefDefender 默认提供了一些较为通用的预制标签，默认提供的标签数据只适用于纯净且可以于以下文件找到</p>
+<h3 id="sponge"> Sponge</h3>
+<p><code>./config/GriefDefender/presets/minecraft.conf</code></p>
+<h3 id="bukkit"> Bukkit</h3>
+<p><code>./plugins/GriefDefender/presets/minecraft.conf</code></p>
+<details><summary>名词详解</summary>
+<p>flag definitions - 预制标签
+flag - 基础标签
+permission - 规则
+PUBLC - 公众
+OWNER - 受信者</p>
+</details>
+<h2 id="管理标签"> 管理标签</h2>
+<p>管理员能根据需要对预制标签进行<strong>增删改</strong>，以便最大程度的客制化用户的标签使用体验。</p>
+<p>如果要向默认提供的 minecraft 预制标签组添加新标签，请打开 <code>./presets/minecraft.conf</code> 文件。
+在本节，您将看到两个预制标签页 'admin' 和 'user'。</p>
+<h3 id="添加新的预制标签"> 添加新的预制标签</h3>
+<p>我们假设您要往 'admin' 标签页添加新标签。</p>
+<ol>
+<li>克隆一个预制标签，我们以 <code>ambient-spawn</code> 作为样例。</li>
+</ol>
+<div><pre><code>ambient-spawn {
+    contexts=[
+        &quot;gd_claim_default=user&quot;
+    ]
+    default-value=true
+    enabled=true
+    permissions=[
+        &quot;flag=entity-spawn, target=#ambient&quot;
+    ]
+}
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>让我们一步步拆分其组成</p>
+<h4 id="名称"> 名称</h4>
+<p><code>ambient-spawn</code> - 这是定义的名称，当用户在标签 GUI中打开它时，该名称将显示给用户。它可以是你喜欢的任何东西。</p>
+<h4 id="情境"> 情境</h4>
+<div><pre><code>contexts=[
+        &quot;gd_claim_default=user&quot;
+    ]
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>这是预制标签中所包含权限 <code>permissions=[...]</code> 的作用情境。
+其目前只接受以下值 <code>gd_claim_default</code>, <code>gd_claim_override</code>，或 <code>gd_claim</code>。
+预知更多，详见 https://github.com/bloodmc/GriefDefender/wiki/Contexts 来进一步了解情境的作用。</p>
+<h4 id="默认值"> 默认值</h4>
+<p><code>default-value=true</code> - 这是 GD 在启动期间应用预制标签时使用的默认值。
+GD 仅在启动期间将此值作为临时权限应用，前提是情境包括 <code>gd_claim_default</code> 或 <code>gd_claim_override</code>。
+如果定义不包含这些情境之一，则忽略默认值。</p>
+<h4 id="启用与否"> 启用与否</h4>
+<p><code>enabled=true</code> - 该选项决定了 GD 是否使用该预制标签，如果设为 <code>false</code>，该预制标签将被忽略。</p>
+<h4 id="规则"> 规则</h4>
+<div><pre><code>permissions=[
+    &quot;flag=entity-spawn, target=#ambient&quot;,
+    &quot;flag=xxx&quot;
+]
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>这里定义了该预制标签中包含的基础标签。一个预制标签可以拥有一个乃至多个基础标签。如果要将多条基础标签整合进预制标签，那么应在每行末尾插入一个 <code>,</code> 再添加新行。
+在每行中需要定义 <code>flag=&lt;基础标签&gt;</code> 及其紧接着的目标和来源。<br>
+因为 GD 会自动应用到所有检测目标，如果您想要一条规则应用到全部可能的目标，则不填 <code>target</code> 。
+因为 GD 会自动检测所有来源，如果您想要一条规则应用到全部可能的来源，则不填 <code>source</code>。</p>
+<p>一些常用的规则情境</p>
+<div><pre><code>source  行为来源
+target  作用目标
+used_item  使用物品
+item_name  物品名称
+server  所处服务器
+state  状态
+world  世界
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>提供的情境必须是有效且适用于标签。要在游戏中找到合适的值，请执行以下操作</p>
+<ol>
+<li>运行命令 <code>/gddebug record claim</code> - 这将在您所在的领地中启动调试会话。</li>
+<li>做您想通过领地标签来限制的事</li>
+<li>运行命令 <code>/gddebug paste</code> - 这将显示一个 web链接 以查看调试结果。</li>
+<li>打开链接，您将看到 GD 为领地检查的操作列表。您会在 <code>source</code> <code>target</code> 列看到您所需要的值。</li>
+</ol>
+<p>要知晓 <code>used_item</code> 或任何其他情境，找到情境列，您将会在特定行看到该操作所支持的情境。</p>
+<p>另一个找到您想获取的情境的方法是查阅相关资料。</p>
+<h2 id="gui-组成及工作方式"> GUI 组成及工作方式</h2>
+<p>标签 GUI旨在允许用户和管理员轻松管理其领地标签。</p>
+<p>打开标签界面的指令是 <code>/cf</code> 或 <code>/gd flag claim</code></p>
+<p>在 GD 2.0 中, 所有预制标签可以应用到两种新玩家类型，即 : PUBLIC 和 OWNER。</p>
+<p><code>PUBLIC</code> - 在标签界面中切换预制标签页为 <code>PUBLIC</code>，所有未被信任的玩家都将被影响。
+<code>OWNER</code> - 在标签界面中切换预制标签页为 <code>OWNER</code>，所有领地受信者及所有者本身都将被影响。</p>
+<h3 id="权限"> 权限</h3>
+<p>以下权限控制着用户对预制标签的访问 <code>griefdefender.user.custom.flag.&lt;标签组&gt;.&lt;预制标签名称&gt;</code>.
+我们假设您不想让用户有权控制 <code>damage-animals</code> 预制标签。 您需要在 LuckPerms 输入以下命令 <code>/lp group &lt;groupname&gt; set griefdefender.user.custom.flag.user.damage-animals false</code></p>
+<h3 id="标签值"> 标签值</h3>
+<p>如下所示，两个 管理/用户 预制标签都以 <code>true</code> 或 <code>false</code> 来显示您所处领地的标签影响。</p>
+<h3 id="管理员gui相关"> 管理员GUI相关</h3>
+<p>⚠️ 管理员标签组的标签只会影响您所在领地。</p>
+<p><img src="https://i.imgur.com/tSVSC7q.png" alt="Admin GUI" loading="lazy"></p>
+<p>默认情况下，管理员可以访问2种模式 <code>PRESET</code> 和 <code>ADVANCED</code>。
+<code>PRESET</code> 模式直接链接到 minecraft 预设标签定义预设文件。每个组都作为一个选项页并将该选项页定义的内容读入 GUI。
+GD 随附 2 个预制标签组，即 <code>USER</code> 和 <code>ADMIN</code>。</p>
+<p>这两个小组都将使用预制标签。如果需要将标志设置为默认值，请在配置中进行设置，如上所示。</p>
+<h3 id="用户gui"> 用户GUI</h3>
+<p>⚠️ 用户标签组的预制标签只会影响您所在的领地。
+⚠️ 如果您想要更改 <code>USER</code> 于别人的领地中，那您必须有忽略领地的权限并输入 <code>/ignoreclaims</code>，之后就能使用 <code>/cf</code> 命令了。</p>
+<p>作为用户，如果您输入 <code>/cf</code> 命令，您将看到以下内容</p>
+<p><img src="https://i.imgur.com/LTeNaaD.png" alt="User GUI" loading="lazy"></p>
+]]></content>
+    <category term="标签"/>
+    <published>2022-02-18T17:18:58.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">领地设定</title>
+    <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/%E9%A2%86%E5%9C%B0%E8%AE%BE%E5%AE%9A/flags/</id>
+    <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/%E9%A2%86%E5%9C%B0%E8%AE%BE%E5%AE%9A/flags/"/>
+    <updated>2022-02-18T17:18:58.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="标签机制"> 标签机制</h2>
+<h3 id="era基础标签-flags-era"> era基础标签(Flags)era</h3>
+<p>GD 对一些事件进行了包装，这些事件往往常用于领地设定，成为 era预设标签era 的组成部分，我们称之为 era基础标签(Flags)era
+例子：<code>interact-block-primary</code> - (对方块左键) | <code>interact-inventory-click</code> - (背包内点击) | <code>entity-spawn</code> - (实体生成) 等等
+在上述例子中，部分 era基础标签era 出于性能考量是关闭的[例如 entity-spawn]，您可以在 <code>flags.conf</code> 中开启。</p>
+<h3 id="预设标签-flag-definitions"> 预设标签(Flag-definitions)</h3>
+<p>由 era基础标签era 组成，era情境era 限定，可根据权限分发到游戏中介面供玩家使用，以 era预设集era 作为显示单位， GD 在初始化时自动生成 era预设集era <code>./presets/minecraft.conf</code>。</p>
+<h3 id="情境-contexts"> 情境(Contexts)</h3>
+<p>LuckPerms 中的情境系统，详见 <a href="https://luckperms.net/wiki/Context" target="_blank" rel="noopener noreferrer">官方Wiki</a> ，GD 对 Luckperms 的 era情境 era 进行了延展，添加了部分又能使其和 era基础标签era 限定作用情境。
+例如：<code>source</code> - <strong>标签触发的来源</strong> | <code>target</code> - <strong>标签作用的对象</strong> | <code>boots</code> - <strong>标签触发时装备的胸甲</strong> | <code>gametime</code> - <strong>游戏内所处时间</strong>等等
+注意：部分 era情境era 只能限定相应的标签，您不可能将 <code>boots</code> 限定 <code>entity-spawn</code> 这个标签。</p>
+<h3 id="判断阶段-抽象概念"> 判断阶段(抽象概念)</h3>
+<p>你可能注意到了，标签的判断是分阶段的
+目前这个阶段可以分为 <code>默认(default)--&gt;领地(claim)--&gt;子领地(sub)--&gt;覆写(override)</code>
+注：<code>默认</code> 对应情境 <code>default=types</code>，<code>覆写</code> 对应情境 <code>override=types</code>。
+检查优先级依次增高，<code>默认</code>指的是该标签在原封不动情况下的默认值，<code>领地</code>指的是后边更改的值，<code>子领地</code>指的是领地中子领地又整上的新值，<code>覆写</code>处于最高优先级，往往只有管理员能使用。
+这意味着当有两个标签冲突时，比如在领地设定中设置在 <code>领地</code> 内<strong>PVP禁止</strong>，但覆写标签中添加了<strong>PVP开启</strong>，那么领地行为遵照<code>PVP开启这个行径</code>。</p>
+<h3 id="标签调试模式-cfdebug"> 标签调试模式 (/cfdebug)</h3>
+<p>常用于测试标签状态，当该模式开启时，GD 将会视你为<strong>一般的过路人</strong>，所有关于领地标签的设定都将<strong>不再</strong>以你原来的权限进行判断，这有助于你在调整完 flag 后进行测试。</p>
+<h2 id="命令"> 命令</h2>
+<h3 id="参数"> 参数</h3>
+<p><code>&lt;必填项&gt; [选填项]</code></p>
+<table>
+<thead>
+<tr>
+<th>参数类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;标签&gt;</code></td>
+<td>要进行操作的 era基础标签era 类型</td>
+</tr>
+<tr>
+<td><code>&lt;作用对象&gt;</code></td>
+<td>该标签即将影响的对象，一个例子 <code>minecraft:dirt</code>。使用 <code>any</code> 或 <code>modid:any</code> 作通配符管理。</td>
+</tr>
+<tr>
+<td><code>&lt;值&gt;</code></td>
+<td>设置标签返回的值，<code>false(否)\|undefined(未定义)\|true(是)</code> 三种状态，其中 <code>undefined</code> 可以用 <code>0</code> 代替</td>
+</tr>
+<tr>
+<td><code>[键=值]</code></td>
+<td>可选项，尝用于 情境限定:<br><code>override=type</code> 意味着会在指定的 领地类型(type) 中将该操作标签添加到 覆写</td>
+</tr>
+</tbody>
+</table>
+<p>示例：/cf block-break minecraft:dirt false source=player override=admin 意味着在 <code>所有(override)</code> 类型为 <code>管理员领地(admin)</code> 中 <code>禁用(false)</code> 由 <code>玩家(source=player)</code> 发出，对 <code>泥土(minecraft:dirt)</code> 进行<code>方块破坏(block-break)</code>的行为。</p>
+<h3 id="命令列表"> 命令列表</h3>
+<hr>
+<h4 id="gd-claim-debug"> <code>/gd claim debug</code></h4>
+<p><strong>别称</strong>: <code>cfd|claimflagdebug</code></p>
+<p>切换 <code>领地标签调试</code></p>
+<hr>
+<h4 id="gd-flag-claim-标签-作用对象-值-情境"> <code>/gd flag claim [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
+<p><strong>别称</strong>: <code>cf|claimflag</code></p>
+<p>编辑 era基础标签era</p>
+<hr>
+<h4 id="gd-flag-group-权限组-标签-作用对象-值-情境"> <code>/gd flag group &lt;权限组&gt; [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
+<p><strong>别称</strong>: <code>cfg|claimflaggroup</code></p>
+<p>编辑 era基础标签era，但影响的对象是权限组。
+常用于限制某个权限组的行为，示例 /cfg default block-break minecraft:dirt false 就是让整个 default 权限组都不能破坏泥土。</p>
+<hr>
+<h4 id="gd-flag-player-player-标签-作用对象-值-情境"> <code>/gd flag player &lt;player&gt; [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
+<p><strong>别称</strong>: <code>cfp|claimflagplayer</code></p>
+<p>编辑 era基础标签era，但影响的对象是玩家。
+和上述类似</p>
+<hr>
+<h4 id="gd-flag-reset"> <code>/gd flag reset</code></h4>
+<p><strong>别称</strong>: <code>cfr|claimflagreset</code></p>
+<p>重置一个领地的标签设定为默认，默认值可以在配置文件中更改。</p>
+<h2 id="一些用例"> 一些用例</h2>
+<p>era基础标签era 可以应用到 <code>玩家|权限组</code>，各类型领地(基础，子领地，城镇，管理员) 上边。</p>
+<h3 id="用例-1"> 用例 1</h3>
+<p>防止 <code>灰色羊毛</code> 被破坏
+<code>/cf block-break minecraft:wool.5 false</code></p>
+<p>如果不指定 modid，默认 minecraft 开头， <code>modid:blockid.meta</code>，不指定 meta 默认返回 0。</p>
+<h3 id="用例-2"> 用例 2</h3>
+<p>允许 <code>宝可梦精灵球</code> 与 <code>所有(override)</code> 的 <code>基础类型(basic)</code> 领地发生交互。</p>
+<p><code>/cf projectile-impact-block any true source=pixelmon:occupiedpokeball override=basic</code></p>
+<h3 id="用例-3"> 用例 3</h3>
+<p>防止在权限组 &quot;Jailed&quot; 中的 <code>玩家(source=minecraft:player)</code> 在 <code>所有(override)</code> 的 <code>管理员领地(admin)</code> 中无法使用 <code>任何(any)</code> 类型的传送门。</p>
+<p><code>/cfg Jailed portal-use any false source=minecraft:player override=admin</code></p>
+<h3 id="用例-4"> 用例 4</h3>
+<p>防止叫 &quot;notch&quot; 的玩家在当前领地中无法右键床。</p>
+<p><code>/cfp notch interact-block-secondary minecraft:bed false</code></p>
+<h3 id="用例-5"> 用例 5</h3>
+<p>防止运行宝可梦中 '/shop select' 命令运行。</p>
+<p><code>/cf command-execute pixelmon:shop[select] false</code></p>
+<h3 id="用例-6"> 用例 6</h3>
+<p>防止使用某物品右键某实体</p>
+<p><code>/cf interact-entity-secondary item_id entity_id false</code></p>
+<h2 id="通过-luckperms-添加"> 通过 LuckPerms 添加</h2>
+<h3 id="用例-1-2"> 用例 1</h3>
+<p>关闭 <code>starters</code> 权限组中对动物的伤害</p>
+<p>GD:</p>
+<div><pre><code>/cfg starters entity-damage #animal false default=basic
+</code></pre>
+<div><span>1</span><br></div></div><p>LP:</p>
+<div><pre><code>/lp group starters permission set griefdefender.flag.entity-damage false gd_claim_default=basic target=#animal
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="可用的标签"> 可用的标签</h2>
+<p>请以 <code>flags.conf</code> 为准</p>
+]]></content>
+    <category term="Flag"/>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Dynmap</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/dynmap/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/dynmap/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>In order to use GriefDefender's Dynmap provider, you must have GDHooks installed.<br>
 See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 <p><strong>Bukkit</strong></p>
@@ -11476,16 +10611,13 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br></div></div></details>]]></content>
     <category term="Dev"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Placeholder</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/placeholder/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/placeholder/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<table>
 <thead>
 <tr>
@@ -11582,16 +10714,13 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 </table>
 ]]></content>
     <category term="Dev"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">GDHooks</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GDHooks is an official GriefDefender addon designed to extend its support for other plugins. Releases are available on discord or you can compile it on GitHub.</p>
 <p><a href="https://github.com/bloodmc/GDHooks" target="_blank" rel="noopener noreferrer"><strong>Source</strong></a><br>
 <a href="https://github.com/bloodmc/GDHooks/wiki" target="_blank" rel="noopener noreferrer"><strong>Wiki</strong></a></p>
@@ -11657,18 +10786,15 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 </ul>
 ]]></content>
     <category term="Dev"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">WECUI</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/wecui/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/wecui/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>GriefDefender now supports WECUI!</p>
-<p><img src="http://i.imgur.com/96RHwkv.jpg" alt="WECUI Preview" /></p>
+<p><img src="http://i.imgur.com/96RHwkv.jpg" alt="WECUI Preview" loading="lazy"></p>
 <p>In order to use WECUI, the following is required to be installed</p>
 <p><strong>Client</strong></p>
 <p><em><strong>1.14+</strong></em></p>
@@ -11689,16 +10815,13 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 <p><strong>Disclaimer:</strong> It's a known issue that Shaders don't get along with this feature due to Optifine having its own rendering pipeline. Shaders are probably even more custom and just plain break certain things. Resource packs, on the other hand, will work fine. Therefore, use at your own risk.</p>
 ]]></content>
     <category term="Dev"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">自定义布局</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/layout/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/layout/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<p>您可以使用带有 Markdown 支持的插槽来自定义页面布局。</p>
 <div><p>Note</p>
 <p>此处仅仅是一个演示，你应该自行根据需求添加样式。</p>
@@ -11717,26 +10840,20 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 </template><template #sidebar-bottom><p>侧边栏底部内容</p>
 </template><p>更多详情，详见 <a href="https://vuepress-theme-hope.github.io/zh/guide/layout/custom/" target="_blank" rel="noopener noreferrer">自定义布局</a>.</p>
 ]]></content>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">GriefDefender</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <updated>2022-02-18T17:18:58.000Z</updated>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Pixelmon Preset</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/resources/Pixelmon/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/resources/Pixelmon/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<div><p>Info</p>
 <p>Unlike GP where you had to set multiple flag commands for pixelmon manually, it is now highly recommended to make use of the new Flag Definition system. A flag definition combines 1 or more flag permissions into a single group which allows you to toggle all at once via GUI. Any flag definition entered in your <code>pixelmon.conf</code> will be accessible via the Flag GUI config by using <code>/cf</code> command in game. The main thing to keep in mind is all flags toggled in game will apply to claim only. However, the flags you set in config that use <code>gd_claim_default</code> or <code>gd_claim_override</code> contexts will be applied on server startup with the <code>default-value</code> you specify.</p>
 </div>
@@ -11744,16 +10861,13 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 <hr>
 ]]></content>
     <category term="Preset"/>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
   <entry>
     <title type="html">Resources</title>
     <id>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/resources/</id>
     <link href="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/resources/"/>
-    <updated>2022-01-01T07:43:26.000Z</updated>
+    <updated>2022-02-18T17:18:58.000Z</updated>
     <content type="html"><![CDATA[<div><p>Info</p>
 <p>You are always welcome to contribute your resource related to GD in following places:</p>
 <div>
@@ -11766,9 +10880,6 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 <li><a href="./Pixelmon.html">Pixelmon</a></li>
 </ul>
 ]]></content>
-    <contributor>
-      <name/>
-    </contributor>
-    <published>2022-01-01T07:43:26.000Z</published>
+    <published>2022-02-18T17:18:58.000Z</published>
   </entry>
 </feed>

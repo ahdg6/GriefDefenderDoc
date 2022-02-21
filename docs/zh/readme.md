@@ -5,7 +5,7 @@ icon: home
 title: GriefDefender
 heroImage: /logo.png
 heroText: GriefDefender
-tagline: 一个为 Bukkit 及 mods 服务器设计的领地插件!
+tagline: 一个为 Bukkit 及 Sponge 服务器设计的领地插件!
 action:
   - text: 如何使用 💡
     link: guide/

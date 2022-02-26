@@ -1,16 +1,22 @@
 ---
-title: Contexts
+title: 情境
 category: Usage
 icon: semantic
 ---
 
-# Contexts
+# 简介
 
-Contexts are a fundamental part of how GriefDefender is able to apply protection to claims. In order to understand how it works, you must first understand what a Context is. See https://luckperms.net/wiki/Context
+era情境era 常被 GD 用于限定各类行为的作用情境，要了解什么是情境，请参考 https://luckperms.net/wiki/Context
 
-Now that you have a basic understanding of what a context is and how they work with permissions, below is a list of contexts that GD uses with its flag and option command.
+常见的情境使用方法有：
+1. 限定 era标签era 的作用方式
+2. 限定 era选项era 的影响范围（比如限制某类型领地的圈地上限
+3. 限定 era权限era
+4. ...
 
-Context                                          |     Value     | Description | 
+GD 根据需要对 era情境era 进行了拓展，以便于你能客制化 era标签era 的使用体验，**下边的列表可能不是最新的，看个乐呵就好**
+
+情境 | 值 | 描述 |
 -------------------------------------------------|---------------|--------------|
 ```gd_claim```            |   ```<claim_uuid>```  | Applies flag to claim with specified uuid.
 ```gd_claim_default```    |   ```admin```<br>```basic```<br>```subdivision```<br>```town```<br>```global```<br>```user```  | Applies flag as a default to all claims of type specified. <br />Note: Use `global` as value to apply to all types.<br/>Note: Use `user` as value to apply to all types EXCEPT wilderness.

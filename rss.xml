@@ -6,8 +6,8 @@
     <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/</link>
     <description>A new way to secure your world.</description>
     <language>en-US</language>
-    <pubDate>Fri, 18 Feb 2022 17:25:45 GMT</pubDate>
-    <lastBuildDate>Fri, 18 Feb 2022 17:25:45 GMT</lastBuildDate>
+    <pubDate>Sat, 26 Feb 2022 08:51:51 GMT</pubDate>
+    <lastBuildDate>Sat, 26 Feb 2022 08:51:51 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>develop</category>
@@ -35,7 +35,7 @@
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/API/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">API</source>
       <category>develop</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="add-griefdefenderapi-to-your-project"> Add GriefDefenderAPI to your project</h2>
 <CodeGroup>
 <CodeGroupItem title="gradle">
@@ -87,7 +87,7 @@ Note: If you make use of any API methods that accepts a kyori component as param
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/Contribution/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Contrubution</source>
       <category>Dev</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="info"> Info</h2>
 <div><p>Info</p>
 <p>GriefDefenderDoc is built with <a href="https://v1.vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">VuePress</a> and <a href="https://vuepress-theme-hope.github.io/" target="_blank" rel="noopener noreferrer">Theme Hope</a> which means you can learn some editing skill from there.</p>
@@ -122,7 +122,7 @@ In the bottom of each pages there will be a button redirect you to the source fi
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/contexts/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Contexts</source>
       <category>Usage</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="contexts"> Contexts</h1>
 <p>Contexts are a fundamental part of how GriefDefender is able to apply protection to claims. In order to understand how it works, you must first understand what a Context is. See https://luckperms.net/wiki/Context</p>
 <p>Now that you have a basic understanding of what a context is and how they work with permissions, below is a list of contexts that GD uses with its flag and option command.</p>
@@ -352,7 +352,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/Debugging for more info</li>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/debugging/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Debugging</source>
       <category>Usage</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>GriefDefender is powered by permissions. Every action done in a world is checked against a specific flag permission. If you are trying to figure out what is causing an action to be blocked or not to be blocked then /gddebug is what you will need to use.</p>
 <p>Syntax
 <code>/gddebug record [filter]</code>
@@ -906,7 +906,7 @@ Note: The filter can be any word you want.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/flags/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">领地设定</source>
       <category>Flag</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="标签机制"> 标签机制</h2>
 <h3 id="era基础标签-flags-era"> era基础标签(Flags)era</h3>
 <p>GD 对一些事件进行了包装，这些事件往往常用于领地设定，成为 era预设标签era 的组成部分，我们称之为 era基础标签(Flags)era
@@ -1019,7 +1019,7 @@ Note: The filter can be any word you want.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/advanced/global-config/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Global Config</source>
       <category>Configuration</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>GriefDefender's default config offers extended customization for your server. Below is a breakdown of all default variables for your convenience.</p>
 <blockquote>
 <p>⚠️ Some options can cause irreparable changes to your data. Please ensure that you have read the sub-text found next to the variables in your generated <code>global.conf</code> file. <strong>All migration variables should ALWAYS be used AFTER a backup of your data is made.</strong> ⚠️</p>
@@ -1758,7 +1758,7 @@ For more info you can go to <a href="https://commons.apache.org/proper/commons-i
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/claim-management/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Claim Management</source>
       <category>Claim</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>GriefDefender is a plugin that provides self-service region protection functionality, giving you additional options to fine tune aspects such as door, chest, and build permissions for users or groups of users! Below some basic instructions for claim management for more fine tuned control over your claims check out the <a href="https://github.com/bloodmc/GriefDefender/wiki/Flags" target="_blank" rel="noopener noreferrer">Flags page</a>.</p>
 <p>All the examples are with the defaults at the time of writing this in mind.</p>
 <h2 id="claim-creation"> Claim Creation</h2>
@@ -2050,7 +2050,7 @@ griefdefender.admin.option.perk.fly.manager
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/claim-rent-system/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Rent System</source>
       <category>Economy</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p><img src="https://media.discordapp.net/attachments/709505646457913426/709992848963141632/2019-12-18_22.png" alt="Rent System" loading="lazy"></p>
 <p>This new system will allow you to set your claim up for rent and earn some money on the way.</p>
 <h1 id="how-to-enable-it"> How to enable it</h1>
@@ -2156,7 +2156,7 @@ Syntax is as follows<br>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/claim-types/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Claim Types</source>
       <category>Claim</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p><em>This is a work in progress page that will cover all claim types in GD - basic, subdivision, towns and admin claims.</em></p>
 <h2 id="claim-types"> Claim Types</h2>
 <p>There are four types of user claims : admin, town, basic and subdivisions, with each having a 2D and 3D mode. To switch between types use <code>/adminclaims</code>, <code>/townclaims</code> and <code>/basicclaims</code>. To switch to subdivision mode, use <code>/claimsubdivide</code>. All three main claim types support direct child claims (subdivisions) - Town, Admin and Basic.</p>
@@ -2210,7 +2210,7 @@ Note: This can be adjusted by changing <code>griefdefender.create-limit</code> t
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/custom-alias-creation/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">User-Friendly Commands</source>
       <category>Command</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="user-friendly-commands"> User-Friendly Commands</h2>
 <p>One of the multiple uses that you can implement in your server is creating alias commands that will enhance the ability and improve the use of these advanced options, making them more accesible for everyone with shorter commands.</p>
 <p>For this, you may need to install an alias plugin like CustomCommands, or the commands.yml inside of the server folder.</p>
@@ -2228,517 +2228,12 @@ Note: This can be adjusted by changing <code>griefdefender.create-limit</code> t
 ]]></content:encoded>
     </item>
     <item>
-      <title>Options</title>
-      <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/options/</link>
-      <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/options/</guid>
-      <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Options</source>
-      <category>Option</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Options, also known as Meta, are a way to configure plugins using player/group contexts through your permission system, this gives you the benefit of being able to set different settings for different players, groups, worlds etc.</p>
-<p>Default values can be changed in <code>options.conf</code>, for finer control continue reading below.</p>
-<h2 id="built-in-commands"> Built-in Commands</h2>
-<p>Options support the same format as flags</p>
-<p>Claim - <code>/claimoption &lt;option&gt; &lt;value&gt; [contexts]</code><br>
-Player - <code>/cop &lt;player&gt; &lt;option&gt; &lt;value&gt; [contexts]</code><br>
-Group - <code>/cog &lt;group&gt; &lt;option&gt; &lt;value&gt; [contexts]</code></p>
-<h3 id="contexts"> Contexts</h3>
-<p>All options may use one or more contexts when applied as meta in LuckPerms.<br>
-See https://github.com/bloodmc/GriefDefender/wiki/Contexts on what contexts you can use and how they work.</p>
-<h3 id="examples"> Examples</h3>
-<ul>
-<li>Send a welcome message to players entering a claim as console.<br>
-<code>/claimoption player-command-enter &quot;/tellraw %player% [\&quot;\&quot;,{\&quot;text\&quot;:\&quot;Welcome %player%!\&quot;,\&quot;color\&quot;:\&quot;gold\&quot;},{\&quot;text\&quot;:\&quot;\\nYou are visiting %owner%s claim.\\nEnjoy your stay!\\n\\n-\&quot;}]&quot; context[run_for=member, run_as=console]</code></li>
-<li>Set group vip's <code>create-limit</code> to 100 default for basic claims.<br>
-<code>/cog vip create-limit 100 context[default=basic]</code></li>
-<li>Set player JoeSmith's <code>expiration</code> to 30 days default for basic claims.<br>
-<code>/cop JoeSmith expiration 30 context[default=basic]</code></li>
-</ul>
-<p>Using <code>/claimoption</code> with no arguments opens up the GUI and displays all claim options for claim you are standing in including default options that affect all claims.</p>
-<h2 id="luckperms"> LuckPerms</h2>
-<p><code>/lp user/group &lt;user|group&gt; meta set &lt;option&gt; &lt;value&gt; [contexts]</code></p>
-<p>Ex1. Set create basic claim limit of 50 for a group called <code>vip</code><br>
-<code>/lp group vip meta set griefdefender.create-limit 50 gd_claim_default=basic server=global</code></p>
-<p>Ex1. Set create basic claim limit of 50 for a group called <code>vip</code> on server mc01<br>
-<code>/lp group vip meta set griefdefender.create-limit 50 gd_claim_default=basic server=mc01</code></p>
-<p>Reset all users accrued claimblocks<br>
-<code>/lp bulkupdate users delete &quot;permission ~~ meta.griefdefender\\.accrued-blocks.%&quot;</code></p>
-<p>Reset all users bonus claimblocks<br>
-<code>/lp bulkupdate users delete &quot;permission ~~ meta.griefdefender\\.bonus-blocks.%&quot;</code></p>
-<p>See https://luckperms.net/wiki/Prefixes,-Suffixes-&amp;-Meta and https://luckperms.net/wiki/Meta-Commands for more information on how to use it directly in LuckPerms</p>
-<h2 id="global-options"> Global Options</h2>
-<p>Global Options can be set globally, or on a server, world, group or player.<br>
-They cannot be set on individual claims or claim types.</p>
-<p>Permissions for using Global Options are <code>griefdefender.admin.claim.option.global.&lt;optionname&gt;</code></p>
-<table>
-<thead>
-<tr>
-<th>Option</th>
-<th>Default Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>griefdefender.abandon-return-ratio</code></td>
-<td>1.0</td>
-<td>The portion of claim blocks returned to a player when a claim is abandoned. Note: When using Economy Mode, this is the ratio of funds returned when abandoning a claim.</td>
-</tr>
-<tr>
-<td><code>griefdefender.accrued-blocks</code></td>
-<td>0</td>
-<td>The total number of claim blocks accrued by a player. <br />Note: This does not account for bonus blocks, and has no use/effect being set on a group.</td>
-</tr>
-<tr>
-<td><code>griefdefender.blocks-accrued-per-hour</code></td>
-<td>120</td>
-<td>Blocks earned per hour. By default, each 'active' player should receive 6 blocks every 5 min.  Note: The player must have moved at least 3 blocks since last delivery. If using 'wilderness-cuboids', this value is 30720 by default with 1536 blocks every 5 min to players. Minimum setting is 12 due to 5 minute check interval, setting it lower will result in no blocks accruing.</td>
-</tr>
-<tr>
-<td><code>griefdefender.bonus-blocks</code></td>
-<td>0</td>
-<td>The total number of bonus claim blocks given to a player, and has no use/effect being set on a group.</td>
-</tr>
-<tr>
-<td><code>griefdefender.chest-expiration</code></td>
-<td>7</td>
-<td>Number of days of inactivity before an automatic chest claim will be deleted.</td>
-</tr>
-<tr>
-<td><code>griefdefender.economy-block-cost</code></td>
-<td>0.0</td>
-<td>The economy amount to charge per block of a claim. <br />Note: If set to 0 or less, the buy block feature will be disabled.</td>
-</tr>
-<tr>
-<td><code>griefdefender.economy-block-sell-return</code></td>
-<td>0.0</td>
-<td>The return ratio for selling claim blocks. <br />Note: If set to 0 or less, the sell block feature will be disabled.</td>
-</tr>
-<tr>
-<td><code>griefdefender.expiration</code></td>
-<td>14</td>
-<td>Number of days of inactivity before a claim will be deleted.<br />Note: If set to 0, it will disable claim expiration for user/group.</td>
-</tr>
-<tr>
-<td><code>griefdefender.initial-blocks</code></td>
-<td>120</td>
-<td>The number of bonus starter claim blocks a player has initially. <br />Note: This number is not counted as part of accrued blocks. <br />Note: If using 'wilderness-cuboids', this value is 25600 by default.</td>
-</tr>
-<tr>
-<td><code>griefdefender.max-accrued-blocks</code></td>
-<td>80000</td>
-<td>The limit on accrued blocks (over time). doesn't limit purchased or admin-gifted blocks. <br />Note: If using 'wilderness-cuboids', this value is 20480000 by default. <br />Note: This setting will affect <code>/scb</code> command.</td>
-</tr>
-<tr>
-<td><code>griefdefender.max-bonus-blocks</code></td>
-<td>-1</td>
-<td>The maximum amount of bonus blocks a player can obtain. <br />Note: Set to -1 or less to make unlimited. <br />Note: This setting will affect commands <code>/acb</code> and <code>/buyclaimblocks</code>, use with caution.</td>
-</tr>
-<tr>
-<td><code>griefdefender.radius-inspect</code></td>
-<td>100</td>
-<td>The radius in blocks used to search for nearby claims while inspecting.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="claim-options"> Claim Options</h2>
-<p>Claim Options can be set on individual claims, claim types, server, world, group or player.</p>
-<p>Permissions for using Claim Options are <code>griefdefender.user.claim.option.&lt;optionname&gt;</code></p>
-<table>
-<thead>
-<tr>
-<th>Option</th>
-<th>Default Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>griefdefender.abandon-delay</code></td>
-<td>0</td>
-<td>The number of days to delay before allowing a player to abandon a newly created claim.</td>
-</tr>
-<tr>
-<td><code>griefdefender.create-mode</code></td>
-<td>area</td>
-<td>The default claiming mode set for players on login. (area = 2D, volume = 3D)</td>
-</tr>
-<tr>
-<td><code>griefdefender.create-limit</code></td>
-<td>-1</td>
-<td>Maximum number of claims per player. (-1 = unlimited)</td>
-</tr>
-<tr>
-<td><code>griefdefender.min-level</code><br><code>griefdefender.max-level</code></td>
-<td>0/255</td>
-<td>The minimum/maximum level that a claim can be created in.</td>
-</tr>
-<tr>
-<td><code>griefdefender.min-size-x</code><br><code>griefdefender.max-size-x</code></td>
-<td>10/5000</td>
-<td>The min/max size in blocks that the x-axis can be.</td>
-</tr>
-<tr>
-<td><code>griefdefender.min-size-y</code><br><code>griefdefender.max-size-y</code></td>
-<td>5/256</td>
-<td>The min/max size in blocks that the y-axis can be.</td>
-</tr>
-<tr>
-<td><code>griefdefender.min-size-z</code><br><code>griefdefender.max-size-z</code></td>
-<td>10/5000</td>
-<td>The min/max size in blocks that the z-axis can be.</td>
-</tr>
-<tr>
-<td><code>griefdefender.player-command-enter</code></td>
-<td>undefined</td>
-<td>Used for executing a command on claim enter with specific contexts. Accepts the following placeholders : %player%, %owner%, %uuid%, %world%, %server%, %location%</td>
-</tr>
-<tr>
-<td><code>griefdefender.player-command-exit</code></td>
-<td>undefined</td>
-<td>Used for executing a command on claim exit with specific contexts. Accepts the following placeholders : %player%, %owner%, %uuid%, %world%, %server%, %location%</td>
-</tr>
-<tr>
-<td><code>griefdefender.player-deny-flight</code></td>
-<td>false</td>
-<td>Used to determine if a player is unable to fly in a claim.  Note: This does not give players the ability to fly, it merely removes the ability if set. This provides the greatest compatibility with plugins.</td>
-</tr>
-<tr>
-<td><code>griefdefender.player-weather</code></td>
-<td>undefined</td>
-<td>Used to a set player's weather in a claim. Supported types are clear and rain.</td>
-</tr>
-<tr>
-<td><code>griefdefender.pvp</code></td>
-<td>undefined</td>
-<td>Used to determine if players can combat each other.</td>
-</tr>
-<tr>
-<td><code>griefdefender.pvp-combat-command</code></td>
-<td>false</td>
-<td>Used to determine if a player can use commands during PvP combat.</td>
-</tr>
-<tr>
-<td><code>griefdefender.pvp-combat-teleport</code></td>
-<td>false</td>
-<td>Used to determine if a player can teleport during PvP combat.</td>
-</tr>
-<tr>
-<td><code>griefdefender.pvp-combat-timeout</code></td>
-<td>15</td>
-<td>Used to determine how many seconds PvP combat is considered to continue after the most recent damage.</td>
-</tr>
-<tr>
-<td><code>griefdefender.rent-restore</code></td>
-<td>false</td>
-<td>Used to determine if a rent owner has permission to have their claim automatically restored on rent end date.<br />Note: This requires the claim rental to have an end date.</td>
-</tr>
-<tr>
-<td><code>griefdefender.tax-expiration</code></td>
-<td>7</td>
-<td>Number of days after not paying taxes before a claim will be frozen.</td>
-</tr>
-<tr>
-<td><code>griefdefender.tax-expiration-days-keep</code></td>
-<td>7</td>
-<td>Number of days to keep a claim after frozen and before being deleted</td>
-</tr>
-<tr>
-<td><code>griefdefender.tax-rate</code></td>
-<td>1.0</td>
-<td>Tax is calculated by the number of claimblocks in the claim. <code>Number of claimblocks * tax-rate</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="admin-options"> Admin Options</h2>
-<p>Admin Options can be set on individual claims, claim types, server, world, group or player.</p>
-<p>Permissions for using Admin Options are <code>griefdefender.admin.claim.option.admin.&lt;optionname&gt;</code></p>
-<table>
-<thead>
-<tr>
-<th>Option</th>
-<th>Default Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>griefdefender.player-deny-godmode</code></td>
-<td>false</td>
-<td>Used to determine if a player can be in godmode within a claim.  Note: This does not give players the ability to be in godmode, it merely removes the ability if set. This provides the greatest compatibility with plugins.</td>
-</tr>
-<tr>
-<td><code>griefdefender.player-deny-hunger</code></td>
-<td>false</td>
-<td>Used to if a player's hunger is denied in a claim.</td>
-</tr>
-<tr>
-<td><code>griefdefender.player-gamemode</code></td>
-<td>undefined</td>
-<td>Used to determine the gamemode of a player in a claim. Accepts the following values : ADVENTURE, CREATIVE, SURVIVAL, SPECTATOR, UNDEFINED.</td>
-</tr>
-<tr>
-<td><code>griefdefender.player-health-regen</code></td>
-<td>0.0</td>
-<td>Used to set the health regen amount for a player in a claim.  Note: If the player is at max health, this will have no effect.</td>
-</tr>
-<tr>
-<td><code>griefdefender.player-keep-inventory</code></td>
-<td>undefined</td>
-<td>Used to determine if a player can keep inventory after death in a claim.</td>
-</tr>
-<tr>
-<td><code>griefdefender.player-keep-level</code></td>
-<td>undefined</td>
-<td>Used to determine if a player can keep their level after death in a claim.</td>
-</tr>
-<tr>
-<td><code>griefdefender.player-teleport-delay</code></td>
-<td>undefined</td>
-<td>Used to determine the delay before teleporting a player to a new location.</td>
-</tr>
-<tr>
-<td><code>griefdefender.player-walk-speed</code></td>
-<td>-1.0</td>
-<td>Used to set a player's walk speed in a claim.  Note: (-1 = undefined)</td>
-</tr>
-<tr>
-<td><code>griefdefender.spawn-limit</code></td>
-<td>0</td>
-<td>The limit of entity spawns a claim can have.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="option-config"> Option Config</h2>
-<p>On server startup, GD will generate a file named <code>options.conf</code> which will have various settings to manage options.</p>
-<h3 id="default-options"> Default Options</h3>
-<p>The default options section <code>default-options</code> controls the default transient meta values that GD will set in LP at server startup.<br>
-There are 4 subsections within this section.</p>
-<table>
-<thead>
-<tr>
-<th>Variable</th>
-<th>Description</th>
-<th>Default Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>default-user-options</td>
-<td>The default user options for all players. <br />Note: Setting default claim type options will override this.</td>
-<td>[ ]</td>
-</tr>
-<tr>
-<td>default-user-basic-options</td>
-<td>The default options applied to users for basic claims. <br />Note: These options override default global options.</td>
-<td>[ ]</td>
-</tr>
-<tr>
-<td>default-user-subdivision-options</td>
-<td>The default options applied to users for subdivisions. <br />Note: These options override default global options.</td>
-<td>[ ]</td>
-</tr>
-<tr>
-<td>default-user-town-options</td>
-<td>The default options applied to users for towns. <br />Note: These options override default global options.</td>
-<td>[ ]</td>
-</tr>
-</tbody>
-</table>
-<h3 id="option-control"> Option Control</h3>
-<p>The option control section lets you enable/disable option functionality. By default, all player/pvp and spawn options are disabled. To enable this functionality, you will need to set the corresponding option to true.</p>
-<p>Here are the delivered options that can be controlled</p>
-<div><pre><code>option-control {
-    player-command-enter=false
-    player-command-exit=false
-    player-deny-flight=false
-    player-deny-godmode=false
-    player-deny-hunger=false
-    player-fly-speed=false
-    player-gamemode=false
-    player-health-regen=false
-    player-keep-inventory=false
-    player-keep-level=false
-    player-teleport-delay=false
-    player-walk-speed=false
-    player-weather=false
-    pvp=false
-    pvp-combat-command=false
-    pvp-combat-teleport=false
-    pvp-combat-timeout=false
-    spawn-limit=false
-}
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div><h3 id="vanilla-fallback-values"> Vanilla fallback values</h3>
-<p>This section is currently only used for player fly and walk default speeds. If your server uses a different default value, you can adjust it here.</p>
-<p>The delivered defaults are</p>
-<div><pre><code>vanilla-fallback-values {
-    player-fly-speed=&quot;0.1&quot;
-    player-walk-speed=&quot;0.2&quot;
-}
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>PVP</title>
-      <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/pvp/</link>
-      <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/pvp/</guid>
-      <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">PVP</source>
-      <category>Conf</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
-      <content:encoded><![CDATA[<p>GriefDefender has the ability to control PvP globally, per user/group, or per claim.</p>
-<p>Here are a few examples on how to configure PvP<br>
-Note: These examples assume a clean installation with no modified settings.</p>
-<h3 id="disable-pvp-on-server"> Disable PvP on server</h3>
-<p>To disable PvP on server, open <code>server.properties</code> and set <code>pvp</code> to false (On Sponge, set PVP to false in the Sponge config).</p>
-<h3 id="disable-pvp-globally-except-specific-claims"> Disable PvP globally except specific claims</h3>
-<ol>
-<li>Open <code>presets/minecraft.conf</code> in the GD config directory.</li>
-<li>Change <code>default-value=true</code> to <code>default-value=false</code> under the <code>pvp</code> definition</li>
-<li>Toggle the <code>pvp</code> definition to true in claims where pvp is wanted</li>
-<li>Optional: Move the <code>pvp</code> flag definition from USER to ADMIN in <code>minecraft.conf</code></li>
-<li><code>/gdreload</code></li>
-</ol>
-<h3 id="disable-pvp-for-a-specific-player"> Disable PvP for a specific player</h3>
-<ol>
-<li>Run command <code>/cfp &lt;player&gt; entity-damage player false context[source=player, override=global]</code></li>
-</ol>
-<h3 id="disable-pvp-for-a-specific-group-of-users"> Disable PvP for a specific group of users</h3>
-<ol>
-<li>Run command <code>/cfg &lt;group&gt; entity-damage player false context[source=player, override=global]</code></li>
-</ol>
-<h3 id="allow-pvp-globally-except-specific-claims"> Allow PvP globally except specific claims</h3>
-<p>If you want to allow users to enable/disable PvP then have them do the following</p>
-<ol>
-<li>Run command <code>/cf</code> to launch flag GUI.</li>
-<li>Make sure <code>PRESET</code> <code>USER</code> tab is selected.</li>
-<li>Toggle <code>pvp</code> to <code>false</code>.</li>
-</ol>
-<h3 id="allow-users-to-configure-pvp-as-they-wish"> Allow users to configure PvP as they wish</h3>
-<ol>
-<li>Run command <code>/cf</code> to launch flag GUI.</li>
-<li>Make sure <code>PRESET</code> <code>USER</code> tab is selected.</li>
-<li>Toggle <code>pvp</code> to <code>false</code> or <code>true</code>.</li>
-</ol>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tags System</title>
-      <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/tags/</link>
-      <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/tags/</guid>
-      <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Tags System</source>
-      <category>Tag</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
-      <content:encoded><![CDATA[<p>A <code>Tag</code> is a new system introduced in Minecraft 1.13 that allows users to group one or more item, block, entity identifiers under a single group known as a tag. GriefDefender integrates into the tag system and exposes all available tags as contexts that can applied with a flag or option.</p>
-<p>For example, lets say you wanted to allow interaction with the following standing signs</p>
-<ul>
-<li>oak_sign, spruce_sign, birch_sign, acacia_sign, jungle_sign, dark_oak_sign, crimson_sign, warped_sign</li>
-</ul>
-<p>Without tags, you would have to create a flag that targets each sign identifier like so via flag command</p>
-<div><pre><code>/cf interact-block-secondary oak_sign true
-/cf interact-block-secondary spruce_sign true
-/cf interact-block-secondary birch_sign true
-etc..
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>This would become tedious very quickly and clutter up your permissions.</p>
-<p>With the tag system, you can use the delivered tag for all standing signs named <a href="https://minecraft.gamepedia.com/Tag#blocks_standing_signs" target="_blank" rel="noopener noreferrer">#standing_signs</a></p>
-<p>So the above commands would become one single command</p>
-<div><pre><code>/cf interact-block-secondary #standing_signs
-</code></pre>
-<div><span>1</span><br></div></div><p>This gives the user extreme flexibility for protecting not just one thing but many.<br>
-Note: Tag names will ALWAYS begin with the character <code>#</code></p>
-<p>Now let's assume you have special needs and the delivered vanilla tags do not provide everything for your server.<br>
-This is where a <a href="https://minecraft.gamepedia.com/Data_Pack" target="_blank" rel="noopener noreferrer">Data Pack</a> would come into play.</p>
-<p>A <a href="https://minecraft.gamepedia.com/Data_Pack" target="_blank" rel="noopener noreferrer">Data Pack</a> allows a server admin to enhance the minecraft experience with custom advancements, recipes, loot tables, tags, and more.</p>
-<p>To create a datapack to use custom tags for your server , the following would have to be done</p>
-<ol>
-<li>Navigate to world folder you want to use datapack in.<br>
-Ex. <code>./world/datapacks</code></li>
-<li>Create a datapack by following instructions <a href="https://minecraft.gamepedia.com/Data_Pack" target="_blank" rel="noopener noreferrer">here</a><br>
-Note: The datapacks folder structure should be setup as follows within the world folder</li>
-</ol>
-<div><pre><code>datapacks/
-└── &lt;datapack_name&gt;/
-    ├── data/
-    │   ├── &lt;namespace&gt;/
-    │   │   ├── tags/
-    │   │   │   ├── blocks/
-    │   │   │   ├── entity_types/
-    │   │   │   ├── fluids/
-    │   │   │   └── items/
-    │   │   └── other...
-    │   └── 
-    └── pack.mcmeta
-
-Note: An actual example can be found in the root of the minecraft server jar within folder `data`  
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><ol start="3">
-<li>Create as many tags as you want within your datapack and add any other custom data you require inside it.</li>
-<li>Launch server</li>
-<li>Verify your datapack has been loaded by running command <code>/datapack list enabled</code>. See <a href="https://minecraft.gamepedia.com/Data_Pack" target="_blank" rel="noopener noreferrer">DataPack Command</a> for more info<br>
-Note: If your datapack is not enabled then your datapack structure shown in step 2 is most likely wrong.</li>
-</ol>
-<p>If you managed to load your datapack successfully, GD will automatically load all tags into its context registry for you to use with flags.</p>
-<p>To verify tags are working with specific actions in GriefDefender, run the <code>/gddebug</code> command and check the context column which will display any tags if used.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Trust System</title>
-      <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/trust-system/</link>
-      <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/trust-system/</guid>
-      <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Trust System</source>
-      <category>Claim</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
-      <content:encoded><![CDATA[<p>There four different types of trust: Accessors, Builders, Containers, and Managers.</p>
-<h3 id="arguments"> Arguments</h3>
-<table>
-<thead>
-<tr>
-<th>Arguments</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>&lt;player&gt;</code></td>
-<td>The player to trust.</td>
-</tr>
-<tr>
-<td><code>&lt;group&gt;</code></td>
-<td>The group to trust. Note: If you want to trust everyone, use <code>public</code>.</td>
-</tr>
-<tr>
-<td><code>&lt;type&gt;</code></td>
-<td>The type of trust [none, accessor, builder, container, manager]. Note: If you want to remove trust, use <code>none</code>. <br><em>None</em>: <code>Revokes a player/group's access to your claim</code><br><em>Accessor</em>: <code>Grants a player/group access to interact with all blocks except inventory</code><br><em>Container</em>: <code>Grants a player/group access to interact with all blocks including inventory</code><br><em>Builder</em>: <code>Grants a player/group edit access to everything above including ability to place and break blocks</code><br><em>Manager</em>: <code>Grants a player/group access to all of the above including ability to modify claim</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="trust-player"> Trust Player</h3>
-<p><strong>Command</strong>: <code>/gd trust player &lt;player&gt; &lt;type&gt;</code><br>
-<strong>Alias</strong>: <code>trust</code><br>
-<strong>Example</strong>: <code>/gd trust player Kratos basic</code></p>
-<p>Grants a player access to your claim(s)</p>
-<h3 id="trust-group"> Trust Group</h3>
-<p><strong>Command</strong>: <code>/gd trust group &lt;group&gt; &lt;type&gt;</code><br>
-<strong>Alias</strong>: <code>trust</code></p>
-<p>Grants a group access to your claim(s)</p>
-<h3 id="remove-trust-player"> Remove Trust Player</h3>
-<p><strong>Command</strong>: <code>/gd trust player &lt;player&gt; none</code></p>
-<p>Revokes a player's access to all your claims.</p>
-<h3 id="remove-trust-group"> Remove Trust Group</h3>
-<p><strong>Command</strong>: <code>/gd trust group &lt;group&gt; none</code></p>
-<p>Revokes a group's access to all your claims.</p>
-<h2 id="list-trusted"> List Trusted</h2>
-<p><strong>Command</strong>: <code>/trustlist</code></p>
-<p>Lists currently trusted players and the trust type.</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Flag Definition</title>
       <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/flag-definitions-gui/</link>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/flag-definitions-gui/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Flag Definition</source>
       <category>Flag</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="overview"> Overview</h2>
 <p>The flag definition system provides both users and admins the ability to manage their claim flags with ease.
 GriefDefender delivers a bundle of flag definitions by default to provide the best compatibility across servers.
@@ -4123,12 +3618,517 @@ There are 2 delivered groups that GD ships with, <code>USER</code> and <code>ADM
       <enclosure url="https://i.imgur.com/tSVSC7q.png" type="image/png"/>
     </item>
     <item>
+      <title>Options</title>
+      <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/options/</link>
+      <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/options/</guid>
+      <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Options</source>
+      <category>Option</category>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Options, also known as Meta, are a way to configure plugins using player/group contexts through your permission system, this gives you the benefit of being able to set different settings for different players, groups, worlds etc.</p>
+<p>Default values can be changed in <code>options.conf</code>, for finer control continue reading below.</p>
+<h2 id="built-in-commands"> Built-in Commands</h2>
+<p>Options support the same format as flags</p>
+<p>Claim - <code>/claimoption &lt;option&gt; &lt;value&gt; [contexts]</code><br>
+Player - <code>/cop &lt;player&gt; &lt;option&gt; &lt;value&gt; [contexts]</code><br>
+Group - <code>/cog &lt;group&gt; &lt;option&gt; &lt;value&gt; [contexts]</code></p>
+<h3 id="contexts"> Contexts</h3>
+<p>All options may use one or more contexts when applied as meta in LuckPerms.<br>
+See https://github.com/bloodmc/GriefDefender/wiki/Contexts on what contexts you can use and how they work.</p>
+<h3 id="examples"> Examples</h3>
+<ul>
+<li>Send a welcome message to players entering a claim as console.<br>
+<code>/claimoption player-command-enter &quot;/tellraw %player% [\&quot;\&quot;,{\&quot;text\&quot;:\&quot;Welcome %player%!\&quot;,\&quot;color\&quot;:\&quot;gold\&quot;},{\&quot;text\&quot;:\&quot;\\nYou are visiting %owner%s claim.\\nEnjoy your stay!\\n\\n-\&quot;}]&quot; context[run_for=member, run_as=console]</code></li>
+<li>Set group vip's <code>create-limit</code> to 100 default for basic claims.<br>
+<code>/cog vip create-limit 100 context[default=basic]</code></li>
+<li>Set player JoeSmith's <code>expiration</code> to 30 days default for basic claims.<br>
+<code>/cop JoeSmith expiration 30 context[default=basic]</code></li>
+</ul>
+<p>Using <code>/claimoption</code> with no arguments opens up the GUI and displays all claim options for claim you are standing in including default options that affect all claims.</p>
+<h2 id="luckperms"> LuckPerms</h2>
+<p><code>/lp user/group &lt;user|group&gt; meta set &lt;option&gt; &lt;value&gt; [contexts]</code></p>
+<p>Ex1. Set create basic claim limit of 50 for a group called <code>vip</code><br>
+<code>/lp group vip meta set griefdefender.create-limit 50 gd_claim_default=basic server=global</code></p>
+<p>Ex1. Set create basic claim limit of 50 for a group called <code>vip</code> on server mc01<br>
+<code>/lp group vip meta set griefdefender.create-limit 50 gd_claim_default=basic server=mc01</code></p>
+<p>Reset all users accrued claimblocks<br>
+<code>/lp bulkupdate users delete &quot;permission ~~ meta.griefdefender\\.accrued-blocks.%&quot;</code></p>
+<p>Reset all users bonus claimblocks<br>
+<code>/lp bulkupdate users delete &quot;permission ~~ meta.griefdefender\\.bonus-blocks.%&quot;</code></p>
+<p>See https://luckperms.net/wiki/Prefixes,-Suffixes-&amp;-Meta and https://luckperms.net/wiki/Meta-Commands for more information on how to use it directly in LuckPerms</p>
+<h2 id="global-options"> Global Options</h2>
+<p>Global Options can be set globally, or on a server, world, group or player.<br>
+They cannot be set on individual claims or claim types.</p>
+<p>Permissions for using Global Options are <code>griefdefender.admin.claim.option.global.&lt;optionname&gt;</code></p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Default Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>griefdefender.abandon-return-ratio</code></td>
+<td>1.0</td>
+<td>The portion of claim blocks returned to a player when a claim is abandoned. Note: When using Economy Mode, this is the ratio of funds returned when abandoning a claim.</td>
+</tr>
+<tr>
+<td><code>griefdefender.accrued-blocks</code></td>
+<td>0</td>
+<td>The total number of claim blocks accrued by a player. <br />Note: This does not account for bonus blocks, and has no use/effect being set on a group.</td>
+</tr>
+<tr>
+<td><code>griefdefender.blocks-accrued-per-hour</code></td>
+<td>120</td>
+<td>Blocks earned per hour. By default, each 'active' player should receive 6 blocks every 5 min.  Note: The player must have moved at least 3 blocks since last delivery. If using 'wilderness-cuboids', this value is 30720 by default with 1536 blocks every 5 min to players. Minimum setting is 12 due to 5 minute check interval, setting it lower will result in no blocks accruing.</td>
+</tr>
+<tr>
+<td><code>griefdefender.bonus-blocks</code></td>
+<td>0</td>
+<td>The total number of bonus claim blocks given to a player, and has no use/effect being set on a group.</td>
+</tr>
+<tr>
+<td><code>griefdefender.chest-expiration</code></td>
+<td>7</td>
+<td>Number of days of inactivity before an automatic chest claim will be deleted.</td>
+</tr>
+<tr>
+<td><code>griefdefender.economy-block-cost</code></td>
+<td>0.0</td>
+<td>The economy amount to charge per block of a claim. <br />Note: If set to 0 or less, the buy block feature will be disabled.</td>
+</tr>
+<tr>
+<td><code>griefdefender.economy-block-sell-return</code></td>
+<td>0.0</td>
+<td>The return ratio for selling claim blocks. <br />Note: If set to 0 or less, the sell block feature will be disabled.</td>
+</tr>
+<tr>
+<td><code>griefdefender.expiration</code></td>
+<td>14</td>
+<td>Number of days of inactivity before a claim will be deleted.<br />Note: If set to 0, it will disable claim expiration for user/group.</td>
+</tr>
+<tr>
+<td><code>griefdefender.initial-blocks</code></td>
+<td>120</td>
+<td>The number of bonus starter claim blocks a player has initially. <br />Note: This number is not counted as part of accrued blocks. <br />Note: If using 'wilderness-cuboids', this value is 25600 by default.</td>
+</tr>
+<tr>
+<td><code>griefdefender.max-accrued-blocks</code></td>
+<td>80000</td>
+<td>The limit on accrued blocks (over time). doesn't limit purchased or admin-gifted blocks. <br />Note: If using 'wilderness-cuboids', this value is 20480000 by default. <br />Note: This setting will affect <code>/scb</code> command.</td>
+</tr>
+<tr>
+<td><code>griefdefender.max-bonus-blocks</code></td>
+<td>-1</td>
+<td>The maximum amount of bonus blocks a player can obtain. <br />Note: Set to -1 or less to make unlimited. <br />Note: This setting will affect commands <code>/acb</code> and <code>/buyclaimblocks</code>, use with caution.</td>
+</tr>
+<tr>
+<td><code>griefdefender.radius-inspect</code></td>
+<td>100</td>
+<td>The radius in blocks used to search for nearby claims while inspecting.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="claim-options"> Claim Options</h2>
+<p>Claim Options can be set on individual claims, claim types, server, world, group or player.</p>
+<p>Permissions for using Claim Options are <code>griefdefender.user.claim.option.&lt;optionname&gt;</code></p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Default Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>griefdefender.abandon-delay</code></td>
+<td>0</td>
+<td>The number of days to delay before allowing a player to abandon a newly created claim.</td>
+</tr>
+<tr>
+<td><code>griefdefender.create-mode</code></td>
+<td>area</td>
+<td>The default claiming mode set for players on login. (area = 2D, volume = 3D)</td>
+</tr>
+<tr>
+<td><code>griefdefender.create-limit</code></td>
+<td>-1</td>
+<td>Maximum number of claims per player. (-1 = unlimited)</td>
+</tr>
+<tr>
+<td><code>griefdefender.min-level</code><br><code>griefdefender.max-level</code></td>
+<td>0/255</td>
+<td>The minimum/maximum level that a claim can be created in.</td>
+</tr>
+<tr>
+<td><code>griefdefender.min-size-x</code><br><code>griefdefender.max-size-x</code></td>
+<td>10/5000</td>
+<td>The min/max size in blocks that the x-axis can be.</td>
+</tr>
+<tr>
+<td><code>griefdefender.min-size-y</code><br><code>griefdefender.max-size-y</code></td>
+<td>5/256</td>
+<td>The min/max size in blocks that the y-axis can be.</td>
+</tr>
+<tr>
+<td><code>griefdefender.min-size-z</code><br><code>griefdefender.max-size-z</code></td>
+<td>10/5000</td>
+<td>The min/max size in blocks that the z-axis can be.</td>
+</tr>
+<tr>
+<td><code>griefdefender.player-command-enter</code></td>
+<td>undefined</td>
+<td>Used for executing a command on claim enter with specific contexts. Accepts the following placeholders : %player%, %owner%, %uuid%, %world%, %server%, %location%</td>
+</tr>
+<tr>
+<td><code>griefdefender.player-command-exit</code></td>
+<td>undefined</td>
+<td>Used for executing a command on claim exit with specific contexts. Accepts the following placeholders : %player%, %owner%, %uuid%, %world%, %server%, %location%</td>
+</tr>
+<tr>
+<td><code>griefdefender.player-deny-flight</code></td>
+<td>false</td>
+<td>Used to determine if a player is unable to fly in a claim.  Note: This does not give players the ability to fly, it merely removes the ability if set. This provides the greatest compatibility with plugins.</td>
+</tr>
+<tr>
+<td><code>griefdefender.player-weather</code></td>
+<td>undefined</td>
+<td>Used to a set player's weather in a claim. Supported types are clear and rain.</td>
+</tr>
+<tr>
+<td><code>griefdefender.pvp</code></td>
+<td>undefined</td>
+<td>Used to determine if players can combat each other.</td>
+</tr>
+<tr>
+<td><code>griefdefender.pvp-combat-command</code></td>
+<td>false</td>
+<td>Used to determine if a player can use commands during PvP combat.</td>
+</tr>
+<tr>
+<td><code>griefdefender.pvp-combat-teleport</code></td>
+<td>false</td>
+<td>Used to determine if a player can teleport during PvP combat.</td>
+</tr>
+<tr>
+<td><code>griefdefender.pvp-combat-timeout</code></td>
+<td>15</td>
+<td>Used to determine how many seconds PvP combat is considered to continue after the most recent damage.</td>
+</tr>
+<tr>
+<td><code>griefdefender.rent-restore</code></td>
+<td>false</td>
+<td>Used to determine if a rent owner has permission to have their claim automatically restored on rent end date.<br />Note: This requires the claim rental to have an end date.</td>
+</tr>
+<tr>
+<td><code>griefdefender.tax-expiration</code></td>
+<td>7</td>
+<td>Number of days after not paying taxes before a claim will be frozen.</td>
+</tr>
+<tr>
+<td><code>griefdefender.tax-expiration-days-keep</code></td>
+<td>7</td>
+<td>Number of days to keep a claim after frozen and before being deleted</td>
+</tr>
+<tr>
+<td><code>griefdefender.tax-rate</code></td>
+<td>1.0</td>
+<td>Tax is calculated by the number of claimblocks in the claim. <code>Number of claimblocks * tax-rate</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="admin-options"> Admin Options</h2>
+<p>Admin Options can be set on individual claims, claim types, server, world, group or player.</p>
+<p>Permissions for using Admin Options are <code>griefdefender.admin.claim.option.admin.&lt;optionname&gt;</code></p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Default Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>griefdefender.player-deny-godmode</code></td>
+<td>false</td>
+<td>Used to determine if a player can be in godmode within a claim.  Note: This does not give players the ability to be in godmode, it merely removes the ability if set. This provides the greatest compatibility with plugins.</td>
+</tr>
+<tr>
+<td><code>griefdefender.player-deny-hunger</code></td>
+<td>false</td>
+<td>Used to if a player's hunger is denied in a claim.</td>
+</tr>
+<tr>
+<td><code>griefdefender.player-gamemode</code></td>
+<td>undefined</td>
+<td>Used to determine the gamemode of a player in a claim. Accepts the following values : ADVENTURE, CREATIVE, SURVIVAL, SPECTATOR, UNDEFINED.</td>
+</tr>
+<tr>
+<td><code>griefdefender.player-health-regen</code></td>
+<td>0.0</td>
+<td>Used to set the health regen amount for a player in a claim.  Note: If the player is at max health, this will have no effect.</td>
+</tr>
+<tr>
+<td><code>griefdefender.player-keep-inventory</code></td>
+<td>undefined</td>
+<td>Used to determine if a player can keep inventory after death in a claim.</td>
+</tr>
+<tr>
+<td><code>griefdefender.player-keep-level</code></td>
+<td>undefined</td>
+<td>Used to determine if a player can keep their level after death in a claim.</td>
+</tr>
+<tr>
+<td><code>griefdefender.player-teleport-delay</code></td>
+<td>undefined</td>
+<td>Used to determine the delay before teleporting a player to a new location.</td>
+</tr>
+<tr>
+<td><code>griefdefender.player-walk-speed</code></td>
+<td>-1.0</td>
+<td>Used to set a player's walk speed in a claim.  Note: (-1 = undefined)</td>
+</tr>
+<tr>
+<td><code>griefdefender.spawn-limit</code></td>
+<td>0</td>
+<td>The limit of entity spawns a claim can have.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="option-config"> Option Config</h2>
+<p>On server startup, GD will generate a file named <code>options.conf</code> which will have various settings to manage options.</p>
+<h3 id="default-options"> Default Options</h3>
+<p>The default options section <code>default-options</code> controls the default transient meta values that GD will set in LP at server startup.<br>
+There are 4 subsections within this section.</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+<th>Default Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>default-user-options</td>
+<td>The default user options for all players. <br />Note: Setting default claim type options will override this.</td>
+<td>[ ]</td>
+</tr>
+<tr>
+<td>default-user-basic-options</td>
+<td>The default options applied to users for basic claims. <br />Note: These options override default global options.</td>
+<td>[ ]</td>
+</tr>
+<tr>
+<td>default-user-subdivision-options</td>
+<td>The default options applied to users for subdivisions. <br />Note: These options override default global options.</td>
+<td>[ ]</td>
+</tr>
+<tr>
+<td>default-user-town-options</td>
+<td>The default options applied to users for towns. <br />Note: These options override default global options.</td>
+<td>[ ]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="option-control"> Option Control</h3>
+<p>The option control section lets you enable/disable option functionality. By default, all player/pvp and spawn options are disabled. To enable this functionality, you will need to set the corresponding option to true.</p>
+<p>Here are the delivered options that can be controlled</p>
+<div><pre><code>option-control {
+    player-command-enter=false
+    player-command-exit=false
+    player-deny-flight=false
+    player-deny-godmode=false
+    player-deny-hunger=false
+    player-fly-speed=false
+    player-gamemode=false
+    player-health-regen=false
+    player-keep-inventory=false
+    player-keep-level=false
+    player-teleport-delay=false
+    player-walk-speed=false
+    player-weather=false
+    pvp=false
+    pvp-combat-command=false
+    pvp-combat-teleport=false
+    pvp-combat-timeout=false
+    spawn-limit=false
+}
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div><h3 id="vanilla-fallback-values"> Vanilla fallback values</h3>
+<p>This section is currently only used for player fly and walk default speeds. If your server uses a different default value, you can adjust it here.</p>
+<p>The delivered defaults are</p>
+<div><pre><code>vanilla-fallback-values {
+    player-fly-speed=&quot;0.1&quot;
+    player-walk-speed=&quot;0.2&quot;
+}
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>PVP</title>
+      <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/pvp/</link>
+      <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/pvp/</guid>
+      <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">PVP</source>
+      <category>Conf</category>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
+      <content:encoded><![CDATA[<p>GriefDefender has the ability to control PvP globally, per user/group, or per claim.</p>
+<p>Here are a few examples on how to configure PvP<br>
+Note: These examples assume a clean installation with no modified settings.</p>
+<h3 id="disable-pvp-on-server"> Disable PvP on server</h3>
+<p>To disable PvP on server, open <code>server.properties</code> and set <code>pvp</code> to false (On Sponge, set PVP to false in the Sponge config).</p>
+<h3 id="disable-pvp-globally-except-specific-claims"> Disable PvP globally except specific claims</h3>
+<ol>
+<li>Open <code>presets/minecraft.conf</code> in the GD config directory.</li>
+<li>Change <code>default-value=true</code> to <code>default-value=false</code> under the <code>pvp</code> definition</li>
+<li>Toggle the <code>pvp</code> definition to true in claims where pvp is wanted</li>
+<li>Optional: Move the <code>pvp</code> flag definition from USER to ADMIN in <code>minecraft.conf</code></li>
+<li><code>/gdreload</code></li>
+</ol>
+<h3 id="disable-pvp-for-a-specific-player"> Disable PvP for a specific player</h3>
+<ol>
+<li>Run command <code>/cfp &lt;player&gt; entity-damage player false context[source=player, override=global]</code></li>
+</ol>
+<h3 id="disable-pvp-for-a-specific-group-of-users"> Disable PvP for a specific group of users</h3>
+<ol>
+<li>Run command <code>/cfg &lt;group&gt; entity-damage player false context[source=player, override=global]</code></li>
+</ol>
+<h3 id="allow-pvp-globally-except-specific-claims"> Allow PvP globally except specific claims</h3>
+<p>If you want to allow users to enable/disable PvP then have them do the following</p>
+<ol>
+<li>Run command <code>/cf</code> to launch flag GUI.</li>
+<li>Make sure <code>PRESET</code> <code>USER</code> tab is selected.</li>
+<li>Toggle <code>pvp</code> to <code>false</code>.</li>
+</ol>
+<h3 id="allow-users-to-configure-pvp-as-they-wish"> Allow users to configure PvP as they wish</h3>
+<ol>
+<li>Run command <code>/cf</code> to launch flag GUI.</li>
+<li>Make sure <code>PRESET</code> <code>USER</code> tab is selected.</li>
+<li>Toggle <code>pvp</code> to <code>false</code> or <code>true</code>.</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Tags System</title>
+      <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/tags/</link>
+      <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/tags/</guid>
+      <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Tags System</source>
+      <category>Tag</category>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
+      <content:encoded><![CDATA[<p>A <code>Tag</code> is a new system introduced in Minecraft 1.13 that allows users to group one or more item, block, entity identifiers under a single group known as a tag. GriefDefender integrates into the tag system and exposes all available tags as contexts that can applied with a flag or option.</p>
+<p>For example, lets say you wanted to allow interaction with the following standing signs</p>
+<ul>
+<li>oak_sign, spruce_sign, birch_sign, acacia_sign, jungle_sign, dark_oak_sign, crimson_sign, warped_sign</li>
+</ul>
+<p>Without tags, you would have to create a flag that targets each sign identifier like so via flag command</p>
+<div><pre><code>/cf interact-block-secondary oak_sign true
+/cf interact-block-secondary spruce_sign true
+/cf interact-block-secondary birch_sign true
+etc..
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>This would become tedious very quickly and clutter up your permissions.</p>
+<p>With the tag system, you can use the delivered tag for all standing signs named <a href="https://minecraft.gamepedia.com/Tag#blocks_standing_signs" target="_blank" rel="noopener noreferrer">#standing_signs</a></p>
+<p>So the above commands would become one single command</p>
+<div><pre><code>/cf interact-block-secondary #standing_signs
+</code></pre>
+<div><span>1</span><br></div></div><p>This gives the user extreme flexibility for protecting not just one thing but many.<br>
+Note: Tag names will ALWAYS begin with the character <code>#</code></p>
+<p>Now let's assume you have special needs and the delivered vanilla tags do not provide everything for your server.<br>
+This is where a <a href="https://minecraft.gamepedia.com/Data_Pack" target="_blank" rel="noopener noreferrer">Data Pack</a> would come into play.</p>
+<p>A <a href="https://minecraft.gamepedia.com/Data_Pack" target="_blank" rel="noopener noreferrer">Data Pack</a> allows a server admin to enhance the minecraft experience with custom advancements, recipes, loot tables, tags, and more.</p>
+<p>To create a datapack to use custom tags for your server , the following would have to be done</p>
+<ol>
+<li>Navigate to world folder you want to use datapack in.<br>
+Ex. <code>./world/datapacks</code></li>
+<li>Create a datapack by following instructions <a href="https://minecraft.gamepedia.com/Data_Pack" target="_blank" rel="noopener noreferrer">here</a><br>
+Note: The datapacks folder structure should be setup as follows within the world folder</li>
+</ol>
+<div><pre><code>datapacks/
+└── &lt;datapack_name&gt;/
+    ├── data/
+    │   ├── &lt;namespace&gt;/
+    │   │   ├── tags/
+    │   │   │   ├── blocks/
+    │   │   │   ├── entity_types/
+    │   │   │   ├── fluids/
+    │   │   │   └── items/
+    │   │   └── other...
+    │   └── 
+    └── pack.mcmeta
+
+Note: An actual example can be found in the root of the minecraft server jar within folder `data`  
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><ol start="3">
+<li>Create as many tags as you want within your datapack and add any other custom data you require inside it.</li>
+<li>Launch server</li>
+<li>Verify your datapack has been loaded by running command <code>/datapack list enabled</code>. See <a href="https://minecraft.gamepedia.com/Data_Pack" target="_blank" rel="noopener noreferrer">DataPack Command</a> for more info<br>
+Note: If your datapack is not enabled then your datapack structure shown in step 2 is most likely wrong.</li>
+</ol>
+<p>If you managed to load your datapack successfully, GD will automatically load all tags into its context registry for you to use with flags.</p>
+<p>To verify tags are working with specific actions in GriefDefender, run the <code>/gddebug</code> command and check the context column which will display any tags if used.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Trust System</title>
+      <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/trust-system/</link>
+      <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/basic/trust-system/</guid>
+      <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Trust System</source>
+      <category>Claim</category>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
+      <content:encoded><![CDATA[<p>There four different types of trust: Accessors, Builders, Containers, and Managers.</p>
+<h3 id="arguments"> Arguments</h3>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;player&gt;</code></td>
+<td>The player to trust.</td>
+</tr>
+<tr>
+<td><code>&lt;group&gt;</code></td>
+<td>The group to trust. Note: If you want to trust everyone, use <code>public</code>.</td>
+</tr>
+<tr>
+<td><code>&lt;type&gt;</code></td>
+<td>The type of trust [none, accessor, builder, container, manager]. Note: If you want to remove trust, use <code>none</code>. <br><em>None</em>: <code>Revokes a player/group's access to your claim</code><br><em>Accessor</em>: <code>Grants a player/group access to interact with all blocks except inventory</code><br><em>Container</em>: <code>Grants a player/group access to interact with all blocks including inventory</code><br><em>Builder</em>: <code>Grants a player/group edit access to everything above including ability to place and break blocks</code><br><em>Manager</em>: <code>Grants a player/group access to all of the above including ability to modify claim</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="trust-player"> Trust Player</h3>
+<p><strong>Command</strong>: <code>/gd trust player &lt;player&gt; &lt;type&gt;</code><br>
+<strong>Alias</strong>: <code>trust</code><br>
+<strong>Example</strong>: <code>/gd trust player Kratos basic</code></p>
+<p>Grants a player access to your claim(s)</p>
+<h3 id="trust-group"> Trust Group</h3>
+<p><strong>Command</strong>: <code>/gd trust group &lt;group&gt; &lt;type&gt;</code><br>
+<strong>Alias</strong>: <code>trust</code></p>
+<p>Grants a group access to your claim(s)</p>
+<h3 id="remove-trust-player"> Remove Trust Player</h3>
+<p><strong>Command</strong>: <code>/gd trust player &lt;player&gt; none</code></p>
+<p>Revokes a player's access to all your claims.</p>
+<h3 id="remove-trust-group"> Remove Trust Group</h3>
+<p><strong>Command</strong>: <code>/gd trust group &lt;group&gt; none</code></p>
+<p>Revokes a group's access to all your claims.</p>
+<h2 id="list-trusted"> List Trusted</h2>
+<p><strong>Command</strong>: <code>/trustlist</code></p>
+<p>Lists currently trusted players and the trust type.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Command Overview</title>
       <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/commands/</link>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/commands/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Command Overview</source>
       <category>Command</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="command-overview"> Command Overview</h1>
 <p>Arguments Key: &lt;required&gt; [optional]</p>
 <h3 id="claim-identifier"> Claim Identifier</h3>
@@ -4573,7 +4573,7 @@ Note: Valid types are <code>entity</code>, <code>item</code>, <code>block</code>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/install/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Install</source>
       <category>configurabe</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>⚠️ In this page, we will explain how to start using GriefDefender in your Bukkit/Sponge server step by step. ⚠️</p>
 <h2 id="getting-started"> Getting Started</h2>
 <h3 id="requirements"> Requirements</h3>
@@ -4653,7 +4653,7 @@ World configs override dimension and global configs.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/migration/griefprevention/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">GriefPrevention</source>
       <category>Migration</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>⚠️ Before using GriefPrevention migrator, backup your data (including LuckPerms).<br>
 It is recommended to test migration on a test server before applying to production to ensure everything works as expected.<br>
 ⚠️ All player data that contains accrued claim blocks and bonus claim blocks will be stored as meta in LuckPerms when migrator is finished.<br>
@@ -4768,7 +4768,7 @@ Migration output should appear in console as it is migrating.</li>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/migration/worldguard/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">WorldGuard</source>
       <category>Migration</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>⚠️ Before using WorldGuard migrator, backup your data (including LuckPerms).  It is recommended to test migration on a test server before applying to production to ensure everything works as expected.</p>
 <h3 id="griefdefender-supports-a-migration-of-cuboid-regions-from-worldguard-to-migrate-to-griefdefender-perform-the-following-steps"> GriefDefender supports a migration of cuboid regions from WorldGuard. To migrate to GriefDefender, perform the following steps</h3>
 <h3 id="current-limitations"> Current Limitations</h3>
@@ -4865,7 +4865,7 @@ Migration output should appear in console as it is migrating.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/permissions/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Permission</source>
       <category>Info</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>If you want to have a quickstart, apply <code>griefdefender.user.*</code> to your players and both <code>griefdefender.user.*</code> and <code>griefdefender.admin.*</code> to your staff/admins.</p>
 <p>It is recommended to use the base permission nodes above, and if you want a more fine control read all permissions below and deny accordingly.</p>
 <h3 id="important"> IMPORTANT</h3>
@@ -5530,7 +5530,7 @@ See https://luckperms.net/wiki/Default-Groups</li>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/guide/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">GriefDefender</source>
       <category>configurabe</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<div><p>W.I.P</p>
 <p>This document is being greatly improved!
 If you encounter problems, please report to us</p>
@@ -5582,7 +5582,7 @@ It works out of the box and fully integrates with <a href="https://ci.lucko.me/j
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/dynmap/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Dynmap</source>
       <category>Dev</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>In order to use GriefDefender's Dynmap provider, you must have GDHooks installed.<br>
 See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 <p><strong>Bukkit</strong></p>
@@ -5645,7 +5645,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/placeholder/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Placeholder</source>
       <category>Dev</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<table>
 <thead>
 <tr>
@@ -5748,7 +5748,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">GDHooks</source>
       <category>Dev</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>GDHooks is an official GriefDefender addon designed to extend its support for other plugins. Releases are available on discord or you can compile it on GitHub.</p>
 <p><a href="https://github.com/bloodmc/GDHooks" target="_blank" rel="noopener noreferrer"><strong>Source</strong></a><br>
 <a href="https://github.com/bloodmc/GDHooks/wiki" target="_blank" rel="noopener noreferrer"><strong>Wiki</strong></a></p>
@@ -5820,7 +5820,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/hooks/wecui/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">WECUI</source>
       <category>Dev</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>GriefDefender now supports WECUI!</p>
 <p><img src="http://i.imgur.com/96RHwkv.jpg" alt="WECUI Preview" loading="lazy"></p>
 <p>In order to use WECUI, the following is required to be installed</p>
@@ -5849,7 +5849,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/</link>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">GriefDefender</source>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
     </item>
     <item>
       <title>Pixelmon Preset</title>
@@ -5857,7 +5857,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/resources/Pixelmon/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Pixelmon Preset</source>
       <category>Preset</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<div><p>Info</p>
 <p>Unlike GP where you had to set multiple flag commands for pixelmon manually, it is now highly recommended to make use of the new Flag Definition system. A flag definition combines 1 or more flag permissions into a single group which allows you to toggle all at once via GUI. Any flag definition entered in your <code>pixelmon.conf</code> will be accessible via the Flag GUI config by using <code>/cf</code> command in game. The main thing to keep in mind is all flags toggled in game will apply to claim only. However, the flags you set in config that use <code>gd_claim_default</code> or <code>gd_claim_override</code> contexts will be applied on server startup with the <code>default-value</code> you specify.</p>
 </div>
@@ -5870,7 +5870,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/resources/</link>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/resources/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Resources</source>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<div><p>Info</p>
 <p>You are always welcome to contribute your resource related to GD in following places:</p>
 <div>
@@ -5890,7 +5890,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/API/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">API</source>
       <category>develop</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="add-griefdefenderapi-to-your-project"> Add GriefDefenderAPI to your project</h2>
 <CodeGroup>
 <CodeGroupItem title="gradle">
@@ -5942,7 +5942,7 @@ Note: If you make use of any API methods that accepts a kyori component as param
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/Contribution/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Contrubution</source>
       <category>Dev</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="info"> Info</h2>
 <div><p>Info</p>
 <p>GriefDefenderDoc is built with <a href="https://v1.vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">VuePress</a> and <a href="https://vuepress-theme-hope.github.io/" target="_blank" rel="noopener noreferrer">Theme Hope</a> which means you can learn some editing skill from there.</p>
@@ -5972,21 +5972,28 @@ In the bottom of each pages there will be a button redirect you to the source fi
 ]]></content:encoded>
     </item>
     <item>
-      <title>Contexts</title>
+      <title>情境</title>
       <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/contexts/</link>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/contexts/</guid>
-      <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Contexts</source>
+      <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">情境</source>
       <category>Usage</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="contexts"> Contexts</h1>
-<p>Contexts are a fundamental part of how GriefDefender is able to apply protection to claims. In order to understand how it works, you must first understand what a Context is. See https://luckperms.net/wiki/Context</p>
-<p>Now that you have a basic understanding of what a context is and how they work with permissions, below is a list of contexts that GD uses with its flag and option command.</p>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="简介"> 简介</h1>
+<p>era情境era 常被 GD 用于限定各类行为的作用情境，要了解什么是情境，请参考 https://luckperms.net/wiki/Context</p>
+<p>常见的情境使用方法有：</p>
+<ol>
+<li>限定 era标签era 的作用方式</li>
+<li>限定 era选项era 的影响范围（比如限制某类型领地的圈地上限</li>
+<li>限定 era权限era</li>
+<li>...</li>
+</ol>
+<p>GD 根据需要对 era情境era 进行了拓展，以便于你能客制化 era标签era 的使用体验，<strong>下边的列表可能不是最新的，看个乐呵就好</strong></p>
 <table>
 <thead>
 <tr>
-<th>Context</th>
-<th>Value</th>
-<th>Description</th>
+<th>情境</th>
+<th>值</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -6207,7 +6214,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/Debugging for more info</li>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/debugging/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Debugging</source>
       <category>Usage</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>GriefDefender is powered by permissions. Every action done in a world is checked against a specific flag permission. If you are trying to figure out what is causing an action to be blocked or not to be blocked then /gddebug is what you will need to use.</p>
 <p>Syntax
 <code>/gddebug record [filter]</code>
@@ -6761,18 +6768,18 @@ Note: The filter can be any word you want.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/flags/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">领地设定</source>
       <category>Flag</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="标签机制"> 标签机制</h2>
-<h3 id="era基础标签-flags-era"> era基础标签(Flags)era</h3>
-<p>GD 对一些事件进行了包装，这些事件往往常用于领地设定，成为 era预设标签era 的组成部分，我们称之为 era基础标签(Flags)era
+<h3 id="『基础标签-flags-』"> 『基础标签(Flags)』</h3>
+<p>GD 对一些事件进行了包装，这些事件往往常用于领地设定，成为 『预设标签』 的组成部分，我们称之为 『基础标签(Flags)』
 例子：<code>interact-block-primary</code> - (对方块左键) | <code>interact-inventory-click</code> - (背包内点击) | <code>entity-spawn</code> - (实体生成) 等等
-在上述例子中，部分 era基础标签era 出于性能考量是关闭的[例如 entity-spawn]，您可以在 <code>flags.conf</code> 中开启。</p>
+在上述例子中，部分 『基础标签』 出于性能考量是关闭的[例如 entity-spawn]，您可以在 <code>flags.conf</code> 中开启。</p>
 <h3 id="预设标签-flag-definitions"> 预设标签(Flag-definitions)</h3>
-<p>由 era基础标签era 组成，era情境era 限定，可根据权限分发到游戏中介面供玩家使用，以 era预设集era 作为显示单位， GD 在初始化时自动生成 era预设集era <code>./presets/minecraft.conf</code>。</p>
+<p>由 『基础标签』 组成，『情境』 限定，可根据权限分发到游戏中介面供玩家使用，以 『预设集』 作为显示单位， GD 在初始化时自动生成 『预设集』 <code>./presets/minecraft.conf</code>。</p>
 <h3 id="情境-contexts"> 情境(Contexts)</h3>
-<p>LuckPerms 中的情境系统，详见 <a href="https://luckperms.net/wiki/Context" target="_blank" rel="noopener noreferrer">官方Wiki</a> ，GD 对 Luckperms 的 era情境 era 进行了延展，添加了部分又能使其和 era基础标签era 限定作用情境。
+<p>LuckPerms 中的情境系统，详见 <a href="https://luckperms.net/wiki/Context" target="_blank" rel="noopener noreferrer">官方Wiki</a> ，GD 对 Luckperms 的 『情境』 进行了延展，添加了部分又能使其和 『基础标签』 限定作用情境。
 例如：<code>source</code> - <strong>标签触发的来源</strong> | <code>target</code> - <strong>标签作用的对象</strong> | <code>boots</code> - <strong>标签触发时装备的胸甲</strong> | <code>gametime</code> - <strong>游戏内所处时间</strong>等等
-注意：部分 era情境era 只能限定相应的标签，您不可能将 <code>boots</code> 限定 <code>entity-spawn</code> 这个标签。</p>
+注意：部分 『情境』 只能限定相应的标签，您不可能将 <code>boots</code> 限定 <code>entity-spawn</code> 这个标签。</p>
 <h3 id="判断阶段-抽象概念"> 判断阶段(抽象概念)</h3>
 <p>你可能注意到了，标签的判断是分阶段的
 目前这个阶段可以分为 <code>默认(default)--&gt;领地(claim)--&gt;子领地(sub)--&gt;覆写(override)</code>
@@ -6794,7 +6801,7 @@ Note: The filter can be any word you want.</p>
 <tbody>
 <tr>
 <td><code>&lt;标签&gt;</code></td>
-<td>要进行操作的 era基础标签era 类型</td>
+<td>要进行操作的 『基础标签』 类型</td>
 </tr>
 <tr>
 <td><code>&lt;作用对象&gt;</code></td>
@@ -6810,7 +6817,7 @@ Note: The filter can be any word you want.</p>
 </tr>
 </tbody>
 </table>
-<p>示例：/cf block-break minecraft:dirt false source=player override=admin 意味着在 <code>所有(override)</code> 类型为 <code>管理员领地(admin)</code> 中 <code>禁用(false)</code> 由 <code>玩家(source=player)</code> 发出，对 <code>泥土(minecraft:dirt)</code> 进行<code>方块破坏(block-break)</code>的行为。</p>
+<p>示例：/cf block-break minecraft:dirt false source=player override=admin 意味着在类型为 <code>管理员领地(admin)</code> 的 <code>覆写优先级(override)</code> 中 <code>禁用(false)</code> 由 <code>玩家(source=player)</code> 发出，对 <code>泥土(minecraft:dirt)</code> 进行<code>方块破坏(block-break)</code>的行为。</p>
 <h3 id="命令列表"> 命令列表</h3>
 <hr>
 <h4 id="gd-claim-debug"> <code>/gd claim debug</code></h4>
@@ -6819,32 +6826,32 @@ Note: The filter can be any word you want.</p>
 <hr>
 <h4 id="gd-flag-claim-标签-作用对象-值-情境"> <code>/gd flag claim [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
 <p><strong>别称</strong>: <code>cf|claimflag</code></p>
-<p>编辑 era基础标签era</p>
+<p>编辑 『基础标签』</p>
 <hr>
 <h4 id="gd-flag-group-权限组-标签-作用对象-值-情境"> <code>/gd flag group &lt;权限组&gt; [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
 <p><strong>别称</strong>: <code>cfg|claimflaggroup</code></p>
-<p>编辑 era基础标签era，但影响的对象是权限组。
+<p>编辑 『基础标签』，但影响的对象是权限组。
 常用于限制某个权限组的行为，示例 /cfg default block-break minecraft:dirt false 就是让整个 default 权限组都不能破坏泥土。</p>
 <hr>
 <h4 id="gd-flag-player-player-标签-作用对象-值-情境"> <code>/gd flag player &lt;player&gt; [&lt;标签&gt; &lt;作用对象&gt; &lt;值&gt; [情境]</code></h4>
 <p><strong>别称</strong>: <code>cfp|claimflagplayer</code></p>
-<p>编辑 era基础标签era，但影响的对象是玩家。
+<p>编辑 『基础标签』，但影响的对象是玩家。
 和上述类似</p>
 <hr>
 <h4 id="gd-flag-reset"> <code>/gd flag reset</code></h4>
 <p><strong>别称</strong>: <code>cfr|claimflagreset</code></p>
 <p>重置一个领地的标签设定为默认，默认值可以在配置文件中更改。</p>
 <h2 id="一些用例"> 一些用例</h2>
-<p>era基础标签era 可以应用到 <code>玩家|权限组</code>，各类型领地(基础，子领地，城镇，管理员) 上边。</p>
+<p>『基础标签』 可以应用到 <code>玩家|权限组</code>，各类型领地(基础，子领地，城镇，管理员) 上边。</p>
 <h3 id="用例-1"> 用例 1</h3>
 <p>防止 <code>灰色羊毛</code> 被破坏
 <code>/cf block-break minecraft:wool.5 false</code></p>
 <p>如果不指定 modid，默认 minecraft 开头， <code>modid:blockid.meta</code>，不指定 meta 默认返回 0。</p>
 <h3 id="用例-2"> 用例 2</h3>
-<p>允许 <code>宝可梦精灵球</code> 与 <code>所有(override)</code> 的 <code>基础类型(basic)</code> 领地发生交互。</p>
+<p>允许 <code>宝可梦精灵球</code> 在 <code>覆写优先级(override)</code> 的 <code>基础类型(basic)</code> 领地发生交互。</p>
 <p><code>/cf projectile-impact-block any true source=pixelmon:occupiedpokeball override=basic</code></p>
 <h3 id="用例-3"> 用例 3</h3>
-<p>防止在权限组 &quot;Jailed&quot; 中的 <code>玩家(source=minecraft:player)</code> 在 <code>所有(override)</code> 的 <code>管理员领地(admin)</code> 中无法使用 <code>任何(any)</code> 类型的传送门。</p>
+<p>防止在权限组 &quot;Jailed&quot; 中的 <code>玩家(source=minecraft:player)</code> 在 <code>覆写优先级(override)</code> 的 <code>管理员领地(admin)</code> 中无法使用 <code>任何(any)</code> 类型的传送门。</p>
 <p><code>/cfg Jailed portal-use any false source=minecraft:player override=admin</code></p>
 <h3 id="用例-4"> 用例 4</h3>
 <p>防止叫 &quot;notch&quot; 的玩家在当前领地中无法右键床。</p>
@@ -6874,7 +6881,7 @@ Note: The filter can be any word you want.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/advanced/global-config/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Global Config</source>
       <category>Configuration</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>GriefDefender's default config offers extended customization for your server. Below is a breakdown of all default variables for your convenience.</p>
 <blockquote>
 <p>⚠️ Some options can cause irreparable changes to your data. Please ensure that you have read the sub-text found next to the variables in your generated <code>global.conf</code> file. <strong>All migration variables should ALWAYS be used AFTER a backup of your data is made.</strong> ⚠️</p>
@@ -7613,7 +7620,7 @@ For more info you can go to <a href="https://commons.apache.org/proper/commons-i
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/claim-management/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Claim Management</source>
       <category>Claim</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>GriefDefender is a plugin that provides self-service region protection functionality, giving you additional options to fine tune aspects such as door, chest, and build permissions for users or groups of users! Below some basic instructions for claim management for more fine tuned control over your claims check out the <a href="https://github.com/bloodmc/GriefDefender/wiki/Flags" target="_blank" rel="noopener noreferrer">Flags page</a>.</p>
 <p>All the examples are with the defaults at the time of writing this in mind.</p>
 <h2 id="claim-creation"> Claim Creation</h2>
@@ -7905,7 +7912,7 @@ griefdefender.admin.option.perk.fly.manager
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/claim-rent-system/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Rent System</source>
       <category>Economy</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p><img src="https://media.discordapp.net/attachments/709505646457913426/709992848963141632/2019-12-18_22.png" alt="Rent System" loading="lazy"></p>
 <p>This new system will allow you to set your claim up for rent and earn some money on the way.</p>
 <h1 id="how-to-enable-it"> How to enable it</h1>
@@ -8011,7 +8018,7 @@ Syntax is as follows<br>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/claim-types/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">领地类型</source>
       <category>领地</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p><em>这是一个正在施工中的页面，将涵盖 GD 的所有领地类型--基本领地、细分领地、城镇领地和管理员领地。.</em></p>
 <h2 id="领地类型"> 领地类型</h2>
 <p>有四种类型的用户领地：管理员、城镇、基本和细分，每一种都有一个 2D 和 3D 模式。要在不同类型之间切换，请使用 <code>/adminclaims</code> 、 <code>/townclaims</code> 和 <code>/basicclaims</code> 。要切换到细分模式，使用 <code>/claimsubdivide</code> 。所有三种主要领地类型都支持直接的子领地（细分）--城镇、管理员和基本。</p>
@@ -8065,7 +8072,7 @@ Syntax is as follows<br>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/flag-definitions-gui/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">预制标签</source>
       <category>标签</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="概览"> 概览</h2>
 <p>预制标签系统为用户及管理员提供了简便管理领地标签的可能。
 GriefDefender 默认提供了一些较为通用的预制标签，默认提供的标签数据只适用于纯净且可以于以下文件找到</p>
@@ -8177,7 +8184,7 @@ GD 随附 2 个预制标签组，即 <code>USER</code> 和 <code>ADMIN</code>。
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/flags/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">领地设定</source>
       <category>Flag</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="标签机制"> 标签机制</h2>
 <h3 id="era基础标签-flags-era"> era基础标签(Flags)era</h3>
 <p>GD 对一些事件进行了包装，这些事件往往常用于领地设定，成为 era预设标签era 的组成部分，我们称之为 era基础标签(Flags)era
@@ -8289,7 +8296,7 @@ GD 随附 2 个预制标签组，即 <code>USER</code> 和 <code>ADMIN</code>。
       <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/options/</link>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/options/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">选项</source>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<details><summary>名词辨析</summary>
 <p>Options - 选项
 Meta - 元数据
@@ -8648,7 +8655,7 @@ There are 4 subsections within this section.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/pvp/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">PVP</source>
       <category>Conf</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>GriefDefender has the ability to control PvP globally, per user/group, or per claim.</p>
 <p>Here are a few examples on how to configure PvP<br>
 Note: These examples assume a clean installation with no modified settings.</p>
@@ -8691,7 +8698,7 @@ Note: These examples assume a clean installation with no modified settings.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/tags/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">标签组系统</source>
       <category>Tag</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p><code>标签</code> 是一个于 Minecraft 1.13 引入的新系统，其允许用户将 物品，方块，实体 的标志符捆绑为一个标签组以方便分类。GriefDefender 将与标签系统集成并将其导出为情境用以 标签(Flag)/选项(Option)。</p>
 <p>例如，假设您希望允许与以下站立告示牌进行交互</p>
 <ul>
@@ -8750,7 +8757,7 @@ Note: These examples assume a clean installation with no modified settings.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/basic/trust-system/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">信任系统</source>
       <category>领地</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>有四种不同类型的信任。访问者、建造师、容器和管理者.</p>
 <h3 id="选项"> 选项</h3>
 <table>
@@ -8801,7 +8808,7 @@ Note: These examples assume a clean installation with no modified settings.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/commands/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Command Overview</source>
       <category>Command</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="command-overview"> Command Overview</h1>
 <p>Arguments Key: &lt;required&gt; [optional]</p>
 <h3 id="claim-identifier"> Claim Identifier</h3>
@@ -9246,7 +9253,7 @@ Note: Valid types are <code>entity</code>, <code>item</code>, <code>block</code>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/install/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">安装</source>
       <category>配置</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="装前预备"> 装前预备</h3>
 <h4 id="插件前置"> 插件前置</h4>
 <ul>
@@ -9325,7 +9332,7 @@ Note: Valid types are <code>entity</code>, <code>item</code>, <code>block</code>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/migration/griefprevention/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">GriefPrevention</source>
       <category>Migration</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>⚠️ Before using GriefPrevention migrator, backup your data (including LuckPerms).<br>
 It is recommended to test migration on a test server before applying to production to ensure everything works as expected.<br>
 ⚠️ All player data that contains accrued claim blocks and bonus claim blocks will be stored as meta in LuckPerms when migrator is finished.<br>
@@ -9440,7 +9447,7 @@ Migration output should appear in console as it is migrating.</li>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/migration/worldguard/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">WorldGuard</source>
       <category>Migration</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>⚠️ Before using WorldGuard migrator, backup your data (including LuckPerms).  It is recommended to test migration on a test server before applying to production to ensure everything works as expected.</p>
 <h3 id="griefdefender-supports-a-migration-of-cuboid-regions-from-worldguard-to-migrate-to-griefdefender-perform-the-following-steps"> GriefDefender supports a migration of cuboid regions from WorldGuard. To migrate to GriefDefender, perform the following steps</h3>
 <h3 id="current-limitations"> Current Limitations</h3>
@@ -9537,7 +9544,7 @@ Migration output should appear in console as it is migrating.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/permissions/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">权限</source>
       <category>信息</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>如果您想快速使用，将 <code>griefdefender.user.*</code> 授权至您的玩家，并给予 <code>griefdefender.user.*</code> 和 <code>griefdefender.admin.*</code> 给您的社区管理或服务器管理。</p>
 <p>在大多数情况下，建议使用上面的通用权限，如果您想要更精细的控制，请阅览下面的所有权限并相应地关掉一些不需要的权限。</p>
 <h3 id="重要信息"> 重要信息</h3>
@@ -10202,7 +10209,7 @@ Migration output should appear in console as it is migrating.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">GriefDefender</source>
       <category>配置</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<div><p>该文档由社区维护，独立于官方</p>
 <p>GriefDefender 是一个功能丰富的插件，直截了当的翻译并不能让您了解该插件的特性，本文档立足于实践，以服务器管理者的角度去教会您该插件的应用。如果您要贡献本文档，欢迎查看 <a href="./../Contribution.html">贡献指南</a></p>
 </div>
@@ -10228,7 +10235,7 @@ Migration output should appear in console as it is migrating.</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/%E9%A2%86%E5%9C%B0%E8%AE%BE%E5%AE%9A/flag-definitions-gui/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">预制标签</source>
       <category>标签</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="概览"> 概览</h2>
 <p>预制标签系统为用户及管理员提供了简便管理领地标签的可能。
 GriefDefender 默认提供了一些较为通用的预制标签，默认提供的标签数据只适用于纯净且可以于以下文件找到</p>
@@ -10340,7 +10347,7 @@ GD 随附 2 个预制标签组，即 <code>USER</code> 和 <code>ADMIN</code>。
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/guide/%E9%A2%86%E5%9C%B0%E8%AE%BE%E5%AE%9A/flags/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">领地设定</source>
       <category>Flag</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="标签机制"> 标签机制</h2>
 <h3 id="era基础标签-flags-era"> era基础标签(Flags)era</h3>
 <p>GD 对一些事件进行了包装，这些事件往往常用于领地设定，成为 era预设标签era 的组成部分，我们称之为 era基础标签(Flags)era
@@ -10453,7 +10460,7 @@ GD 随附 2 个预制标签组，即 <code>USER</code> 和 <code>ADMIN</code>。
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/dynmap/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Dynmap</source>
       <category>Dev</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>In order to use GriefDefender's Dynmap provider, you must have GDHooks installed.<br>
 See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
 <p><strong>Bukkit</strong></p>
@@ -10516,7 +10523,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/placeholder/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Placeholder</source>
       <category>Dev</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<table>
 <thead>
 <tr>
@@ -10619,7 +10626,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">GDHooks</source>
       <category>Dev</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>GDHooks is an official GriefDefender addon designed to extend its support for other plugins. Releases are available on discord or you can compile it on GitHub.</p>
 <p><a href="https://github.com/bloodmc/GDHooks" target="_blank" rel="noopener noreferrer"><strong>Source</strong></a><br>
 <a href="https://github.com/bloodmc/GDHooks/wiki" target="_blank" rel="noopener noreferrer"><strong>Wiki</strong></a></p>
@@ -10691,7 +10698,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/hooks/wecui/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">WECUI</source>
       <category>Dev</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>GriefDefender now supports WECUI!</p>
 <p><img src="http://i.imgur.com/96RHwkv.jpg" alt="WECUI Preview" loading="lazy"></p>
 <p>In order to use WECUI, the following is required to be installed</p>
@@ -10720,7 +10727,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/layout/</link>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/layout/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">自定义布局</source>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>您可以使用带有 Markdown 支持的插槽来自定义页面布局。</p>
 <div><p>Note</p>
 <p>此处仅仅是一个演示，你应该自行根据需求添加样式。</p>
@@ -10745,7 +10752,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/</link>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">GriefDefender</source>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
     </item>
     <item>
       <title>Pixelmon Preset</title>
@@ -10753,7 +10760,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/resources/Pixelmon/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Pixelmon Preset</source>
       <category>Preset</category>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<div><p>Info</p>
 <p>Unlike GP where you had to set multiple flag commands for pixelmon manually, it is now highly recommended to make use of the new Flag Definition system. A flag definition combines 1 or more flag permissions into a single group which allows you to toggle all at once via GUI. Any flag definition entered in your <code>pixelmon.conf</code> will be accessible via the Flag GUI config by using <code>/cf</code> command in game. The main thing to keep in mind is all flags toggled in game will apply to claim only. However, the flags you set in config that use <code>gd_claim_default</code> or <code>gd_claim_override</code> contexts will be applied on server startup with the <code>default-value</code> you specify.</p>
 </div>
@@ -10766,7 +10773,7 @@ See https://github.com/bloodmc/GriefDefender/wiki/GDHooks</p>
       <link>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/resources/</link>
       <guid>https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/zh/resources/</guid>
       <source url="https://bloodmc.github.io/GriefDefenderDoc/GriefDefenderDoc/rss.xml">Resources</source>
-      <pubDate>Fri, 18 Feb 2022 17:25:16 GMT</pubDate>
+      <pubDate>Sat, 26 Feb 2022 08:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<div><p>Info</p>
 <p>You are always welcome to contribute your resource related to GD in following places:</p>
 <div>

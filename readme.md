@@ -27,7 +27,7 @@ Icon here is clickable.
 
 ## Introduction
 
-GriefDefenderDoc is built with [VuePress](https://v1.vuepress.vuejs.org/) and [Theme Hope](https://vuepress-theme-hope.github.io/) which means you can learn some editing skill from there.
+GriefDefenderDoc is built with [VuePress](https://v2.vuepress.vuejs.org/) and [Theme Hope](https://vuepress-theme-hope.github.io/) which means you can learn some editing skill from there.
 
 ## Edting Skill
 - [Markdown enhance](https://vuepress-theme-hope.github.io/guide/markdown/intro/)
@@ -40,6 +40,6 @@ In the bottom of each pages there will be a button redirect you to the source fi
 - You want to make a big change to Wiki
 1. You should install [NodeJS](https://nodejs.org/)(>=11) and [Yarn](https://yarnpkg.com/) properly.
 2. Run command `yarn install` in the root of GriefDefenderDoc.
-3. Run `yarn docs:dev` then wait a moment
+3. Run `yarn vite-serve` then wait a moment
 4. Explore your dev enviroment in http://localhost:8080/
-5. Any changes to a Markdown file should be sync to your web. (Except Home and *.js)
+5. Any changes to a Markdown file should be sync to your web.

@@ -1,0 +1,28 @@
+{
+  "name": "griefdefender",
+  "version": "2.0.0-alpha.38",
+  "private": true,
+  "description": "Next Documentation for plugin GD",
+  "license": "MIT",
+  "author": "GriefDefender",
+  "scripts": {
+    "vite-build": "vuepress-vite build docs",
+    "vite-clean-serve": "vuepress-vite dev docs --clean-cache",
+    "vite-serve": "vuepress-vite dev docs",
+    "webpack-build": "vuepress-webpack build docs",
+    "webpack-clean-serve": "vuepress-webpack dev docs --clean-cache",
+    "webpack-serve": "vuepress-webpack dev docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "2.0.0-beta.36",
+    "@vuepress/plugin-pwa-popup": "2.0.0-beta.36",
+    "@vuepress/plugin-register-components": "2.0.0-beta.36",
+    "@vuepress/plugin-shiki": "2.0.0-beta.36",
+    "cross-env": "7.0.3",
+    "vuepress-plugin-right-anchor": "^2.0.0-rc.3",
+    "vuepress-theme-hope": "2.0.0-alpha.40",
+    "vuepress-vite": "2.0.0-beta.36",
+    "vuepress-webpack": "2.0.0-beta.36",
+    "vuepress2-plugin-full-text-search": "0.1.0"
+  }
+}

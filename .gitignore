@@ -68,3 +68,13 @@ _site
 
 # useless files
 templete
+
+# Vuepress Cache
+.cache/
+# Vuepress Temp
+.temp/
+# Vuepress Output
+dist/
+
+# Typescript build info
+*.tsbuildinfo

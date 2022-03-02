@@ -1,8 +1,8 @@
 ---
 title: 预制标签
-tags: 设置
+tag: 设置
 category: 标签
-icon: activity
+icon: fa-solid fa-sidebar
 ---
 
 ## 概览

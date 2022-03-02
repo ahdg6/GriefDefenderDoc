@@ -13,7 +13,7 @@
 
 Icon here is clickable.
 <br>[![Patreon]](https://www.patreon.com/bloodmc)
-[![Documentation]](https://bloodmc.github.io/GriefDefenderDoc)
+[![Documentation]](https://griefdefender.vercel.app)
 [![GD]](https://github.com/bloodmc/griefdefender)
 
 ![Alt](https://repobeats.axiom.co/api/embed/c343fd07571f6727449099cd3e9374f715a11fcd.svg "Repobeats analytics image")

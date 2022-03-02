@@ -1,8 +1,8 @@
 ---
 title: 信任系统
 category: 领地
-tags: 权限
-icon: profile
+tag: 权限
+icon: fas fa-profile
 ---
 
 有四种不同类型的信任。访问者、建造师、容器和管理者.

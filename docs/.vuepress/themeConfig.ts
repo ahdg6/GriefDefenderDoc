@@ -10,7 +10,7 @@ export default defineThemeConfig({
 
   iconPrefix: "",
 
-  logo: "/logo.svg",
+  logo: "/logo.png",
 
   repo: "https://github.com/bloodmc/GriefDefenderDoc",
 

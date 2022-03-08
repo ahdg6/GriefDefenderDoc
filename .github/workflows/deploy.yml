@@ -27,9 +27,15 @@ jobs:
           branch: gh-pages
       - name: Release
         run: yarn vercel
+      - name: Archive Release
+        uses: thedoctor0/zip-release@master
+        with:
+          type: 'zip'
+          filename: 'release.zip'
+          path: 'dist'
       - uses: ncipollo/release-action@v1
         with:
-          artifacts: "dist"
+          artifacts: "release.zip"
           tag: "Web"
           body: "Auto upload"
           token: ${{ secrets.ACCESS_TOKEN }}

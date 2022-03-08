@@ -29,6 +29,6 @@ jobs:
         run: yarn vercel
       - uses: ncipollo/release-action@v1
         with:
-        artifacts: "dist"
-        body: "Auto upload"
-        token: ${{ secrets.ACCESS_TOKEN }}
+          artifacts: "dist"
+          body: "Auto upload"
+          token: ${{ secrets.ACCESS_TOKEN }}

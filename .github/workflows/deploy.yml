@@ -25,3 +25,10 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
           folder: dist
           branch: gh-pages
+      - name: Release
+        run: yarn vercel
+      - uses: ncipollo/release-action@v1
+        with:
+        artifacts: "dist"
+        body: "Auto upload"
+        token: ${{ secrets.ACCESS_TOKEN }}

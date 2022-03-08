@@ -27,6 +27,12 @@ jobs:
           branch: gh-pages
       - name: Release
         run: yarn vercel
+      - name: Get the Ref
+        id: get-ref
+        uses: ankitvgupta/ref-to-tag-action@master
+        with:
+          ref: ${{ github.ref }}
+          head_ref: ${{ github.head_ref }}
       - name: Archive Release
         uses: thedoctor0/zip-release@master
         with:
@@ -36,6 +42,6 @@ jobs:
       - uses: ncipollo/release-action@v1
         with:
           artifacts: "release.zip"
-          tag: "Web"
-          body: "Auto upload"
+          tag: "Web-${{ steps.get-ref.outputs.tag }}"
+          body: "Auto upload ${{ github.ref }}"
           token: ${{ secrets.ACCESS_TOKEN }}

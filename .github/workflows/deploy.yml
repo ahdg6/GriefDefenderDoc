@@ -30,5 +30,6 @@ jobs:
       - uses: ncipollo/release-action@v1
         with:
           artifacts: "dist"
+          tag: "Web"
           body: "Auto upload"
           token: ${{ secrets.ACCESS_TOKEN }}

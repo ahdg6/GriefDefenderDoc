@@ -12,7 +12,7 @@
     "webpack-build": "vuepress-webpack build docs",
     "webpack-clean-serve": "vuepress-webpack dev docs --clean-cache",
     "webpack-serve": "vuepress-webpack dev docs",
-    "vercel": "vuepress-webpack build docs -c docs/.vuepress/vercel.ts"
+    "vercel": "vuepress-webpack build docs -c docs/.vuepress/vercel.ts --clean-cache"
   },
   "devDependencies": {
     "@vuepress/plugin-pwa": "2.0.0-beta.36",

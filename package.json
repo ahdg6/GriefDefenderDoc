@@ -12,18 +12,19 @@
     "webpack-build": "vuepress-webpack build docs",
     "webpack-clean-serve": "vuepress-webpack dev docs --clean-cache",
     "webpack-serve": "vuepress-webpack dev docs",
-    "vercel": "vuepress-webpack build docs -c docs/.vuepress/vercel.ts --clean-cache"
+    "pages": "vuepress-vite build docs -c docs/.vuepress/pages.ts --clean-cache",
+    "local": "vuepress-vite build docs -c docs/.vuepress/local.ts --clean-cache"
   },
   "devDependencies": {
-    "@vuepress/plugin-pwa": "2.0.0-beta.36",
-    "@vuepress/plugin-pwa-popup": "2.0.0-beta.36",
-    "@vuepress/plugin-register-components": "2.0.0-beta.36",
-    "@vuepress/plugin-shiki": "2.0.0-beta.36",
+    "@vuepress/plugin-pwa": "2.0.0-beta.37",
+    "@vuepress/plugin-pwa-popup": "2.0.0-beta.37",
+    "@vuepress/plugin-register-components": "2.0.0-beta.37",
+    "@vuepress/plugin-shiki": "2.0.0-beta.37",
     "cross-env": "7.0.3",
     "vuepress-plugin-right-anchor": "^2.0.0-rc.3",
-    "vuepress-theme-hope": "2.0.0-alpha.40",
-    "vuepress-vite": "2.0.0-beta.36",
-    "vuepress-webpack": "2.0.0-beta.36",
-    "vuepress2-plugin-full-text-search": "0.1.0"
+    "vuepress-theme-hope": "2.0.0-beta.33",
+    "vuepress-vite": "2.0.0-beta.37",
+    "vuepress-webpack": "2.0.0-beta.37",
+    "vuepress2-plugin-full-text-search": "0.1.1"
   }
 }

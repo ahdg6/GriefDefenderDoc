@@ -5,7 +5,7 @@ title: 主页
 heroImage: /logo.png
 heroText: GriefDefender
 tagline: 一个为 Bukkit 及 Sponge 服务器设计的领地插件!
-action:
+actions:
   - text: 如何使用 💡
     link: guide/
 

@@ -5,7 +5,7 @@ import pluginRightAnchor from "vuepress-plugin-right-anchor";
 
 export default defineHopeConfig({
 
-  base: "/",
+  base: "/GriefDefenderDoc/",
   dest: "./dist",
 
   head: [

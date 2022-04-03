@@ -26,7 +26,7 @@ jobs:
           folder: dist
           branch: gh-pages
       - name: Release
-        run: yarn vercel
+        run: yarn pages
       - name: Archive Release
         uses: thedoctor0/zip-release@master
         with:

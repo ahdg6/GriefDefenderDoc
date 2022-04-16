@@ -14,11 +14,11 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16'
-          cache: 'pnpm'
+          cache: 'yarn'
       - name: Install Dependencies
-        run: pnpm install
+        run: yarn install
       - name: Build
-        run: pnpm run vite-build
+        run: yarn run webpack-build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
@@ -26,7 +26,7 @@ jobs:
           folder: dist
           branch: gh-pages
       - name: Release
-        run: pnpm pages
+        run: yarn pages
       - name: Archive Release
         uses: thedoctor0/zip-release@master
         with:

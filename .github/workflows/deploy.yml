@@ -17,9 +17,9 @@ jobs:
           cache: 'pnpm'
           cache-dependency-path: 'pnpm-lock.yaml'
       - name: Install Dependencies
-        run: pnpm install
+        run: npm install
       - name: Build
-        run: pnpm run vite-build
+        run: npm run vite-build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
@@ -27,7 +27,7 @@ jobs:
           folder: dist
           branch: gh-pages
       - name: Release
-        run: pnpm pages
+        run: npm pages
       - name: Archive Release
         uses: thedoctor0/zip-release@master
         with:

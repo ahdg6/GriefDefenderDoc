@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import * as navbar from "./navbar";
-import * as sidebar from "./sidebar";
+import * as navbar from "./_navbar";
+import * as sidebar from "./_sidebar";
 
 export default hopeTheme({
   hostname: "https://griefdefender.vercel.app",

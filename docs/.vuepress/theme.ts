@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import * as navbar from "./_navbar";
-import * as sidebar from "./_sidebar";
+import * as navbar from "./navbar";
+import * as sidebar from "./sidebar";
 
 export default hopeTheme({
   hostname: "https://griefdefender.vercel.app",
@@ -50,7 +50,7 @@ export default hopeTheme({
     blog: false,
 
     mdEnhance: {
-      enableAll: true,
+      enableAll: false,
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },

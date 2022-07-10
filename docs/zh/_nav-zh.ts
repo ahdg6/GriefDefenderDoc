@@ -1,6 +1,6 @@
-import { defineNavbarConfig } from "vuepress-theme-hope";
+import { navbar } from "vuepress-theme-hope";
 
-export const zh = defineNavbarConfig([
+export const zh = navbar([
   { text: "主页", link: "/zh/", icon: "home" },
   { text: "文档", link: "/zh/guide/", icon: "edit" },
   { text: "插件联动", link: "https://github.com/bloodmc/GDHooks", icon: "plugin"},

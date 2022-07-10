@@ -1,29 +1,10 @@
-import { defineHopeConfig } from "vuepress-theme-hope";
-import themeConfig from "./themeConfig";
+import { defineUserConfig } from "vuepress";
+import theme from "./theme";
 import pluginFullTextSearch from "vuepress2-plugin-full-text-search";
-import pluginRightAnchor from "vuepress-plugin-right-anchor";
 
-export default defineHopeConfig({
-
+export default defineUserConfig({
   base: "/",
   dest: "./dist",
-
-  head: [
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
-      },
-    ],
-    [
-      "script",
-      {
-        src: "https://kit.fontawesome.com/ca37c296c5.js",
-        crossorigin: "anonymous",
-      },
-    ],
-  ],
 
   locales: {
     "/": {
@@ -37,8 +18,8 @@ export default defineHopeConfig({
       description: "为 GriefDefender 准备的文档",
     },
   },
-  
-  plugins: [[ pluginFullTextSearch, pluginRightAnchor, ]],
 
-  themeConfig,
+  plugins: [[ pluginFullTextSearch, ]],
+
+  theme,
 });

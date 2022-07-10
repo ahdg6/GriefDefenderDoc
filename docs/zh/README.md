@@ -15,22 +15,22 @@ actions:
 
 features:
   - title: 性能优异
-    icon: fas fa-bolt
+    icon: bolt
     details: 没有什么是被硬编码的。高效，轻量，流畅。
     link: https://github.com/bloodmc/GriefDefender
 
   - title: 高自定义 🧰
-    icon: fas fa-toolbox
+    icon: toolbox
     details: 使用默认的权限配置或根据标签创建属于您自己的，可能无上限!
     link: https://github.com/bloodmc/GriefDefender
 
   - title: 多语言支持 🌏
-    icon: fas fa-language
+    icon: language
     details: 许多语言开箱即用，不需要额外的配置!
     link: https://github.com/bloodmc/GriefDefender
 
   - title: 多种数据库支持 📇
-    icon: fas fa-database
+    icon: database
     details: 支持 MySQL，MariaDB，PostgreSQL 及 SQLite(文件型)。
     link: https://github.com/bloodmc/GriefDefender
 
@@ -70,7 +70,7 @@ features:
     link: https://github.com/bloodmc/GriefDefender
 
   - title: 从别的插件迁移
-    icon: fas fa-file-arrow-up
+    icon: file-arrow-up
     details: 目前支持 WorldGuard 和 GriefPrevention 的领地迁移。
     link: https://github.com/bloodmc/GriefDefender
 

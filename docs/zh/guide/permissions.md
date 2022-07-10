@@ -5,14 +5,19 @@ category: 信息
 icon: condition
 ---
 
-如果您想快速使用，将 ```griefdefender.user.*``` 授权至您的玩家，并给予 ```griefdefender.user.*``` 和 ```griefdefender.admin.*``` 给您的社区管理或服务器管理。
+
+如果您想快速使用，将 ```griefdefender.user.*``` 授权至您的玩家。
+<br>GD 不支持 `*` 或 `OP` 作为管理员权限，请使用 ```griefdefender.user.*``` 和 ```griefdefender.admin.*``` 来授予管理员权限。
+
+```
+/lp group <权限组> permission set griefdefender.user.*
+```
 
 在大多数情况下，建议使用上面的通用权限，如果您想要更精细的控制，请阅览下面的所有权限并相应地关掉一些不需要的权限。
 
 ### 重要信息
 :::: warning 警告
 由于 GriefDefender 缓存了获取的权限，所以请确保您在更改管理员权限后运行 `/gdreload` 。
-目前尚不支持通配符权限 ```*``` 。请使用 ```griefdefender.user.*``` 和 ```griefdefender.admin.*``` 来授予管理员权限。
  
 就目前而言，GD 大量使用了 LP 的 `default` 权限组，以下现象是必须出现的，请不要删除权限组，否则很可能插件将不能正常使用。
 
@@ -20,11 +25,15 @@ icon: condition
 - `default` 权限组继承自以下 GD 创建的权限组： `griefdefender_claim, griefdefender_default, griefdefender_definition, griefdefender_option, griefdefender_override`
 - `default` 权限组不应该被禁用。LP 强烈建议不要禁用此组。 
 详见 https://luckperms.net/wiki/Default-Groups  
+- 一般情况下不要将 `griefdefender.flag.xxx` 当作权限授予玩家，其作为内部领地权限检查使用！(使用准则参考[特殊用例](./usecases.md))
 ::::
 
 # 用户权限
 
 ## 领地相关
+:::: warning
+注意：此处文档与最新版不符，请参阅 [英文文档](https://github.com/bloodmc/GriefDefender/wiki/Permissions)
+::::
 | 权限节点 | 描述 |
 | --------- | ----------- |
 | griefdefender.user.claim.command.abandon.basic | 允许遗弃 基础 领地 |

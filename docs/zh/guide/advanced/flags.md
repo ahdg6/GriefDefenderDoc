@@ -1,17 +1,17 @@
 ---
-title: 领地设定
+title: 标签
 category: Flag
 icon: token
 ---
 
-## 标签机制
-### 『基础标签(Flags)』
+## 概念认知
+### 基础标签(Flags)
 GD 对一些事件进行了包装，这些事件往往常用于领地设定，成为 『预设标签』 的组成部分，我们称之为 『基础标签(Flags)』
 例子：`interact-block-primary` - (对方块左键) | `interact-inventory-click` - (背包内点击) | `entity-spawn` - (实体生成) 等等
 在上述例子中，部分 『基础标签』 出于性能考量是关闭的[例如 entity-spawn]，您可以在 `flags.conf` 中开启。
-### 预设标签(Flag-definitions)
+### [预制标签(Flag-definitions)](./flag-definitions-gui)
 由 『基础标签』 组成，『情境』 限定，可根据权限分发到游戏中介面供玩家使用，以 『预设集』 作为显示单位， GD 在初始化时自动生成 『预设集』 `./presets/minecraft.conf`。
-### 情境(Contexts)
+### [情境(Contexts)](./contexts)
 LuckPerms 中的情境系统，详见 [官方Wiki](https://luckperms.net/wiki/Context) ，GD 对 Luckperms 的 『情境』 进行了延展，添加了部分又能使其和 『基础标签』 限定作用情境。
 例如：`source` - **标签触发的来源** | `target` - **标签作用的对象** | `boots` - **标签触发时装备的胸甲** | `gametime` - **游戏内所处时间**等等
 注意：部分 『情境』 只能限定相应的标签，您不可能将 `boots` 限定 `entity-spawn` 这个标签。
@@ -24,7 +24,31 @@ LuckPerms 中的情境系统，详见 [官方Wiki](https://luckperms.net/wiki/Co
 ### 标签调试模式 (/cfdebug)
 常用于测试标签状态，当该模式开启时，GD 将会视你为**一般的过路人**，所有关于领地标签的设定都将**不再**以你原来的权限进行判断，这有助于你在调整完 flag 后进行测试。
 
-
+## 配置选章 Flags.conf
+关乎标签的配置有 `flags.conf` 和 `presets`.
+本页面着重关注基础标签，即 flags.conf 内容，presets 请阅览[预设标签](./flag-definitions)。
+```
+GriefDefender {
+    default-flags { ### 管默认的 『基础标签』行为
+        default-claim-flags { ### 管在任意类型领地『基础标签』行为
+            user { ### 管在受用户影响的领地『基础标签』行为
+                block-break=false
+                ...
+            }
+            wilderness { ### 管在荒野中『基础标签』行为
+                block-break=false
+                ...
+            }
+        }
+    }
+    ### 当输入 /cf 时显示的『预设标签组』
+    default-user-preset="minecraft:user"
+    ### 全局开关『基础标签』的检查
+    flag-control {
+        block-break=true
+        ...
+    }
+```
 ## 命令
 
 ### 参数
@@ -126,7 +150,3 @@ LP:
 ```
 /lp group starters permission set griefdefender.flag.entity-damage false gd_claim_default=basic target=#animal
 ```
-
-
-## 可用的标签
-请以 `flags.conf` 为准

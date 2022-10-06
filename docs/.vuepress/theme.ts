@@ -5,9 +5,9 @@ import * as sidebar from "./_sidebar";
 export default hopeTheme({
   hostname: "https://griefdefender.vercel.app",
 
-  iconAssets: "iconfont",
+  iconAssets: "//at.alicdn.com/t/c/font_3688305_tdmz24rfeye.css",
 
-  logo: "/logo.svg",
+  logo: "/logo.png",
 
   repo: "ahdg6/GriefDefenderDoc",
 
@@ -51,6 +51,7 @@ export default hopeTheme({
 
     mdEnhance: {
       enableAll: false,
+	  tabs: true,
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },

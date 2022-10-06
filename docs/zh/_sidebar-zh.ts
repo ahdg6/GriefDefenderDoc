@@ -1,8 +1,8 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zh = sidebar({
-	"/zh/resources/": require("./resources/sidebar"),
-	"/zh/hooks/": require("./hooks/sidebar"),
+	"/zh/resources/": require("./resources/_sidebar"),
+	"/zh/hooks/": require("./hooks/_sidebar"),
 	"/zh/": [
         "/zh/",
         {

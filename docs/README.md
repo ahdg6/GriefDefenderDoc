@@ -7,7 +7,7 @@ heroText: GriefDefender
 tagline: A protection plugin designed for Bukkit and Sponge! 
 actions:
   - text: How to Use 💡
-    link: https://github.com/bloodmc/GriefDefender/wiki
+    link: /wiki/
 
   - text: GitHub
     link: https://github.com/bloodmc/GriefDefender
@@ -15,47 +15,47 @@ actions:
 
 features:
   - title: Performant
-    icon: fas fa-bolt
+    icon: FAST
     details: No hardcoded things Fast, lightweight and lagless.
     link: https://github.com/bloodmc/GriefDefender
 
   - title: Customizable
-    icon: fas fa-toolbox
+    icon: Toolbox
     details: Use the default flags or create your own. Endless possibilities!
     link: https://github.com/bloodmc/GriefDefender
 
   - title: Multilingual Translations
-    icon: fas fa-language
+    icon: language
     details: A lot of languages already available out of the box!
     link: https://github.com/bloodmc/GriefDefender
 
   - title: Database support
-    icon: fas fa-database
+    icon: database
     details: Supports MySQL，Maria DB， PostgreSQL and SQLite.
     link: https://github.com/bloodmc/GriefDefender
 
   - title: Interactive UI
-    icon: fa-solid fa-pager
+    icon: smallscreen
     details: Clickable texts in chat .Handle everything there.
     link: https://github.com/bloodmc/GriefDefender
 
   - title: Mod Support
-    icon: fa-solid fa-screwdriver-wrench
+    icon: tools
     details: Designed from the ground up for mods. Hybrid & Sponge supported.
     link: https://github.com/bloodmc/GriefDefender
 
   - title: Taxes. Rental and sales
-    icon: fa-solid fa-money-check-dollar
+    icon: moneybag
     details: Boost your economy by renting or selling your claims, and more.
     link: https://github.com/bloodmc/GriefDefender
 
   - title: Permission System
-    icon: fa-solid fa-code-branch
+    icon: sheild
     details: Everything is handled through permissions. LuckPerms required,
     link: https://github.com/bloodmc/GriefDefender
 
   - title: Well-Designed API
-    icon: fa-solid fa-code
+    icon: code
     details: Hook into everything GriefDefender does via APl.
     link: https://github.com/bloodmc/GriefDefender
 

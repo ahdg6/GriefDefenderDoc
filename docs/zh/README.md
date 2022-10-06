@@ -15,12 +15,12 @@ actions:
 
 features:
   - title: 性能优异
-    icon: bolt
+    icon: FAST
     details: 没有什么是被硬编码的。高效，轻量，流畅。
     link: https://github.com/bloodmc/GriefDefender
 
   - title: 高自定义 🧰
-    icon: toolbox
+    icon: Toolbox
     details: 使用默认的权限配置或根据标签创建属于您自己的，可能无上限!
     link: https://github.com/bloodmc/GriefDefender
 
@@ -35,42 +35,42 @@ features:
     link: https://github.com/bloodmc/GriefDefender
 
   - title: 交互式 UI 📱
-    icon: fa-solid fa-pager
+    icon: smallscreen
     details: 通过点击文本来处理插件事物。
     link: https://github.com/bloodmc/GriefDefender
 
   - title: Mod 支持 🛠
-    icon: fa-solid fa-screwdriver-wrench
+    icon: tools
     details: 久经 Mod 考验，通过 GD事件 来创建标签来保护您的服务器。支持 混合 & Sponge 端。
     link: https://github.com/bloodmc/GriefDefender
 
   - title:  税收，出租，及出售💰
-    icon: fa-solid fa-money-check-dollar
+    icon: moneybag
     details: 通过出租，出售等经济行为来为您的服务器经济添砖加瓦。
     link: https://github.com/bloodmc/GriefDefender
 
   - title: 广泛的插件支持 🛡
     details: 通过安装 GDHooks 谋取与其它插件的兼容。
-    icon: fa-solid fa-shield-blank
+    icon: sheild
     link: https://github.com/bloodmc/GDHooks
 
   - title: 自动恢复及结构图 🔄
-    icon: fa-solid fa-stethoscope
+    icon: construction
     details: 通过世界生成或结构图复原领地。
     link: https://github.com/bloodmc/GriefDefender
     
   - title: 权限数据节点化
-    icon: fa-solid fa-code-branch
+    icon: node-tree
     details: 通过权限处理一切事物。LuckPerms 是必要前置。
     link: https://github.com/bloodmc/GriefDefender
 
   - title: 精心设计的 API
-    icon: fa-solid fa-code
+    icon: code
     details: 通过 API 挂钩 GriefDefender 的所有行为。
     link: https://github.com/bloodmc/GriefDefender
 
   - title: 从别的插件迁移
-    icon: file-arrow-up
+    icon: cc-import
     details: 目前支持 WorldGuard 和 GriefPrevention 的领地迁移。
     link: https://github.com/bloodmc/GriefDefender
 

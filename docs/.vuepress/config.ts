@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme";
-import pluginFullTextSearch from "vuepress2-plugin-full-text-search";
+import { nextSearchPlugin } from "vuepress-plugin-next-search";
 
 export default defineUserConfig({
   base: "/",
@@ -19,7 +19,7 @@ export default defineUserConfig({
     },
   },
 
-  plugins: [[ pluginFullTextSearch, ]],
+  plugins: [[ nextSearchPlugin({}), ]],
 
   theme,
 });

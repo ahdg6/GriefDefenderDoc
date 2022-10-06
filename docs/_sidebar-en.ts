@@ -1,49 +1,38 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const en = sidebar({
-  "/": [
-    "",
-    "home",
-    "slide",
-    {
-      icon: "creative",
-      text: "Guide",
-      collapsable: true,
-      prefix: "guide/",
-      link: "guide/",
-      children: ["page", "markdown", "disable", "encrypt"],
-    },
-    {
-      text: "Articles",
-      icon: "note",
-      prefix: "posts/",
-      children: [
+	"/faq/": require("./faq/_sidebar"),
+    "/hooks/": require("./hooks/_sidebar"),
+	"/mods/": require("./mods/_sidebar"),
+	"/wiki/": [ 
+        "/",
         {
-          text: "Articles 1-4",
-          icon: "note",
-          collapsable: true,
-          prefix: "article/",
-          children: ["article1", "article2", "article3", "article4"],
+          prefix: "/wiki/",
+		  collapsable: false,
+          children: ["", "Configuration", "Permissions", "Commands"],
         },
-        {
-          text: "Articles 5-12",
-          icon: "note",
-          children: [
-            {
-              text: "Articles 5-8",
-              icon: "note",
-              collapsable: true,
-              prefix: "article/",
-              children: ["article5", "article6", "article7", "article8"],
-            },
-            {
-              text: "Articles 9-12",
-              icon: "note",
-              children: ["article9", "article10", "article11", "article12"],
-            },
-          ],
-        },
-      ],
-    },
-  ],
+		{
+		  text: "Basics",
+		  icon: "search",
+		  prefix: "/wiki/basic/",
+		  collapsable: true,
+		  children: ["Claim-Management", "Claim-Types", "Custom-Alias-Creation", 
+		  "GUI", "Flag-Definitions-GUI", "Options", "PvP",
+		  "Tags", "Tax-System", "Trust-System", "Rent-System"],
+		},
+		{
+		  text: "Advanced Usage",
+		  icon: "grid",
+		  prefix: "/wiki/advanced/",
+		  collapsable: true,
+		  children: ["Contexts", "Debugging", "Flags", "Global-Config", "Optimizations"],
+		},
+		{
+		  text: "Migration",
+		  icon: "import",
+		  prefix: "/wiki/migration/",
+		  collapsable: true,
+		  children: ["GriefPrevention", "WorldGuard"],
+		},
+    ],
 });
